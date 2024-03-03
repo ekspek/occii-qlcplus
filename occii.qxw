@@ -266,7 +266,7 @@
    <FixtureVal ID="3">3,0</FixtureVal>
   </Function>
   <Function ID="6" Type="Chaser" Name="Cross">
-   <Speed FadeIn="637" FadeOut="637" Duration="129"/>
+   <Speed FadeIn="5096" FadeOut="5096" Duration="1037"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -306,6 +306,31 @@
    <FixtureVal ID="11">0,255,1,138,2,49</FixtureVal>
    <FixtureVal ID="7">0,255,1,138,2,49</FixtureVal>
    <FixtureVal ID="8">0,255,1,95,2,14</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Flash">
+   <Speed FadeIn="0" FadeOut="1000" Duration="0"/>
+   <FixtureVal ID="0">3,255</FixtureVal>
+   <FixtureVal ID="1">3,255</FixtureVal>
+   <FixtureVal ID="2"/>
+   <FixtureVal ID="3"/>
+   <FixtureVal ID="9">3,255</FixtureVal>
+   <FixtureVal ID="10">4,255</FixtureVal>
+   <FixtureVal ID="11">4,255</FixtureVal>
+   <FixtureVal ID="7">4,255</FixtureVal>
+   <FixtureVal ID="8">4,255</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="All strobes">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">4,41</FixtureVal>
+   <FixtureVal ID="1">4,39</FixtureVal>
+   <FixtureVal ID="2">4,46</FixtureVal>
+   <FixtureVal ID="3">4,46</FixtureVal>
+   <FixtureVal ID="9">4,172</FixtureVal>
+   <FixtureVal ID="12">0,129,1,153</FixtureVal>
+   <FixtureVal ID="10">3,64</FixtureVal>
+   <FixtureVal ID="11">3,63</FixtureVal>
+   <FixtureVal ID="7">3,66</FixtureVal>
+   <FixtureVal ID="8">3,96</FixtureVal>
   </Function>
   <Function ID="46" Type="Scene" Name="Red scene">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -383,7 +408,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="3" CurrentPage="2"/>
+    <Multipage PagesNum="3" CurrentPage="0"/>
     <Shortcut Page="0" Name="Page: 1">
      <Input Universe="0" Channel="157"/>
     </Shortcut>
@@ -395,7 +420,7 @@
     </Shortcut>
     <PagesLoop>False</PagesLoop>
     <Slider Caption="Back pars" ID="7" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-     <WindowState Visible="False" X="10" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="10" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -414,7 +439,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Back stage flood pars" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="75" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="75" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -424,7 +449,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="96">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">4</Channel>
       <Channel Fixture="8">4</Channel>
      </Level>
@@ -433,7 +458,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Focus pars" ID="9" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="140" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="140" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -443,7 +468,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="80">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">3</Channel>
       <Channel Fixture="3">3</Channel>
      </Level>
@@ -452,7 +477,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Main spot" ID="10" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="205" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="205" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -462,7 +487,7 @@
      </Appearance>
      <Input Universe="0" Channel="4"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="118">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="9">3</Channel>
      </Level>
      <Playback>
@@ -470,7 +495,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Stage top" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="270" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="270" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -485,7 +510,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Front stage flood pars" ID="12" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="335" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="335" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -495,7 +520,7 @@
      </Appearance>
      <Input Universe="0" Channel="6"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="30">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="10">4</Channel>
       <Channel Fixture="11">4</Channel>
      </Level>
@@ -504,7 +529,7 @@
      </Playback>
     </Slider>
     <Slider Caption="DJ light/back room" ID="13" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="400" Y="40" Width="70" Height="240"/>
+     <WindowState Visible="True" X="400" Y="40" Width="70" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -523,7 +548,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Strobe intensity" ID="14" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="470" Y="40" Width="65" Height="240"/>
+     <WindowState Visible="True" X="470" Y="40" Width="65" Height="240"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -691,7 +716,7 @@
      <Input Universe="0" Channel="65544"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="208">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="12">0</Channel>
      </Level>
      <Playback>
@@ -699,7 +724,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Slider 5" ID="5" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="10" Y="65" Width="60" Height="200"/>
+     <WindowState Visible="False" X="10" Y="65" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -715,7 +740,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Slider 2" ID="2" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="70" Y="65" Width="60" Height="200"/>
+     <WindowState Visible="False" X="70" Y="65" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -926,7 +951,7 @@
       </Appearance>
       <Input Universe="0" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="176"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -1290,7 +1315,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Button Caption="Button 124" ID="124" Icon="">
+    <Button Caption="Flash" ID="124" Icon="">
      <WindowState Visible="True" X="10" Y="50" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1299,11 +1324,12 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Function ID="10"/>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="129"/>
     </Button>
-    <Button Caption="Button 125" ID="125" Icon="">
+    <Button Caption="All strobes" ID="125" Icon="">
      <WindowState Visible="True" X="90" Y="50" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1312,9 +1338,10 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Function ID="11"/>
+     <Action>Flash</Action>
      <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="130"/>
     </Button>
     <Button Caption="Button 126" ID="126" Icon="">
      <WindowState Visible="True" X="170" Y="50" Width="80" Height="80"/>
