@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>OCCII</Author>
+ </Creator>
+ <Manufacturer>Showtec</Manufacturer>
+ <Model>LED Par 64 Short Pro</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Red" Preset="IntensityRed"/>
+ <Channel Name="Green" Preset="IntensityGreen"/>
+ <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="Color macro">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="15">No function</Capability>
+  <Capability Min="16" Max="255">36 Macro colors</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="15">No function</Capability>
+  <Capability Min="16" Max="255" Preset="SlowToFast">Strobe, from slow to fast</Capability>
+ </Channel>
+ <Channel Name="Built-in Programs">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="31" Preset="Alias">No Function</Capability>
+  <Capability Min="32" Max="63" Preset="Alias">Slow Fade In to Full beam then Out
+   <Alias Mode="6 Channels" Channel="Strobe" With="Fade speed"/>
+  </Capability>
+  <Capability Min="64" Max="95" Preset="Alias">Full beam to slow Fade Out
+   <Alias Mode="6 Channels" Channel="Strobe" With="Fade speed"/>
+  </Capability>
+  <Capability Min="96" Max="127" Preset="Alias">Slow Fade In to Full Beam to Slow Fade Out
+   <Alias Mode="6 Channels" Channel="Strobe" With="Fade speed"/>
+  </Capability>
+  <Capability Min="128" Max="159" Preset="Alias">Continuous Flow of all colors from slow to fast
+   <Alias Mode="6 Channels" Channel="Strobe" With="Fade speed"/>
+  </Capability>
+  <Capability Min="160" Max="191" Preset="Alias">3-color Jump
+   <Alias Mode="6 Channels" Channel="Strobe" With="Fade speed"/>
+  </Capability>
+  <Capability Min="192" Max="223" Preset="Alias">7-color Jump
+   <Alias Mode="6 Channels" Channel="Strobe" With="Fade speed"/>
+  </Capability>
+  <Capability Min="224" Max="255" Preset="Alias">Sound-controlled
+   <Alias Mode="6 Channels" Channel="Strobe" With="Sound sensitivity"/>
+  </Capability>
+ </Channel>
+ <Channel Name="Fade speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="Sound sensitivity">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">Sensitivity from least sensitive to most sensitive</Capability>
+ </Channel>
+ <Mode Name="6 Channels">
+  <Channel Number="0" ActsOn="0">Red</Channel>
+  <Channel Number="1" ActsOn="1">Green</Channel>
+  <Channel Number="2" ActsOn="2">Blue</Channel>
+  <Channel Number="3" ActsOn="3">Color macro</Channel>
+  <Channel Number="4" ActsOn="4">Strobe</Channel>
+  <Channel Number="5" ActsOn="5">Built-in Programs</Channel>
+ </Mode>
+ <Mode Name="3 Channels">
+  <Channel Number="0" ActsOn="0">Red</Channel>
+  <Channel Number="1" ActsOn="1">Green</Channel>
+  <Channel Number="2" ActsOn="2">Blue</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="2.75" Width="275" Height="270" Depth="395"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="24" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>OCCII</Author>
+ </Creator>
+ <Manufacturer>Eurolite</Manufacturer>
+ <Model>LED SVF-1</Model>
+ <Type>Flower</Type>
+ <Channel Name="Programs" Default="255">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="12">Program 1</Capability>
+  <Capability Min="26" Max="38">Program 3</Capability>
+  <Capability Min="39" Max="51">Program 4</Capability>
+  <Capability Min="52" Max="64">Program 5</Capability>
+  <Capability Min="65" Max="77">Program 6</Capability>
+  <Capability Min="78" Max="90">Program 7</Capability>
+  <Capability Min="91" Max="103">Program 8</Capability>
+  <Capability Min="104" Max="116">Program 9</Capability>
+  <Capability Min="117" Max="129">Program 10</Capability>
+  <Capability Min="130" Max="142">Program 11</Capability>
+  <Capability Min="143" Max="155">Program 12</Capability>
+  <Capability Min="156" Max="168">Program 13</Capability>
+  <Capability Min="169" Max="181">Program 14</Capability>
+  <Capability Min="182" Max="194">Program 15</Capability>
+  <Capability Min="195" Max="214">All programs in a continuous loop</Capability>
+  <Capability Min="215" Max="255">All programs via sound control</Capability>
+ </Channel>
+ <Channel Name="Speed settings for channel 1" Default="255">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="10">All LEDs off</Capability>
+  <Capability Min="11" Max="255">Increasing speed</Capability>
+ </Channel>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="6" Width="625" Height="580" Depth="325"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="60" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
