@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
   <Author>occii</Author>
  </Creator>
- <Engine Autostart="10">
+ <Engine Autostart="21">
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
@@ -204,7 +204,7 @@
   <ChannelsGroup ID="13" Name="Room greens" Value="0">2,1,3,1,4,1,5,1</ChannelsGroup>
   <ChannelsGroup ID="14" Name="Room blues" Value="0">2,2,3,2,4,2,5,2</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="All red" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,0,14,0</ChannelGroupsVal>
    <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0</FixtureVal>
@@ -212,7 +212,7 @@
    <FixtureVal ID="5">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="OCCII pinkish" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,14,14,77</ChannelGroupsVal>
    <FixtureVal ID="2">0,255,1,14,2,77</FixtureVal>
    <FixtureVal ID="3">0,255,1,14,2,77</FixtureVal>
@@ -257,7 +257,7 @@
    <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="All magenta" Path="Stage still colors">
-   <Speed FadeIn="1272" FadeOut="1272" Duration="18976"/>
+   <Speed FadeIn="1000" FadeOut="1000" Duration="578"/>
    <ChannelGroupsVal>7,255,9,0,8,255</ChannelGroupsVal>
    <FixtureVal ID="0">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255</FixtureVal>
@@ -327,7 +327,7 @@
    <FixtureVal ID="13">0,255</FixtureVal>
   </Function>
   <Function ID="13" Type="Scene" Name="All green" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,255,14,0</ChannelGroupsVal>
    <FixtureVal ID="2">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="3">0,0,1,255,2,0</FixtureVal>
@@ -335,7 +335,7 @@
    <FixtureVal ID="5">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="14" Type="Scene" Name="All blue" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255</ChannelGroupsVal>
    <FixtureVal ID="2">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="3">0,0,1,0,2,255</FixtureVal>
@@ -343,7 +343,7 @@
    <FixtureVal ID="5">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="15" Type="Scene" Name="All magenta" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,0,14,255</ChannelGroupsVal>
    <FixtureVal ID="2">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,255</FixtureVal>
@@ -351,7 +351,7 @@
    <FixtureVal ID="5">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="16" Type="Scene" Name="All yellow" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,255,14,0</ChannelGroupsVal>
    <FixtureVal ID="2">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,0</FixtureVal>
@@ -359,7 +359,7 @@
    <FixtureVal ID="5">0,255,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="17" Type="Scene" Name="All cyan" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,255,14,255</ChannelGroupsVal>
    <FixtureVal ID="2">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="3">0,0,1,255,2,255</FixtureVal>
@@ -367,7 +367,7 @@
    <FixtureVal ID="5">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="18" Type="Scene" Name="All white" Path="Room still colors">
-   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <Speed FadeIn="32000" FadeOut="32000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,255,14,255</ChannelGroupsVal>
    <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,255</FixtureVal>
@@ -388,6 +388,34 @@
   <Function ID="20" Type="Scene" Name="Quick bright strobe" Path="Effects">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="12">0,255,1,171</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="Opening scene">
+   <Speed FadeIn="2000" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>7,255,9,111,8,217,12,255,13,14,14,77</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,111,2,217,4,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,111,2,217,4,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,111,2,217,3,0,5,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,111,2,217,3,0,5,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,111,2,217,4,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,111,2,217,3,0,5,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,111,2,217,3,0,5,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,14,2,77,4,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,14,2,77,4,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,14,2,77,4,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,14,2,77,4,0</FixtureVal>
+   <FixtureVal ID="13">0,0</FixtureVal>
+   <FixtureVal ID="12">0,0,1,0</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="Stage flash" Path="Effects">
+   <Speed FadeIn="0" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>5,255</ChannelGroupsVal>
+   <FixtureVal ID="0">3,255</FixtureVal>
+   <FixtureVal ID="1">3,255</FixtureVal>
+   <FixtureVal ID="7">4,255</FixtureVal>
+   <FixtureVal ID="8">4,255</FixtureVal>
+   <FixtureVal ID="9">3,255</FixtureVal>
+   <FixtureVal ID="10">4,255</FixtureVal>
+   <FixtureVal ID="11">4,255</FixtureVal>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -413,7 +441,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="0" Y="295" Width="500" Height="220"/>
+    <WindowState Visible="True" X="0" Y="295" Width="500" Height="220"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -421,7 +449,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Strobe dark" ID="17" Icon="">
-     <WindowState Visible="False" X="10" Y="45" Width="80" Height="80"/>
+     <WindowState Visible="True" X="10" Y="45" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -435,7 +463,7 @@
      <Input Universe="0" Channel="129"/>
     </Button>
     <Button Caption="Flash 12" ID="9" Icon="">
-     <WindowState Visible="False" X="410" Y="125" Width="80" Height="80"/>
+     <WindowState Visible="True" X="410" Y="125" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -449,7 +477,7 @@
      <Input Universe="0" Channel="140"/>
     </Button>
     <Button Caption="Strobe bright" ID="10" Icon="">
-     <WindowState Visible="False" X="90" Y="45" Width="80" Height="80"/>
+     <WindowState Visible="True" X="90" Y="45" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -462,8 +490,8 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="130"/>
     </Button>
-    <Button Caption="Flash 3" ID="11" Icon="">
-     <WindowState Visible="False" X="170" Y="45" Width="80" Height="80"/>
+    <Button Caption="Smoke" ID="11" Icon="">
+     <WindowState Visible="True" X="170" Y="45" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -471,13 +499,13 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="12"/>
      <Action Override="0" ForceLTP="0">Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="131"/>
     </Button>
-    <Button Caption="Flash 4" ID="12" Icon="">
-     <WindowState Visible="False" X="250" Y="45" Width="80" Height="80"/>
+    <Button Caption="Stage flash" ID="12" Icon="">
+     <WindowState Visible="True" X="250" Y="45" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -485,13 +513,13 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="22"/>
      <Action Override="0" ForceLTP="0">Flash</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="132"/>
     </Button>
     <Button Caption="Flash 5" ID="13" Icon="">
-     <WindowState Visible="False" X="330" Y="45" Width="80" Height="80"/>
+     <WindowState Visible="True" X="330" Y="45" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -505,7 +533,7 @@
      <Input Universe="0" Channel="133"/>
     </Button>
     <Button Caption="Flash 6" ID="14" Icon="">
-     <WindowState Visible="False" X="410" Y="45" Width="80" Height="80"/>
+     <WindowState Visible="True" X="410" Y="45" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -519,7 +547,7 @@
      <Input Universe="0" Channel="134"/>
     </Button>
     <Button Caption="Flash 7" ID="15" Icon="">
-     <WindowState Visible="False" X="10" Y="125" Width="80" Height="80"/>
+     <WindowState Visible="True" X="10" Y="125" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -533,7 +561,7 @@
      <Input Universe="0" Channel="135"/>
     </Button>
     <Button Caption="Flash 8" ID="16" Icon="">
-     <WindowState Visible="False" X="90" Y="125" Width="80" Height="80"/>
+     <WindowState Visible="True" X="90" Y="125" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -547,7 +575,7 @@
      <Input Universe="0" Channel="136"/>
     </Button>
     <Button Caption="Flash 11" ID="18" Icon="">
-     <WindowState Visible="False" X="330" Y="125" Width="80" Height="80"/>
+     <WindowState Visible="True" X="330" Y="125" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -561,7 +589,7 @@
      <Input Universe="0" Channel="139"/>
     </Button>
     <Button Caption="Flash 10" ID="19" Icon="">
-     <WindowState Visible="False" X="250" Y="125" Width="80" Height="80"/>
+     <WindowState Visible="True" X="250" Y="125" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -575,7 +603,7 @@
      <Input Universe="0" Channel="138"/>
     </Button>
     <Button Caption="Flash 9" ID="20" Icon="">
-     <WindowState Visible="False" X="170" Y="125" Width="80" Height="80"/>
+     <WindowState Visible="True" X="170" Y="125" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -589,7 +617,7 @@
      <Input Universe="0" Channel="137"/>
     </Button>
    </Frame>
-   <Frame Caption="Chaser speed" ID="0">
+   <Frame Caption="Encoders" ID="0">
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -597,67 +625,15 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="530" Y="365" Width="1110" Height="280"/>
+    <WindowState Visible="True" X="570" Y="350" Width="1110" Height="280"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <SpeedDial Caption="Chaser fades" ID="1">
-     <WindowState Visible="False" X="20" Y="50" Width="200" Height="205"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Visibility>127</Visibility>
-     <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Tap>
-      <Input Universe="0" Channel="143"/>
-     </Tap>
-     <Mult>
-      <Input Universe="0" Channel="141"/>
-     </Mult>
-     <Div>
-      <Input Universe="0" Channel="142"/>
-     </Div>
-     <MultDivReset>
-      <Input Universe="0" Channel="143"/>
-     </MultDivReset>
-     <Time>636</Time>
-     <Function FadeIn="6" FadeOut="6" Duration="0">6</Function>
-    </SpeedDial>
-    <SpeedDial Caption="Chaser duration" ID="3">
-     <WindowState Visible="False" X="225" Y="50" Width="200" Height="205"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Visibility>127</Visibility>
-     <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Tap>
-      <Input Universe="0" Channel="215"/>
-     </Tap>
-     <Mult>
-      <Input Universe="0" Channel="144"/>
-     </Mult>
-     <Div>
-      <Input Universe="0" Channel="145"/>
-     </Div>
-     <MultDivReset>
-      <Input Universe="0" Channel="146"/>
-     </MultDivReset>
-     <Time>593</Time>
-     <Function FadeIn="0" FadeOut="0" Duration="6">6</Function>
-    </SpeedDial>
     <SpeedDial Caption="Stage color change" ID="21">
-     <WindowState Visible="False" X="425" Y="50" Width="270" Height="205"/>
+     <WindowState Visible="True" X="425" Y="50" Width="270" Height="205"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -667,12 +643,6 @@
      </Appearance>
      <Visibility>103</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Mult>
-      <Input Universe="0" Channel="144"/>
-     </Mult>
-     <Div>
-      <Input Universe="0" Channel="145"/>
-     </Div>
      <Time>1000</Time>
      <Function FadeIn="6" FadeOut="6" Duration="0">9</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">10</Function>
@@ -706,7 +676,7 @@
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="Room color change" ID="30">
-     <WindowState Visible="False" X="695" Y="50" Width="270" Height="205"/>
+     <WindowState Visible="True" X="700" Y="50" Width="270" Height="205"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -716,12 +686,6 @@
      </Appearance>
      <Visibility>103</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Mult>
-      <Input Universe="0" Channel="144"/>
-     </Mult>
-     <Div>
-      <Input Universe="0" Channel="145"/>
-     </Div>
      <Time>1000</Time>
      <Function FadeIn="6" FadeOut="6" Duration="0">1</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">16</Function>
@@ -752,6 +716,32 @@
       <Value>5000</Value>
      </Preset>
     </SpeedDial>
+    <SpeedDial Caption="Chaser duration" ID="1">
+     <WindowState Visible="True" X="15" Y="50" Width="200" Height="175"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>103</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="10000"/>
+     <Time>0</Time>
+    </SpeedDial>
+    <SpeedDial Caption="Chaser fade duration" ID="3">
+     <WindowState Visible="True" X="220" Y="50" Width="200" Height="175"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>103</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="10000"/>
+     <Time>0</Time>
+    </SpeedDial>
    </Frame>
    <SoloFrame Caption="Override/Trigger" ID="38">
     <Appearance>
@@ -761,7 +751,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="525" Y="10" Width="810" Height="205"/>
+    <WindowState Visible="True" X="570" Y="10" Width="810" Height="205"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -770,7 +760,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="Red" ID="4" Icon="">
-     <WindowState Visible="False" X="85" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="85" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -784,7 +774,7 @@
      <Input Universe="0" Channel="182"/>
     </Button>
     <Button Caption="OCCII pink" ID="2" Icon="">
-     <WindowState Visible="False" X="5" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="5" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -798,7 +788,7 @@
      <Input Universe="0" Channel="181"/>
     </Button>
     <Button Caption="Button 11" ID="103" Icon="">
-     <WindowState Visible="False" X="5" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="5" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -812,7 +802,7 @@
      <Input Universe="0" Channel="191"/>
     </Button>
     <Button Caption="Button 12" ID="104" Icon="">
-     <WindowState Visible="False" X="85" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="85" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -826,7 +816,7 @@
      <Input Universe="0" Channel="192"/>
     </Button>
     <Button Caption="Green" ID="7" Icon="">
-     <WindowState Visible="False" X="165" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="165" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -840,7 +830,7 @@
      <Input Universe="0" Channel="183"/>
     </Button>
     <Button Caption="Button 13" ID="105" Icon="">
-     <WindowState Visible="False" X="165" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="165" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -854,7 +844,7 @@
      <Input Universe="0" Channel="193"/>
     </Button>
     <Button Caption="Button 14" ID="106" Icon="">
-     <WindowState Visible="False" X="245" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="245" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -868,7 +858,7 @@
      <Input Universe="0" Channel="194"/>
     </Button>
     <Button Caption="Blue" ID="5" Icon="">
-     <WindowState Visible="False" X="245" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="245" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -882,7 +872,7 @@
      <Input Universe="0" Channel="184"/>
     </Button>
     <Button Caption="Button 15" ID="107" Icon="">
-     <WindowState Visible="False" X="325" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="325" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -896,7 +886,7 @@
      <Input Universe="0" Channel="195"/>
     </Button>
     <Button Caption="Yellow" ID="8" Icon="">
-     <WindowState Visible="False" X="325" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="325" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -910,7 +900,7 @@
      <Input Universe="0" Channel="185"/>
     </Button>
     <Button Caption="Magenta" ID="98" Icon="">
-     <WindowState Visible="False" X="405" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="405" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -924,7 +914,7 @@
      <Input Universe="0" Channel="186"/>
     </Button>
     <Button Caption="Button 16" ID="108" Icon="">
-     <WindowState Visible="False" X="405" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="405" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -938,7 +928,7 @@
      <Input Universe="0" Channel="196"/>
     </Button>
     <Button Caption="Button 17" ID="109" Icon="">
-     <WindowState Visible="False" X="485" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="485" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -952,7 +942,7 @@
      <Input Universe="0" Channel="197"/>
     </Button>
     <Button Caption="Cyan" ID="99" Icon="">
-     <WindowState Visible="False" X="485" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="485" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -966,7 +956,7 @@
      <Input Universe="0" Channel="187"/>
     </Button>
     <Button Caption="Warm" ID="100" Icon="">
-     <WindowState Visible="False" X="565" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="565" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -980,7 +970,7 @@
      <Input Universe="0" Channel="188"/>
     </Button>
     <Button Caption="Button 18" ID="110" Icon="">
-     <WindowState Visible="False" X="565" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="565" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -994,7 +984,7 @@
      <Input Universe="0" Channel="198"/>
     </Button>
     <Button Caption="Button 19" ID="111" Icon="">
-     <WindowState Visible="False" X="645" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="645" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1008,7 +998,7 @@
      <Input Universe="0" Channel="199"/>
     </Button>
     <Button Caption="Blue/red" ID="101" Icon="">
-     <WindowState Visible="False" X="645" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="645" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294901760</ForegroundColor>
@@ -1022,7 +1012,7 @@
      <Input Universe="0" Channel="189"/>
     </Button>
     <Button Caption="Button 10" ID="102" Icon="">
-     <WindowState Visible="False" X="725" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="725" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1036,7 +1026,7 @@
      <Input Universe="0" Channel="190"/>
     </Button>
     <Button Caption="Button 20" ID="112" Icon="">
-     <WindowState Visible="False" X="725" Y="120" Width="80" Height="80"/>
+     <WindowState Visible="True" X="725" Y="120" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1058,7 +1048,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="15" Y="10" Width="500" Height="260"/>
+    <WindowState Visible="True" X="15" Y="10" Width="500" Height="260"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1066,7 +1056,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Slider Caption="Fronts" ID="37" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-     <WindowState Visible="False" X="130" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="130" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1076,7 +1066,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="126">
       <Channel Fixture="9">3</Channel>
       <Channel Fixture="10">4</Channel>
       <Channel Fixture="11">4</Channel>
@@ -1085,8 +1075,8 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Mids" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="70" Y="50" Width="60" Height="200"/>
+    <Slider Caption="Mids" ID="22" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+     <WindowState Visible="True" X="70" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1104,8 +1094,8 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Backs" ID="23" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="10" Y="50" Width="60" Height="200"/>
+    <Slider Caption="Backs" ID="23" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+     <WindowState Visible="True" X="10" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1115,7 +1105,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="162">
       <Channel Fixture="0">3</Channel>
       <Channel Fixture="1">3</Channel>
      </Level>
@@ -1124,7 +1114,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Room" ID="24" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="310" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="310" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1134,7 +1124,7 @@
      </Appearance>
      <Input Universe="0" Channel="6"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="78">
       <Channel Fixture="2">3</Channel>
       <Channel Fixture="3">3</Channel>
       <Channel Fixture="4">3</Channel>
@@ -1144,8 +1134,8 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Smoke" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="430" Y="50" Width="60" Height="200"/>
+    <Slider Caption="Slider 7" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="370" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1155,15 +1145,13 @@
      </Appearance>
      <Input Universe="0" Channel="8"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="13">0</Channel>
-     </Level>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
     </Slider>
     <Slider Caption="Front main" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="190" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="190" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1181,7 +1169,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Slider 5" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="250" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="250" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1197,7 +1185,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Strobe" ID="28" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="370" Y="50" Width="60" Height="200"/>
+     <WindowState Visible="True" X="430" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1223,7 +1211,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="False" X="525" Y="220" Width="810" Height="125"/>
+    <WindowState Visible="True" X="570" Y="220" Width="810" Height="125"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1232,7 +1220,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="OCCII pink" ID="113" Icon="">
-     <WindowState Visible="False" X="5" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="5" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1246,7 +1234,7 @@
      <Input Universe="0" Channel="201"/>
     </Button>
     <Button Caption="Red" ID="114" Icon="">
-     <WindowState Visible="False" X="85" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="85" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1260,7 +1248,7 @@
      <Input Universe="0" Channel="202"/>
     </Button>
     <Button Caption="Green" ID="115" Icon="">
-     <WindowState Visible="False" X="165" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="165" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1274,7 +1262,7 @@
      <Input Universe="0" Channel="203"/>
     </Button>
     <Button Caption="Blue" ID="116" Icon="">
-     <WindowState Visible="False" X="245" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="245" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1288,7 +1276,7 @@
      <Input Universe="0" Channel="204"/>
     </Button>
     <Button Caption="Yellow" ID="117" Icon="">
-     <WindowState Visible="False" X="325" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="325" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1302,7 +1290,7 @@
      <Input Universe="0" Channel="205"/>
     </Button>
     <Button Caption="Magenta" ID="118" Icon="">
-     <WindowState Visible="False" X="405" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="405" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1316,7 +1304,7 @@
      <Input Universe="0" Channel="206"/>
     </Button>
     <Button Caption="Cyan" ID="119" Icon="">
-     <WindowState Visible="False" X="485" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="485" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1330,7 +1318,7 @@
      <Input Universe="0" Channel="207"/>
     </Button>
     <Button Caption="Button 28" ID="120" Icon="">
-     <WindowState Visible="False" X="565" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="565" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1344,7 +1332,7 @@
      <Input Universe="0" Channel="208"/>
     </Button>
     <Button Caption="Button 29" ID="121" Icon="">
-     <WindowState Visible="False" X="645" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="645" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1358,7 +1346,7 @@
      <Input Universe="0" Channel="209"/>
     </Button>
     <Button Caption="Button 30" ID="122" Icon="">
-     <WindowState Visible="False" X="725" Y="40" Width="80" Height="80"/>
+     <WindowState Visible="True" X="725" Y="40" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -1372,6 +1360,41 @@
      <Input Universe="0" Channel="210"/>
     </Button>
    </SoloFrame>
+   <Frame Caption="Merch light" ID="35">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1385" Y="10" Width="130" Height="210"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Merch light color" ID="36" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="5" Y="40" Width="120" Height="165"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="128">
+      <Channel Fixture="6">0</Channel>
+      <Channel Fixture="6">1</Channel>
+      <Channel Fixture="6">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
