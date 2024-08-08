@@ -417,6 +417,39 @@
    <FixtureVal ID="10">4,255</FixtureVal>
    <FixtureVal ID="11">4,255</FixtureVal>
   </Function>
+  <Function ID="23" Type="Scene" Name="Blue" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>7,0,9,0,8,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="7">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="Green" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>7,0,9,255,8,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="7">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="8">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="10">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Red" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>7,255,9,0,8,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+  </Function>
   <Function ID="26" Type="Scene" Name="Stage par strobes full slow" Path="Effects">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>6,0</ChannelGroupsVal>
@@ -455,7 +488,7 @@
    <FixtureVal ID="12">0,184,1,215</FixtureVal>
   </Function>
   <Function ID="30" Type="Chaser" Name="Cross" Path="Stage chasers">
-   <Speed FadeIn="246" FadeOut="246" Duration="630"/>
+   <Speed FadeIn="246" FadeOut="246" Duration="503"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -481,6 +514,63 @@
    <FixtureVal ID="11">4,255</FixtureVal>
    <FixtureVal ID="7">4,255</FixtureVal>
    <FixtureVal ID="8">4,0</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Yellow" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>7,255,9,255,8,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,255,2,0</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="Orange" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>7,255,9,85,8,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,85,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,85,2,0</FixtureVal>
+   <FixtureVal ID="7">0,255,1,85,2,0</FixtureVal>
+   <FixtureVal ID="8">0,255,1,85,2,0</FixtureVal>
+   <FixtureVal ID="9">0,255,1,85,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,85,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,85,2,0</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Purple" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <ChannelGroupsVal>7,157,9,0,8,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,157,1,0,2,255</FixtureVal>
+   <FixtureVal ID="1">0,157,1,0,2,255</FixtureVal>
+   <FixtureVal ID="7">0,157,1,0,2,255</FixtureVal>
+   <FixtureVal ID="8">0,157,1,0,2,255</FixtureVal>
+   <FixtureVal ID="9">0,157,1,0,2,255</FixtureVal>
+   <FixtureVal ID="10">0,157,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,157,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Chaser" Name="Rainbow" Path="Stage chasers">
+   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+   <Step Number="6" FadeIn="0" Hold="100" FadeOut="0">37</Step>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Magenta" Path="Chaser scenes/Rainbow">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="578"/>
+   <ChannelGroupsVal>7,255,9,0,8,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="7">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="8">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="9">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
@@ -795,7 +885,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>630</Time>
+     <Time>503</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">30</Function>
     </SpeedDial>
     <SpeedDial Caption="Chaser fade duration" ID="3">
@@ -1136,7 +1226,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="36">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="9">3</Channel>
       <Channel Fixture="10">4</Channel>
       <Channel Fixture="11">4</Channel>
@@ -1156,7 +1246,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="62">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="7">4</Channel>
       <Channel Fixture="8">4</Channel>
      </Level>
@@ -1175,7 +1265,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="48">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="0">3</Channel>
       <Channel Fixture="1">3</Channel>
      </Level>
@@ -1204,7 +1294,7 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Slider 7" ID="25" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+    <Slider Caption="Rainbow chaser" ID="25" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
      <WindowState Visible="True" X="370" Y="50" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -1214,10 +1304,10 @@
       <Font>Default</Font>
      </Appearance>
      <Input Universe="0" Channel="7"/>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
-      <Function>4294967295</Function>
+      <Function>36</Function>
      </Playback>
     </Slider>
     <Slider Caption="Front main" ID="26" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
@@ -1231,7 +1321,7 @@
      </Appearance>
      <Input Universe="0" Channel="4"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="150">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="9">3</Channel>
      </Level>
      <Playback>
