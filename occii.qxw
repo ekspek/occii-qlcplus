@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
@@ -219,6 +219,18 @@
    <Address>92</Address>
    <Channels>5</Channels>
   </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Stage pars</Name>
+   <Size X="5" Y="5"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="4" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="1" Fixture="2">0</Head>
+   <Head X="0" Y="2" Fixture="7">0</Head>
+   <Head X="4" Y="2" Fixture="8">0</Head>
+   <Head X="1" Y="3" Fixture="10">0</Head>
+   <Head X="2" Y="3" Fixture="9">0</Head>
+   <Head X="3" Y="3" Fixture="11">0</Head>
+  </FixtureGroup>
   <FixtureGroup ID="1">
    <Name>Stage fronts</Name>
    <Size X="3" Y="1"/>
@@ -226,11 +238,18 @@
    <Head X="1" Y="0" Fixture="9">0</Head>
    <Head X="2" Y="0" Fixture="11">0</Head>
   </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>Stage backs</Name>
+   <Size X="3" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="2" Y="0" Fixture="1">0</Head>
+  </FixtureGroup>
   <FixtureGroup ID="3">
    <Name>Stage sides</Name>
    <Size X="3" Y="1"/>
    <Head X="0" Y="0" Fixture="7">0</Head>
-   <Head X="1" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="2">0</Head>
+   <Head X="2" Y="0" Fixture="8">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="4">
    <Name>Effects</Name>
@@ -239,16 +258,10 @@
    <Head X="1" Y="0" Fixture="6">0</Head>
    <Head X="1" Y="2" Fixture="12">0</Head>
   </FixtureGroup>
-  <ChannelsGroup ID="5" Name="Stage dimmers" Value="0">7,4,8,4,9,3,10,4,11,4</ChannelsGroup>
-  <ChannelsGroup ID="6" Name="Stage strobe speeds" Value="0">7,3,8,3,9,4,10,3,11,3</ChannelsGroup>
-  <ChannelsGroup ID="7" Name="Stage reds" Value="0">7,0,8,0,9,0,10,0,11,0</ChannelsGroup>
-  <ChannelsGroup ID="9" Name="Stage greens" Value="0">7,1,8,1,9,1,10,1,11,1</ChannelsGroup>
-  <ChannelsGroup ID="8" Name="Stage blues" Value="0">7,2,8,2,9,2,10,2,11,2</ChannelsGroup>
-  <ChannelsGroup ID="10" Name="Room dimmers" Value="0"/>
-  <ChannelsGroup ID="11" Name="Room strobe speeds" Value="0"/>
-  <ChannelsGroup ID="12" Name="Room reds" Value="0"/>
-  <ChannelsGroup ID="13" Name="Room greens" Value="0"/>
-  <ChannelsGroup ID="14" Name="Room blues" Value="0"/>
+  <ChannelsGroup ID="0" Name="Stage reds" Value="0">0,0,1,0,2,0,7,0,8,0,9,0,10,0,11,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="Stage greens" Value="0">0,1,1,1,2,1,7,1,8,1,9,1,10,1,11,1</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="Stage blues" Value="0">0,2,1,2,2,2,7,2,8,2,9,2,10,2,11,2</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="Stage strobes" Value="0">0,4,1,4,2,4,7,3,8,3,9,4,10,3,11,3</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="All red" Path="Still colors/Room">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,0,14,0</ChannelGroupsVal>
@@ -593,7 +606,7 @@
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">41</Step>
   </Function>
   <Function ID="48" Type="Chaser" Name="Cross" Path="Stage chasers/Dim chasers">
-   <Speed FadeIn="200" FadeOut="200" Duration="473"/>
+   <Speed FadeIn="500" FadeOut="200" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -646,7 +659,7 @@
    <FixtureVal ID="11">4,0</FixtureVal>
   </Function>
   <Function ID="54" Type="Chaser" Name="Off/on" Path="Stage chasers/Dim chasers">
-   <Speed FadeIn="200" FadeOut="200" Duration="473"/>
+   <Speed FadeIn="500" FadeOut="200" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -989,7 +1002,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>473</Time>
+     <Time>1000</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">54</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">48</Function>
      <Preset ID="16">
@@ -1032,7 +1045,7 @@
      </Appearance>
      <Visibility>103</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>200</Time>
+     <Time>500</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">54</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">48</Function>
      <Preset ID="16">
@@ -1431,7 +1444,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="58">
       <Channel Fixture="9">3</Channel>
       <Channel Fixture="10">4</Channel>
       <Channel Fixture="11">4</Channel>
@@ -1451,7 +1464,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="52">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="7">4</Channel>
       <Channel Fixture="8">4</Channel>
      </Level>
@@ -1470,7 +1483,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="96"/>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
@@ -1552,7 +1565,7 @@
      </Appearance>
      <Input Universe="0" Channel="8"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="210">
+     <Level LowLimit="0" HighLimit="255" Value="155">
       <Channel Fixture="12">0</Channel>
      </Level>
      <Playback>
@@ -1717,41 +1730,6 @@
      <Input Universe="0" Channel="210"/>
     </Button>
    </SoloFrame>
-   <Frame Caption="Merch light" ID="35">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="False" X="1390" Y="10" Width="130" Height="210"/>
-    <AllowChildren>False</AllowChildren>
-    <AllowResize>False</AllowResize>
-    <ShowHeader>True</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <Slider Caption="Merch light color" ID="36" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="False" X="5" Y="40" Width="120" Height="165"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="128">
-      <Channel Fixture="6">0</Channel>
-      <Channel Fixture="6">1</Channel>
-      <Channel Fixture="6">2</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-   </Frame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
