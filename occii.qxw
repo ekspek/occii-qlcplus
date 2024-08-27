@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
@@ -10,14 +10,18 @@
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="None" Line="0" Profile="Ayra Digicon-1"/>
-    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
+    <Input Plugin="Loopback" UID="Loopback 1" Line="0"/>
+    <Output Plugin="DMX USB" UID="��� - DMX Output 1 - (S/N: EN414225)" Line="0">
      <PluginParameters UniverseChannels="102"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
-   <Universe Name="Universe 3" ID="2"/>
-   <Universe Name="Universe 4" ID="3"/>
+   <Universe Name="Universe 3 - Loopback" ID="2">
+    <Input Plugin="MIDI" UID="None" Line="0" Profile="Ayra Digicon-1"/>
+    <Output Plugin="Loopback" UID="Loopback 1" Line="0">
+     <PluginParameters UniverseChannels="3"/>
+    </Output>
+   </Universe>
   </InputOutputMap>
   <Fixture>
    <Manufacturer>Showtec</Manufacturer>
@@ -54,7 +58,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>3</ID>
-   <Name>LED Par 56 #4</Name>
+   <Name>LED Par 56 #4 - Room front left</Name>
    <Universe>0</Universe>
    <Address>53</Address>
    <Channels>6</Channels>
@@ -64,7 +68,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>4</ID>
-   <Name>LED Par 56 #5</Name>
+   <Name>LED Par 56 #5 - Room front right</Name>
    <Universe>0</Universe>
    <Address>59</Address>
    <Channels>6</Channels>
@@ -74,7 +78,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>5</ID>
-   <Name>LED Par 56 #6</Name>
+   <Name>LED Par 56 #6 - Room back left</Name>
    <Universe>0</Universe>
    <Address>65</Address>
    <Channels>6</Channels>
@@ -84,7 +88,7 @@
    <Model>LED Par 64 Short Pro</Model>
    <Mode>6 Channels</Mode>
    <ID>6</ID>
-   <Name>LED Par 64 Short Pro</Name>
+   <Name>LED Par 64 Short Pro - Room back right</Name>
    <Universe>0</Universe>
    <Address>29</Address>
    <Channels>6</Channels>
@@ -174,7 +178,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>15</ID>
-   <Name>LED Par 56 #7 - Merch light</Name>
+   <Name>LED Par 56 #7 - Room back right</Name>
    <Universe>0</Universe>
    <Address>71</Address>
    <Channels>6</Channels>
@@ -184,7 +188,7 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>16</ID>
-   <Name>LED PAR 56 RGB DMX #1</Name>
+   <Name>LED PAR 56 RGB DMX #1 - Merch light</Name>
    <Universe>0</Universe>
    <Address>77</Address>
    <Channels>5</Channels>
@@ -194,7 +198,7 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>17</ID>
-   <Name>LED PAR 56 RGB DMX #2</Name>
+   <Name>LED PAR 56 RGB DMX #2 - Disco ball light</Name>
    <Universe>0</Universe>
    <Address>82</Address>
    <Channels>5</Channels>
@@ -204,7 +208,7 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>18</ID>
-   <Name>LED PAR 56 RGB DMX #3</Name>
+   <Name>LED PAR 56 RGB DMX #3 - Steve's light</Name>
    <Universe>0</Universe>
    <Address>87</Address>
    <Channels>5</Channels>
@@ -255,13 +259,16 @@
    <Name>Effects</Name>
    <Size X="3" Y="3"/>
    <Head X="0" Y="0" Fixture="13">0</Head>
-   <Head X="1" Y="0" Fixture="6">0</Head>
    <Head X="1" Y="2" Fixture="12">0</Head>
   </FixtureGroup>
   <ChannelsGroup ID="0" Name="Stage reds" Value="0">0,0,1,0,2,0,7,0,8,0,9,0,10,0,11,0</ChannelsGroup>
   <ChannelsGroup ID="1" Name="Stage greens" Value="0">0,1,1,1,2,1,7,1,8,1,9,1,10,1,11,1</ChannelsGroup>
   <ChannelsGroup ID="2" Name="Stage blues" Value="0">0,2,1,2,2,2,7,2,8,2,9,2,10,2,11,2</ChannelsGroup>
   <ChannelsGroup ID="3" Name="Stage strobes" Value="0">0,4,1,4,2,4,7,3,8,3,9,4,10,3,11,3</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="Stage dimmers" Value="0">7,4,8,4,9,3,10,4,11,4</ChannelsGroup>
+  <ChannelsGroup ID="5" Name="Room reds" Value="0">3,0,4,0,5,0,6,0,15,0,18,0</ChannelsGroup>
+  <ChannelsGroup ID="6" Name="Room greens" Value="0">3,1,4,1,5,1,6,1,15,1,18,1</ChannelsGroup>
+  <ChannelsGroup ID="7" Name="Room blues" Value="0">3,2,4,2,5,2,6,2,15,2,18,2</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="All red" Path="Still colors/Room">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <ChannelGroupsVal>12,255,13,0,14,0</ChannelGroupsVal>
@@ -276,57 +283,75 @@
   </Function>
   <Function ID="3" Type="Scene" Name="All red" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <ChannelGroupsVal>7,255,9,0,8,0</ChannelGroupsVal>
+   <ChannelGroupsVal>7,255,9,0,8,0,0,255,1,0,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="9">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="All green" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <ChannelGroupsVal>7,0,9,255,8,0</ChannelGroupsVal>
+   <ChannelGroupsVal>7,0,9,255,8,0,0,0,1,255,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="9">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="10">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="11">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="0">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="5" Type="Scene" Name="All blue" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <ChannelGroupsVal>7,0,9,0,8,255</ChannelGroupsVal>
+   <ChannelGroupsVal>7,0,9,0,8,255,0,0,1,0,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="9">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="10">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="0">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="All magenta" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="578"/>
-   <ChannelGroupsVal>7,255,9,0,8,255</ChannelGroupsVal>
+   <ChannelGroupsVal>7,255,9,0,8,255,0,255,1,0,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="9">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="10">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="11">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="0">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="7" Type="Scene" Name="All yellow" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <ChannelGroupsVal>7,255,9,255,8,0</ChannelGroupsVal>
+   <ChannelGroupsVal>7,255,9,255,8,0,0,255,2,0,1,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="9">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="10">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="11">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="0">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="All cyan" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <ChannelGroupsVal>7,0,9,255,8,255</ChannelGroupsVal>
+   <ChannelGroupsVal>7,0,9,255,8,255,0,0,1,255,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="8">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="9">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="10">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="11">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="0">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="9" Type="Scene" Name="Warm" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
@@ -385,12 +410,15 @@
   </Function>
   <Function ID="19" Type="Scene" Name="All white" Path="Still colors/Stage">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
-   <ChannelGroupsVal>7,255,9,255,8,255</ChannelGroupsVal>
+   <ChannelGroupsVal>7,255,9,255,8,255,0,255,1,255,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="9">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="10">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="11">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="0">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="20" Type="Scene" Name="Bright strobe" Path="Effects">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1730,6 +1758,80 @@
      <Input Universe="0" Channel="210"/>
     </Button>
    </SoloFrame>
+   <Frame Caption="" ID="32">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="10" Y="10" Width="555" Height="520"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Slider 40" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="305" Y="55" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="2" Channel="1"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="242"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="Red" ID="41" Icon="">
+     <WindowState Visible="False" X="15" Y="70" Width="80" Height="80"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4293918720</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="3"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="182"/>
+    </Button>
+    <Button Caption="Green" ID="42" Icon="">
+     <WindowState Visible="False" X="95" Y="70" Width="80" Height="80"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4278255360</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="183"/>
+    </Button>
+    <Button Caption="Blue" ID="43" Icon="">
+     <WindowState Visible="False" X="175" Y="70" Width="80" Height="80"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4278190335</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="5"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="2" Channel="184"/>
+    </Button>
+   </Frame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
