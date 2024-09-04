@@ -1,24 +1,30 @@
 # Quick Start
 
 To boot up the light system quickly:
-1. Ensure everything is well connected:
+1. Light up the stage lights with the corresponding switch.
+2. In the light booth, ensure everything is well connected:
     * The console is powered on and connected to the laptop;
+        ![Console power switch placement](./console-power-switch.jpeg)
     * The ENTTEC DMX Pro box is connected to the laptop and to the lights network;
     * The laptop is connected to the power.
-2. Log into the OCCII lights computer.
-3. Open QLC+ through the shortcut.
+3. Log into the OCCII lights computer.
+4. Open QLC+ through the shortcut.
 
 ![QLC+ start screen](./qlc-start.png)
 
-4. Load the `occii.qwx` settings file.
+5. Load the `occii.qwx` settings file.
 
 ![QLC+ OCCII config](./qlc-open-config.png)
 
-5. Select the **Virtual Console** tab underneath.
+6. Select the *Inputs/Outputs* tab underneath and check that the console and the DMX output are detected, like below.
+    * If the input (Ayra Digicon-1) is not detected, check the console power and connections, and reboot the program.
+    * If the output (ENTTEC DMX Pro USB) is not detected, check the USB connection and unplug and replug if necessary, and reboot the program.
+
+7. Select the **Virtual Console** tab underneath.
 
 ![QLC+ VC tab](./qlc-vc-tab.png)
 
-6. Switch QLC+ to **Operate Mode** on the top left.
+8. Switch QLC+ to **Operate Mode** on the top left.
 
 ![QLC+ VC Operate Mode](./qlc-vc-start.png)
 
