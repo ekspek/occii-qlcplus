@@ -3,94 +3,94 @@
 <InputProfile xmlns="http://www.qlcplus.org/InputProfile">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.7</Version>
-  <Author>Daniel</Author>
+  <Version>4.13.1</Version>
+  <Author>occii</Author>
  </Creator>
  <Manufacturer>Ayra</Manufacturer>
  <Model>Digicon-1</Model>
  <Type>MIDI</Type>
  <Channel Number="1">
-  <Name>Slider 2</Name>
+  <Name>Slider 1</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="2">
-  <Name>Slider 3</Name>
+  <Name>Slider 2</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="3">
-  <Name>Slider 4</Name>
+  <Name>Slider 3</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="4">
-  <Name>Slider 5</Name>
+  <Name>Slider 4</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="5">
-  <Name>Slider 6</Name>
+  <Name>Slider 5</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="6">
-  <Name>Slider 7</Name>
+  <Name>Slider 6</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="7">
-  <Name>Slider 8</Name>
+  <Name>Slider 7</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="8">
-  <Name>Slider 9</Name>
+  <Name>Slider 8</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="9">
-  <Name>Slider 10</Name>
+  <Name>Master slider</Name>
   <Type>Slider</Type>
  </Channel>
  <Channel Number="129">
-  <Name>Button 130</Name>
+  <Name>Flash Button 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="130">
-  <Name>Button 131</Name>
+  <Name>Flash Button 2</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="131">
-  <Name>Button 132</Name>
+  <Name>Flash Button 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="132">
-  <Name>Button 133</Name>
+  <Name>Flash Button 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="133">
-  <Name>Button 134</Name>
+  <Name>Flash Button 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="134">
-  <Name>Button 135</Name>
+  <Name>Flash Button 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="135">
-  <Name>Button 136</Name>
+  <Name>Flash Button 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="136">
-  <Name>Button 137</Name>
+  <Name>Flash Button 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="137">
-  <Name>Button 138</Name>
+  <Name>Flash Button 9</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="138">
-  <Name>Button 139</Name>
+  <Name>Flash Button 10</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="139">
-  <Name>Button 140</Name>
+  <Name>Flash Button 11</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="140">
-  <Name>Button 141</Name>
+  <Name>Flash Button 12</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="141">
@@ -128,7 +128,8 @@
  </Channel>
  <Channel Number="148">
   <Name>Encoder 3 - Left</Name>
-  <Type>Button</Type>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
  </Channel>
  <Channel Number="149">
   <Name>Encoder 3 - Press</Name>
@@ -149,227 +150,230 @@
   <Type>Button</Type>
  </Channel>
  <Channel Number="157">
-  <Name>Button 158</Name>
+  <Name>Bank 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="158">
-  <Name>Button 159</Name>
+  <Name>Flash 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="159">
-  <Name>Button 160</Name>
+  <Name>Go 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="160">
-  <Name>Button 161</Name>
+  <Name>Bank 2</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="161">
-  <Name>Button 162</Name>
+  <Name>Flash 2</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="162">
-  <Name>Button 163</Name>
+  <Name>Go 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="163">
-  <Name>Button 164</Name>
+  <Name>Bank 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="164">
-  <Name>Button 165</Name>
+  <Name>Flash 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="165">
-  <Name>Button 166</Name>
+  <Name>Go 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="166">
-  <Name>Button 167</Name>
+  <Name>Bank 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="167">
-  <Name>Button 168</Name>
+  <Name>Flash 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="168">
-  <Name>Button 169</Name>
+  <Name>Go 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="169">
-  <Name>Button 170</Name>
+  <Name>Bank 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="170">
-  <Name>Button 171</Name>
+  <Name>Flash 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="171">
-  <Name>Button 172</Name>
+  <Name>Go 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="172">
-  <Name>Button 173</Name>
+  <Name>Bank 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="173">
-  <Name>Button 174</Name>
+  <Name>Flash 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="174">
-  <Name>Button 175</Name>
+  <Name>Go 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="175">
-  <Name>Button 176</Name>
+  <Name>Bank 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="176">
-  <Name>Button 177</Name>
+  <Name>Flash 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="177">
-  <Name>Button 178</Name>
+  <Name>Go 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="178">
-  <Name>Button 179</Name>
+  <Name>Bank 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="179">
-  <Name>Button 180</Name>
+  <Name>Flash 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="180">
-  <Name>Button 181</Name>
+  <Name>Go 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="181">
-  <Name>Button 182</Name>
+  <Name>Override 1 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="182">
-  <Name>Button 183</Name>
+  <Name>Override 1 2</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="183">
-  <Name>Button 184</Name>
+  <Name>Override 1 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="184">
-  <Name>Button 185</Name>
+  <Name>Override 1 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="185">
-  <Name>Button 186</Name>
+  <Name>Override 1 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="186">
-  <Name>Button 187</Name>
+  <Name>Override 1 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="187">
-  <Name>Button 188</Name>
+  <Name>Override 1 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="188">
-  <Name>Button 189</Name>
+  <Name>Override 1 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="189">
-  <Name>Button 190</Name>
+  <Name>Override 1 9</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="190">
-  <Name>Button 191</Name>
+  <Name>Override 1 10</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="191">
-  <Name>Button 192</Name>
+  <Name>Override 2 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="192">
-  <Name>Button 193</Name>
+  <Name>Override 2 2</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="193">
-  <Name>Button 194</Name>
+  <Name>Override 2 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="194">
-  <Name>Button 195</Name>
+  <Name>Override 2 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="195">
-  <Name>Button 196</Name>
+  <Name>Override 2 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="196">
-  <Name>Button 197</Name>
+  <Name>Override 2 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="197">
-  <Name>Button 198</Name>
+  <Name>Override 2 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="198">
-  <Name>Button 199</Name>
+  <Name>Override 2 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="199">
-  <Name>Button 200</Name>
+  <Name>Override 2 9</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="200">
-  <Name>Button 201</Name>
+  <Name>Override 2 10</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="201">
-  <Name>Button 202</Name>
+  <Name>Override 3 1</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="202">
-  <Name>Button 203</Name>
+  <Name>Override 3 2</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="203">
-  <Name>Button 204</Name>
+  <Name>Override 3 3</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="204">
-  <Name>Button 205</Name>
+  <Name>Override 3 4</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="205">
-  <Name>Button 206</Name>
+  <Name>Override 3 5</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="206">
-  <Name>Button 207</Name>
+  <Name>Override 3 6</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="207">
-  <Name>Button 208</Name>
+  <Name>Override 3 7</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="208">
-  <Name>Button 209</Name>
+  <Name>Override 3 8</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="209">
-  <Name>Button 210</Name>
+  <Name>Override 3 9</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="210">
-  <Name>Button 211</Name>
+  <Name>Override 3 10</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="215">
-  <Name>Button 216</Name>
+  <Name>Tap Tempo</Name>
   <Type>Button</Type>
  </Channel>
  <Channel Number="216">
-  <Name>Button 217</Name>
+  <Name>Black Out</Name>
   <Type>Button</Type>
  </Channel>
+ <MidiChannelTable>
+  <Channel Value="0" Label="Main"/>
+ </MidiChannelTable>
 </InputProfile>
