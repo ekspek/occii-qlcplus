@@ -1,14 +1,55 @@
 # OCCII QLC+ configs
 
-Testing out a new lighting controller for the [OCCII](occii.org) using QLC+ and an Ayra Digicon-1 MIDI controller. Configs go in here while I'm figuring QLC+ out and testing everything out during some shows.
+QLC+ configs for the [OCCII](occii.org) lighting system using an Ayra Digicon-1 MIDI controller.
 
 ## OCCII gear
 
-Right now, everything's running using:
-* My laptop with QLC+
+* OCCII lights laptop with QLC+
 * Ayra Digicon-1 MIDI controller
 * ENTTEC DMX USB Pro DMX interface
 
 Full list of fixtures is in the [OCCII lights manual](https://docs.google.com/document/d/1jSRjudncTyo6yV-CgUCgfpS6YHwomshKlq9XDRYOIAU) (also a WIP).
 
 Other OCCII gear can be found [here](https://occii.org/tech-info/).
+
+Makes use of QLC+ loopback logic, more information [here](https://www.qlcplus.org/forum/viewtopic.php?t=16694).
+
+## Roadmap
+
+### QLC+
+
+* ~~Basic functionality~~
+* Add customizable color presets
+* Make use of bank/flash/go buttons
+* Add strobe control to stage pars
+* Add merch light color picker to VC
+* Get encoders to work
+* Add more color chasers
+* Add more fine control for flower functions
+
+### Hardware
+
+* ~~Replace pars with broken LEDs~~
+* Consult for more power sockets on the ceiling
+    * In back truss for extra pars
+    * In truss between back room truss and main spots truss
+* Add ventilator with smoke machine
+* Replace XLR with DMX cables
+* Hang safety cables for all pars
+* Hang more pars on back wall
+* Get a disco light spot
+* Add safety wire to disco ball
+* Pars to illuminate back wall
+* MOVING HEAD PLZZZZZ
+
+### Documentation
+
+* ~~Quick Start guide~~
+* Main documentation manual
+    * Setting up
+    * Programming scenes
+    * Programming VC
+    * DMX addresses
+    * DMX tables
+    * Fixture list
+    * Cable and fixture map
