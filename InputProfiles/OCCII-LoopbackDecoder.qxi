@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>occii</Author>
+ </Creator>
+ <Manufacturer>OCCII</Manufacturer>
+ <Model>Loopback Decoder</Model>
+ <Type>DMX</Type>
+ <Channel Number="30">
+  <Name>Encoder 1 Relative Slider</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="31">
+  <Name>Encoder 2 Relative Slider</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="32">
+  <Name>Encoder 3 Relative Slider</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="33">
+  <Name>Encoder 4 Relative Slider</Name>
+  <Type>Slider</Type>
+  <Movement Sensitivity="20">Relative</Movement>
+ </Channel>
+ <Channel Number="34">
+  <Name>Encoder 1 Absolute Slider</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="35">
+  <Name>Encoder 2 Absolute Slider</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="36">
+  <Name>Encoder 3 Absolute Slider</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="37">
+  <Name>Encoder 4 Absolute Slider</Name>
+  <Type>Slider</Type>
+ </Channel>
+</InputProfile>
