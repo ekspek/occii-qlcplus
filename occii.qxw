@@ -732,7 +732,7 @@
   </Function>
   <Function ID="42" Type="Scene" Name="Only stage front center" Path="Chaser scenes/Stage/Lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="9">3,255</FixtureVal>
+   <FixtureVal ID="9">3,200</FixtureVal>
   </Function>
   <Function ID="43" Type="Scene" Name="Only front left" Path="Chaser scenes/Stage/Lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -891,8 +891,8 @@
   </Function>
   <Function ID="67" Type="Scene" Name="Only stage front sides" Path="Chaser scenes/Stage/Lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="10">4,255</FixtureVal>
-   <FixtureVal ID="11">4,255</FixtureVal>
+   <FixtureVal ID="10">4,200</FixtureVal>
+   <FixtureVal ID="11">4,200</FixtureVal>
   </Function>
   <Function ID="68" Type="Scene" Name="All on" Path="Chaser scenes/Room">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
