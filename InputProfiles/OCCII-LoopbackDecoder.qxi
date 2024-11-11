@@ -9,6 +9,14 @@
  <Manufacturer>OCCII</Manufacturer>
  <Model>Loopback Decoder</Model>
  <Type>DMX</Type>
+ <Channel Number="28">
+  <Name>Strobe intensity output</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="29">
+  <Name>Strobe intensity toggle</Name>
+  <Type>Button</Type>
+ </Channel>
  <Channel Number="30">
   <Name>Encoder 1 Relative Slider</Name>
   <Type>Slider</Type>
