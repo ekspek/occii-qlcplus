@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>occii</Author>
+ </Creator>
+ <Manufacturer>Showtec</Manufacturer>
+ <Model>MultiDim MKII</Model>
+ <Type>Dimmer</Type>
+ <Channel Name="Switch 1" Preset="IntensityDimmerFine"/>
+ <Channel Name="Switch 2" Preset="IntensityDimmerFine"/>
+ <Channel Name="Switch 3" Preset="IntensityDimmerFine"/>
+ <Channel Name="Switch 4" Preset="IntensityDimmerFine"/>
+ <Mode Name="1-channel">
+  <Channel Number="0" ActsOn="0">Switch 1</Channel>
+ </Mode>
+ <Mode Name="2-channel">
+  <Channel Number="0" ActsOn="0">Switch 1</Channel>
+  <Channel Number="1" ActsOn="1">Switch 2</Channel>
+ </Mode>
+ <Mode Name="4-channel">
+  <Channel Number="0" ActsOn="0">Switch 1</Channel>
+  <Channel Number="1" ActsOn="1">Switch 2</Channel>
+  <Channel Number="2" ActsOn="2">Switch 3</Channel>
+  <Channel Number="3" ActsOn="3">Switch 4</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="2.8" Width="210" Height="260" Depth="73"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
