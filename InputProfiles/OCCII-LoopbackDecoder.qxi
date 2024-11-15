@@ -54,42 +54,7 @@
   <Type>Slider</Type>
  </Channel>
  <Channel Number="38">
-  <Name>Enable group 1</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="39">
-  <Name>Enable group 2</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="40">
-  <Name>Enable group 3</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="41">
-  <Name>Enable group 4</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="42">
-  <Name>Enable group 5</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="43">
-  <Name>Enable group 6</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="44">
-  <Name>Enable group 7</Name>
-  <Type>Button</Type>
-  <ExtraPress>True</ExtraPress>
- </Channel>
- <Channel Number="45">
-  <Name>Enable group 8</Name>
-  <Type>Button</Type>
+  <Name>Enable/disable color table</Name>
+  <Type>Slider</Type>
  </Channel>
 </InputProfile>
