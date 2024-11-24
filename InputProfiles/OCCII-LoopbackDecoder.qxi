@@ -57,4 +57,24 @@
   <Name>Enable/disable color table</Name>
   <Type>Slider</Type>
  </Channel>
+ <Channel Number="39">
+  <Name>Blinder left intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="40">
+  <Name>Blinder right intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="41">
+  <Name>Blinders max intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="42">
+  <Name>Flower speed</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="43">
+  <Name>Flower toggle</Name>
+  <Type>Slider</Type>
+ </Channel>
 </InputProfile>
