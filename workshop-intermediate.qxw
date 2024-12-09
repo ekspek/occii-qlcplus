@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>occii</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1 - Main" ID="0">
+    <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1">
+     <PluginParameters MIDISendNoteOff="true"/>
+    </Input>
+    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
+     <PluginParameters UniverseChannels="106"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3 - Loopback" ID="2">
+    <Input Plugin="Loopback" UID="Loopback 1" Line="0" Profile="OCCII Loopback Decoder">
+     <PluginParameters MIDISendNoteOff="true"/>
+    </Input>
+    <Output Plugin="Loopback" UID="Loopback 1" Line="0">
+     <PluginParameters UniverseChannels="42"/>
+    </Output>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>0</ID>
+   <Name>LED Par 56 #1 - Backlight 1</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>6</Channels>
+   <Modifier Channel="4" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>1</ID>
+   <Name>LED Par 56 #5 - Backlight 5</Name>
+   <Universe>0</Universe>
+   <Address>59</Address>
+   <Channels>6</Channels>
+   <Modifier Channel="4" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>MultiSwitch</Model>
+   <Mode>2-channel</Mode>
+   <ID>2</ID>
+   <Name>MultiSwitch - Smoke/ventilator</Name>
+   <Universe>0</Universe>
+   <Address>102</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>3</ID>
+   <Name>LED Par 56 #3 - Backlight 3</Name>
+   <Universe>0</Universe>
+   <Address>47</Address>
+   <Channels>6</Channels>
+   <Modifier Channel="4" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>4</ID>
+   <Name>LED Par 56 #4 - Backlight 4</Name>
+   <Universe>0</Universe>
+   <Address>53</Address>
+   <Channels>6</Channels>
+   <Modifier Channel="4" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>2 Channel</Mode>
+   <ID>5</ID>
+   <Name>Strobo dimmer with toggle</Name>
+   <Universe>2</Universe>
+   <Address>28</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 64 Short Pro</Model>
+   <Mode>6 Channels</Mode>
+   <ID>6</ID>
+   <Name>LED Par 64 Short Pro - Room back right</Name>
+   <Universe>0</Universe>
+   <Address>29</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-64</Model>
+   <Mode>6 channels</Mode>
+   <ID>7</ID>
+   <Name>Vector FT-64 - Stage side left</Name>
+   <Universe>0</Universe>
+   <Address>17</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-64</Model>
+   <Mode>6 channels</Mode>
+   <ID>8</ID>
+   <Name>Vector FT-64 - Stage side right</Name>
+   <Universe>0</Universe>
+   <Address>23</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 64 Short</Model>
+   <Mode>5CH</Mode>
+   <ID>9</ID>
+   <Name>LED Par 64 Short - Stage front center</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-64</Model>
+   <Mode>6 channels</Mode>
+   <ID>10</ID>
+   <Name>Vector FT-64 - Stage front left</Name>
+   <Universe>0</Universe>
+   <Address>5</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-64</Model>
+   <Mode>6 channels</Mode>
+   <ID>11</ID>
+   <Name>Vector FT-64 - Stage front right</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>SP-1500 MKII</Model>
+   <Mode>Default</Mode>
+   <ID>12</ID>
+   <Name>SP-1500 MKII - Main strobe</Name>
+   <Universe>0</Universe>
+   <Address>97</Address>
+   <Channels>2</Channels>
+   <Modifier Channel="1" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Ayra</Manufacturer>
+   <Model>WSM02/WSM03 MKII</Model>
+   <Mode>WSM02</Mode>
+   <ID>13</ID>
+   <Name>WSM02/WSM03 MKII</Name>
+   <Universe>0</Universe>
+   <Address>99</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED SVF-1</Model>
+   <Mode>2 channels</Mode>
+   <ID>14</ID>
+   <Name>LED SVF-1</Name>
+   <Universe>0</Universe>
+   <Address>100</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>15</ID>
+   <Name>LED Par 56 #6 - Room front right</Name>
+   <Universe>0</Universe>
+   <Address>65</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>16</ID>
+   <Name>LED PAR 56 RGB DMX #1 - Merch light</Name>
+   <Universe>0</Universe>
+   <Address>77</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>17</ID>
+   <Name>LED PAR 56 RGB DMX #2 - Room front left</Name>
+   <Universe>0</Universe>
+   <Address>82</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>18</ID>
+   <Name>LED PAR 56 RGB DMX #3 - Steve's light</Name>
+   <Universe>0</Universe>
+   <Address>87</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>19</ID>
+   <Name>LED PAR 56 RGB DMX #4 - Room back left</Name>
+   <Universe>0</Universe>
+   <Address>92</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>8 Channel</Mode>
+   <ID>20</ID>
+   <Name>MIDI Encoder Logic</Name>
+   <Universe>2</Universe>
+   <Address>30</Address>
+   <Channels>8</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6,7</ForcedLTP>
+   <Modifier Channel="5" Name="Exponential Medium"/>
+   <Modifier Channel="4" Name="Exponential Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>21</ID>
+   <Name>LED Par 56 #2 - Backlight 2</Name>
+   <Universe>0</Universe>
+   <Address>41</Address>
+   <Channels>6</Channels>
+   <Modifier Channel="4" Name="Logarithmic Medium"/>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>22</ID>
+   <Name>LED Par 56 Dimmer #3 - Backlight 3</Name>
+   <Universe>2</Universe>
+   <Address>8</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>MultiDim MKII</Model>
+   <Mode>2-channel</Mode>
+   <ID>23</ID>
+   <Name>MultiDim MKII - Blinders</Name>
+   <Universe>0</Universe>
+   <Address>104</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>24</ID>
+   <Name>LED Par 56 Dimmer #1 - Backlight 1</Name>
+   <Universe>2</Universe>
+   <Address>0</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>25</ID>
+   <Name>LED Par 56 Dimmer #5 - Backlight 5</Name>
+   <Universe>2</Universe>
+   <Address>16</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>26</ID>
+   <Name>Manual color selection toggle</Name>
+   <Universe>2</Universe>
+   <Address>38</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>27</ID>
+   <Name>LED Par 56 Dimmer #4 - Backlight 4</Name>
+   <Universe>2</Universe>
+   <Address>12</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>28</ID>
+   <Name>LED Par 56 Dimmer #2 - Backlight 2</Name>
+   <Universe>2</Universe>
+   <Address>4</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>29</ID>
+   <Name>LED Par 56 Dimmer #6 - Room front right</Name>
+   <Universe>2</Universe>
+   <Address>20</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>RGB Dimmer</Mode>
+   <ID>30</ID>
+   <Name>LED Par 64 Short Pro Dimmer - Room back right</Name>
+   <Universe>2</Universe>
+   <Address>24</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>3 Channel</Mode>
+   <ID>31</ID>
+   <Name>Blinders with master dimmer</Name>
+   <Universe>2</Universe>
+   <Address>39</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Stage pars</Name>
+   <Size X="5" Y="5"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="4" Y="0" Fixture="1">0</Head>
+   <Head X="0" Y="2" Fixture="7">0</Head>
+   <Head X="4" Y="2" Fixture="8">0</Head>
+   <Head X="1" Y="3" Fixture="10">0</Head>
+   <Head X="2" Y="3" Fixture="9">0</Head>
+   <Head X="3" Y="3" Fixture="11">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>Stage fronts</Name>
+   <Size X="3" Y="1"/>
+   <Head X="0" Y="0" Fixture="10">0</Head>
+   <Head X="1" Y="0" Fixture="9">0</Head>
+   <Head X="2" Y="0" Fixture="11">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>Stage backs</Name>
+   <Size X="5" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="21">0</Head>
+   <Head X="2" Y="0" Fixture="3">0</Head>
+   <Head X="3" Y="0" Fixture="4">0</Head>
+   <Head X="4" Y="0" Fixture="1">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>Stage sides</Name>
+   <Size X="3" Y="1"/>
+   <Head X="0" Y="0" Fixture="7">0</Head>
+   <Head X="2" Y="0" Fixture="8">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>Effects</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="13">0</Head>
+   <Head X="1" Y="0" Fixture="12">0</Head>
+   <Head X="1" Y="1" Fixture="14">0</Head>
+   <Head X="2" Y="2" Fixture="16">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="5">
+   <Name>Room pars</Name>
+   <Size X="6" Y="3"/>
+   <Head X="0" Y="2" Fixture="19">0</Head>
+   <Head X="1" Y="2" Fixture="18">0</Head>
+   <Head X="4" Y="2" Fixture="6">0</Head>
+   <Head X="5" Y="2" Fixture="15">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>Stage backlights with dimmer</Name>
+   <Size X="5" Y="1"/>
+   <Head X="0" Y="0" Fixture="24">0</Head>
+   <Head X="1" Y="0" Fixture="28">0</Head>
+   <Head X="2" Y="0" Fixture="22">0</Head>
+   <Head X="3" Y="0" Fixture="27">0</Head>
+   <Head X="4" Y="0" Fixture="25">0</Head>
+  </FixtureGroup>
+  <ChannelsGroup ID="0" Name="New Group" Value="0">0,4,1,4,3,4,4,4,21,4</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="Backlights green">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="21">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="15">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="Strobe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="12">0,167,1,149</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="Backlights red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="21">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,5,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="15">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Chaser" Name="Red/green">
+   <Speed FadeIn="200" FadeOut="0" Duration="392"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="200" Hold="500" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="1000" Hold="5000" FadeOut="0">2</Step>
+   <Step Number="2" FadeIn="1000" Hold="5000" FadeOut="0">0</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">2</Step>
+  </Function>
+  <Function ID="4" Type="RGBMatrix" Name="New RGB Matrix 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>2</FixtureGroup>
+  </Function>
+  <Monitor DisplayMode="1" ShowLabels="0">
+   <Font>Roboto,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>4278190080</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider Caption="Slider 1" ID="1" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+    <WindowState Visible="False" X="300" Y="40" Width="110" Height="255"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="0" Channel="1"/>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>2</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 1" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="435" Y="40" Width="110" Height="255"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="3">0</Channel>
+     <Channel Fixture="3">1</Channel>
+     <Channel Fixture="3">2</Channel>
+    </Level>
+    <Playback>
+     <Function>2</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 1" ID="3" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="560" Y="40" Width="110" Height="255"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="3">4</Channel>
+    </Level>
+    <Playback>
+     <Function>2</Function>
+    </Playback>
+   </Slider>
+   <SpeedDial Caption="Duration" ID="9">
+    <WindowState Visible="False" X="290" Y="340" Width="390" Height="285"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>127</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000">
+     <Input Universe="0" Channel="2"/>
+    </AbsoluteValue>
+    <Time>392</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">3</Function>
+   </SpeedDial>
+   <AudioTriggers BarsNumber="16" Caption="" ID="10">
+    <WindowState Visible="False" X="745" Y="470" Width="865" Height="295"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <VolumeBar Name="Volume Bar" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="1000">
+     <DMXChannels>0,0,1,0,3,0,4,0,21,0</DMXChannels>
+    </VolumeBar>
+   </AudioTriggers>
+   <CueList Caption="Cue list" ID="11">
+    <WindowState Visible="False" X="1320" Y="35" Width="440" Height="400"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Chaser>3</Chaser>
+    <NextPrevBehavior>0</NextPrevBehavior>
+    <Next/>
+    <Previous/>
+    <Playback/>
+    <Stop/>
+   </CueList>
+   <Matrix Caption="New RGB Matrix 4" ID="12">
+    <WindowState Visible="False" X="75" Y="650" Width="490" Height="330"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="4" InstantApply="true"/>
+   </Matrix>
+   <Frame Caption="" ID="4">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4282795590</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="725" Y="15" Width="435" Height="425"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Slider 5" ID="5" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="45" Y="75" Width="105" Height="265"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255"/>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Slider 6" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="155" Y="95" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="9">0</Channel>
+      <Channel Fixture="9">1</Channel>
+      <Channel Fixture="9">2</Channel>
+      <Channel Fixture="9">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="Red/green" ID="7" Icon="">
+     <WindowState Visible="False" X="225" Y="45" Width="100" Height="100"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="3"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="157"/>
+    </Button>
+    <Slider Caption="Slider 8" ID="8" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="320" Y="200" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="8"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0"/>
+     <Playback>
+      <Function>3</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <SoloFrame Caption="" ID="13">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>4282795590</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="1205" Y="25" Width="595" Height="345"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Backlights green" ID="0" Icon="">
+     <WindowState Visible="False" X="55" Y="105" Width="135" Height="80"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4293980400</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="0"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="181"/>
+    </Button>
+    <Button Caption="Backlights red" ID="14" Icon="">
+     <WindowState Visible="False" X="225" Y="105" Width="135" Height="80"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4293980400</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="2"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <Input Universe="0" Channel="182"/>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="3000" Height="2000"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

@@ -23,7 +23,7 @@
      <PluginParameters MIDISendNoteOff="true"/>
     </Input>
     <Output Plugin="Loopback" UID="Loopback 1" Line="0">
-     <PluginParameters UniverseChannels="45"/>
+     <PluginParameters UniverseChannels="42"/>
     </Output>
    </Universe>
   </InputOutputMap>
@@ -32,7 +32,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>0</ID>
-   <Name>LED Par 56 #1 - Backlight 1</Name>
+   <Name>Backlight 1 (left)</Name>
    <Universe>0</Universe>
    <Address>35</Address>
    <Channels>6</Channels>
@@ -43,7 +43,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>1</ID>
-   <Name>LED Par 56 #5 - Backlight 5</Name>
+   <Name>Backlight 5 (right)</Name>
    <Universe>0</Universe>
    <Address>59</Address>
    <Channels>6</Channels>
@@ -54,7 +54,7 @@
    <Model>MultiSwitch</Model>
    <Mode>2-channel</Mode>
    <ID>2</ID>
-   <Name>MultiSwitch - Smoke/ventilator</Name>
+   <Name>Smoke/ventilator power</Name>
    <Universe>0</Universe>
    <Address>102</Address>
    <Channels>2</Channels>
@@ -64,7 +64,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>3</ID>
-   <Name>LED Par 56 #3 - Backlight 3</Name>
+   <Name>Backlight 3</Name>
    <Universe>0</Universe>
    <Address>47</Address>
    <Channels>6</Channels>
@@ -75,7 +75,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>4</ID>
-   <Name>LED Par 56 #4 - Backlight 4</Name>
+   <Name>Backlight 4</Name>
    <Universe>0</Universe>
    <Address>53</Address>
    <Channels>6</Channels>
@@ -86,7 +86,7 @@
    <Model>Generic</Model>
    <Mode>2 Channel</Mode>
    <ID>5</ID>
-   <Name>Strobo dimmer with toggle</Name>
+   <Name>LP Strobo dimmer with toggle</Name>
    <Universe>2</Universe>
    <Address>28</Address>
    <Channels>2</Channels>
@@ -96,27 +96,27 @@
    <Model>LED Par 64 Short Pro</Model>
    <Mode>6 Channels</Mode>
    <ID>6</ID>
-   <Name>LED Par 64 Short Pro - Room back right</Name>
+   <Name>Room back center</Name>
    <Universe>0</Universe>
    <Address>29</Address>
    <Channels>6</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>NeoLED</Manufacturer>
-   <Model>Vector FT-64</Model>
+   <Model>Vector FT-56</Model>
    <Mode>6 channels</Mode>
    <ID>7</ID>
-   <Name>Vector FT-64 - Stage side left</Name>
+   <Name>Stage front left</Name>
    <Universe>0</Universe>
    <Address>17</Address>
    <Channels>6</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>NeoLED</Manufacturer>
-   <Model>Vector FT-64</Model>
+   <Model>Vector FT-56</Model>
    <Mode>6 channels</Mode>
    <ID>8</ID>
-   <Name>Vector FT-64 - Stage side right</Name>
+   <Name>Stage front right</Name>
    <Universe>0</Universe>
    <Address>23</Address>
    <Channels>6</Channels>
@@ -126,7 +126,7 @@
    <Model>LED Par 64 Short</Model>
    <Mode>5CH</Mode>
    <ID>9</ID>
-   <Name>LED Par 64 Short - Stage front center</Name>
+   <Name>Stage front center</Name>
    <Universe>0</Universe>
    <Address>0</Address>
    <Channels>5</Channels>
@@ -136,7 +136,7 @@
    <Model>Vector FT-64</Model>
    <Mode>6 channels</Mode>
    <ID>10</ID>
-   <Name>Vector FT-64 - Stage front left</Name>
+   <Name>Stage side left</Name>
    <Universe>0</Universe>
    <Address>5</Address>
    <Channels>6</Channels>
@@ -146,7 +146,7 @@
    <Model>Vector FT-64</Model>
    <Mode>6 channels</Mode>
    <ID>11</ID>
-   <Name>Vector FT-64 - Stage front right</Name>
+   <Name>Stage side right</Name>
    <Universe>0</Universe>
    <Address>11</Address>
    <Channels>6</Channels>
@@ -156,7 +156,7 @@
    <Model>SP-1500 MKII</Model>
    <Mode>Default</Mode>
    <ID>12</ID>
-   <Name>SP-1500 MKII - Main strobe</Name>
+   <Name>Main strobo</Name>
    <Universe>0</Universe>
    <Address>97</Address>
    <Channels>2</Channels>
@@ -167,7 +167,7 @@
    <Model>WSM02/WSM03 MKII</Model>
    <Mode>WSM02</Mode>
    <ID>13</ID>
-   <Name>WSM02/WSM03 MKII</Name>
+   <Name>Smoke machine</Name>
    <Universe>0</Universe>
    <Address>99</Address>
    <Channels>1</Channels>
@@ -177,7 +177,7 @@
    <Model>LED SVF-1</Model>
    <Mode>2 channels</Mode>
    <ID>14</ID>
-   <Name>LED SVF-1</Name>
+   <Name>Flower SVF-1</Name>
    <Universe>0</Universe>
    <Address>100</Address>
    <Channels>2</Channels>
@@ -187,7 +187,7 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>15</ID>
-   <Name>LED Par 56 #6 - Room front right</Name>
+   <Name>Steve's light</Name>
    <Universe>0</Universe>
    <Address>65</Address>
    <Channels>6</Channels>
@@ -197,9 +197,9 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>16</ID>
-   <Name>LED PAR 56 RGB DMX #1 - Merch light</Name>
+   <Name>Merch light</Name>
    <Universe>0</Universe>
-   <Address>77</Address>
+   <Address>72</Address>
    <Channels>5</Channels>
   </Fixture>
   <Fixture>
@@ -207,7 +207,7 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>17</ID>
-   <Name>LED PAR 56 RGB DMX #2 - Room front left</Name>
+   <Name>Eurolite #3</Name>
    <Universe>0</Universe>
    <Address>82</Address>
    <Channels>5</Channels>
@@ -217,7 +217,7 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>18</ID>
-   <Name>LED PAR 56 RGB DMX #3 - Steve's light</Name>
+   <Name>Eurolite #4</Name>
    <Universe>0</Universe>
    <Address>87</Address>
    <Channels>5</Channels>
@@ -227,7 +227,7 @@
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
    <ID>19</ID>
-   <Name>LED PAR 56 RGB DMX #4 - Room back left</Name>
+   <Name>Eurolite #5</Name>
    <Universe>0</Universe>
    <Address>92</Address>
    <Channels>5</Channels>
@@ -237,20 +237,20 @@
    <Model>Generic</Model>
    <Mode>8 Channel</Mode>
    <ID>20</ID>
-   <Name>MIDI Encoder Logic</Name>
+   <Name>LP MIDI Encoder Logic</Name>
    <Universe>2</Universe>
    <Address>30</Address>
    <Channels>8</Channels>
    <ForcedLTP>0,1,2,3,4,5,6,7</ForcedLTP>
-   <Modifier Channel="4" Name="Exponential Medium"/>
    <Modifier Channel="5" Name="Exponential Medium"/>
+   <Modifier Channel="4" Name="Exponential Medium"/>
   </Fixture>
   <Fixture>
    <Manufacturer>Showtec</Manufacturer>
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>21</ID>
-   <Name>LED Par 56 #2 - Backlight 2</Name>
+   <Name>Backlight 2</Name>
    <Universe>0</Universe>
    <Address>41</Address>
    <Channels>6</Channels>
@@ -261,7 +261,7 @@
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>22</ID>
-   <Name>LED Par 56 Dimmer #3 - Backlight 3</Name>
+   <Name>LP Backlight 3</Name>
    <Universe>2</Universe>
    <Address>8</Address>
    <Channels>4</Channels>
@@ -271,17 +271,19 @@
    <Model>MultiDim MKII</Model>
    <Mode>2-channel</Mode>
    <ID>23</ID>
-   <Name>MultiDim MKII - Blinders</Name>
+   <Name>Blinder dimmers</Name>
    <Universe>0</Universe>
    <Address>104</Address>
    <Channels>2</Channels>
+   <Modifier Channel="0" Name="Logarithmic Shallow"/>
+   <Modifier Channel="1" Name="Logarithmic Shallow"/>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>24</ID>
-   <Name>LED Par 56 Dimmer #1 - Backlight 1</Name>
+   <Name>LP Backlight 1 (left)</Name>
    <Universe>2</Universe>
    <Address>0</Address>
    <Channels>4</Channels>
@@ -291,27 +293,17 @@
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>25</ID>
-   <Name>LED Par 56 Dimmer #5 - Backlight 5</Name>
+   <Name>LP Backlight 5 (right)</Name>
    <Universe>2</Universe>
    <Address>16</Address>
    <Channels>4</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>1 Channel</Mode>
-   <ID>26</ID>
-   <Name>Manual color selection toggle</Name>
-   <Universe>2</Universe>
-   <Address>38</Address>
-   <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Generic</Manufacturer>
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>27</ID>
-   <Name>LED Par 56 Dimmer #4 - Backlight 4</Name>
+   <Name>LP Backlight 4</Name>
    <Universe>2</Universe>
    <Address>12</Address>
    <Channels>4</Channels>
@@ -321,7 +313,7 @@
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>28</ID>
-   <Name>LED Par 56 Dimmer #2 - Backlight 2</Name>
+   <Name>LP Backlight 2</Name>
    <Universe>2</Universe>
    <Address>4</Address>
    <Channels>4</Channels>
@@ -331,7 +323,7 @@
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>29</ID>
-   <Name>LED Par 56 Dimmer #6 - Room front right</Name>
+   <Name>LP Steve's light</Name>
    <Universe>2</Universe>
    <Address>20</Address>
    <Channels>4</Channels>
@@ -341,7 +333,7 @@
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>30</ID>
-   <Name>LED Par 64 Short Pro Dimmer - Room back right</Name>
+   <Name>LP Room back center</Name>
    <Universe>2</Universe>
    <Address>24</Address>
    <Channels>4</Channels>
@@ -351,28 +343,41 @@
    <Model>Generic</Model>
    <Mode>3 Channel</Mode>
    <ID>31</ID>
-   <Name>Blinders with master dimmer</Name>
+   <Name>LP Blinders with master dimmer</Name>
    <Universe>2</Universe>
    <Address>39</Address>
    <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>32</ID>
+   <Name>Eurolite #2</Name>
+   <Universe>0</Universe>
+   <Address>77</Address>
+   <Channels>5</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Stage pars</Name>
    <Size X="5" Y="5"/>
    <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="21">0</Head>
+   <Head X="2" Y="0" Fixture="3">0</Head>
+   <Head X="3" Y="0" Fixture="4">0</Head>
    <Head X="4" Y="0" Fixture="1">0</Head>
-   <Head X="0" Y="2" Fixture="7">0</Head>
-   <Head X="4" Y="2" Fixture="8">0</Head>
-   <Head X="1" Y="3" Fixture="10">0</Head>
-   <Head X="2" Y="3" Fixture="9">0</Head>
-   <Head X="3" Y="3" Fixture="11">0</Head>
+   <Head X="0" Y="2" Fixture="10">0</Head>
+   <Head X="4" Y="2" Fixture="11">0</Head>
+   <Head X="1" Y="3" Fixture="7">0</Head>
+   <Head X="3" Y="3" Fixture="8">0</Head>
+   <Head X="2" Y="4" Fixture="9">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="1">
    <Name>Stage fronts</Name>
-   <Size X="3" Y="1"/>
-   <Head X="0" Y="0" Fixture="10">0</Head>
-   <Head X="1" Y="0" Fixture="9">0</Head>
-   <Head X="2" Y="0" Fixture="11">0</Head>
+   <Size X="3" Y="2"/>
+   <Head X="0" Y="0" Fixture="7">0</Head>
+   <Head X="2" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="1" Fixture="9">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="2">
    <Name>Stage backs</Name>
@@ -386,8 +391,8 @@
   <FixtureGroup ID="3">
    <Name>Stage sides</Name>
    <Size X="3" Y="1"/>
-   <Head X="0" Y="0" Fixture="7">0</Head>
-   <Head X="2" Y="0" Fixture="8">0</Head>
+   <Head X="0" Y="0" Fixture="10">0</Head>
+   <Head X="2" Y="0" Fixture="11">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="4">
    <Name>Effects</Name>
@@ -395,15 +400,13 @@
    <Head X="0" Y="0" Fixture="13">0</Head>
    <Head X="1" Y="0" Fixture="12">0</Head>
    <Head X="1" Y="1" Fixture="14">0</Head>
+   <Head X="1" Y="2" Fixture="15">0</Head>
    <Head X="2" Y="2" Fixture="16">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="5">
    <Name>Room pars</Name>
-   <Size X="6" Y="3"/>
-   <Head X="0" Y="2" Fixture="19">0</Head>
-   <Head X="1" Y="2" Fixture="18">0</Head>
-   <Head X="4" Y="2" Fixture="6">0</Head>
-   <Head X="5" Y="2" Fixture="15">0</Head>
+   <Size X="5" Y="3"/>
+   <Head X="2" Y="2" Fixture="6">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="6">
    <Name>Stage backlights with dimmer</Name>
@@ -425,22 +428,14 @@
   <ChannelsGroup ID="8" Name="Room dimmers" Value="0">19,3,29,3,30,3</ChannelsGroup>
   <ChannelsGroup ID="11" Name="Room strobes" Value="0">6,4,15,4,19,4</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="All green" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,0,9,255,10,0</ChannelGroupsVal>
-   <FixtureVal ID="18">0,0,1,255,2,0</FixtureVal>
-   <FixtureVal ID="19">0,0,1,255,2,0</FixtureVal>
-   <FixtureVal ID="29">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="30">0,0,1,255,2,0</FixtureVal>
-   <FixtureVal ID="17">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="1" Type="Scene" Name="All red" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,255,9,0,10,0</ChannelGroupsVal>
-   <FixtureVal ID="18">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="19">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="29">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="30">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="17">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="2" Type="Collection" Name="Opening main">
    <Step Number="0">208</Step>
@@ -449,9 +444,10 @@
    <Step Number="3">204</Step>
    <Step Number="4">18</Step>
    <Step Number="5">183</Step>
+   <Step Number="6">61</Step>
   </Function>
   <Function ID="3" Type="Scene" Name="All red" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,255,1,0,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
@@ -465,7 +461,7 @@
    <FixtureVal ID="27">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="All green" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,0,1,255,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,0,1,255,2,0</FixtureVal>
@@ -479,7 +475,7 @@
    <FixtureVal ID="27">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="5" Type="Scene" Name="All blue" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>2,255,1,0,0,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,0,1,0,2,255</FixtureVal>
@@ -493,7 +489,7 @@
    <FixtureVal ID="27">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="All magenta" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="578"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="578"/>
    <ChannelGroupsVal>0,255,1,0,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,255</FixtureVal>
@@ -507,7 +503,7 @@
    <FixtureVal ID="27">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="7" Type="Scene" Name="All yellow" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,255,1,255,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,255,2,0</FixtureVal>
@@ -521,7 +517,7 @@
    <FixtureVal ID="27">0,255,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="All cyan" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,0,1,255,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="8">0,0,1,255,2,255</FixtureVal>
@@ -535,7 +531,7 @@
    <FixtureVal ID="27">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="9" Type="Scene" Name="Warm" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,255,1,119,2,41</FixtureVal>
    <FixtureVal ID="8">0,255,1,119,2,41</FixtureVal>
    <FixtureVal ID="9">0,255,1,119,2,41</FixtureVal>
@@ -548,7 +544,7 @@
    <FixtureVal ID="27">0,255,1,220,2,49</FixtureVal>
   </Function>
   <Function ID="10" Type="Scene" Name="OCCII pinkish" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,0,1,0,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,64,2,136</FixtureVal>
    <FixtureVal ID="8">0,255,1,80,2,140</FixtureVal>
@@ -570,56 +566,36 @@
    <FixtureVal ID="13">0,30</FixtureVal>
   </Function>
   <Function ID="13" Type="Scene" Name="All yellow" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,255,9,255,10,0</ChannelGroupsVal>
-   <FixtureVal ID="18">0,255,1,255,2,0</FixtureVal>
-   <FixtureVal ID="19">0,255,1,255,2,0</FixtureVal>
-   <FixtureVal ID="29">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="30">0,255,1,255,2,0</FixtureVal>
-   <FixtureVal ID="17">0,255,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="14" Type="Scene" Name="All blue" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,0,9,0,10,255</ChannelGroupsVal>
-   <FixtureVal ID="18">0,0,1,0,2,255</FixtureVal>
-   <FixtureVal ID="19">0,0,1,0,2,255</FixtureVal>
-   <FixtureVal ID="29">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="30">0,0,1,0,2,255</FixtureVal>
-   <FixtureVal ID="17">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="15" Type="Scene" Name="All magenta" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,255,9,0,10,255</ChannelGroupsVal>
-   <FixtureVal ID="18">0,255,1,0,2,255</FixtureVal>
-   <FixtureVal ID="19">0,255,1,0,2,255</FixtureVal>
-   <FixtureVal ID="29">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="30">0,255,1,0,2,255</FixtureVal>
-   <FixtureVal ID="17">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="16" Type="Scene" Name="All cyan" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,0,9,255,10,255</ChannelGroupsVal>
-   <FixtureVal ID="18">0,0,1,255,2,255</FixtureVal>
-   <FixtureVal ID="19">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="29">0,0,1,255,2,255</FixtureVal>
-   <FixtureVal ID="30">0,0,1,255,2,255</FixtureVal>
-   <FixtureVal ID="17">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="17" Type="Scene" Name="Encoder 1 neutral" Path="LP/LP encoder scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="20">0,127</FixtureVal>
   </Function>
   <Function ID="18" Type="Scene" Name="All white" Path="Still colors/Room">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,255,9,255,10,255</ChannelGroupsVal>
-   <FixtureVal ID="18">0,255,1,255,2,255</FixtureVal>
-   <FixtureVal ID="19">0,255,1,255,2,255</FixtureVal>
-   <FixtureVal ID="29">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="30">0,255,1,255,2,255</FixtureVal>
-   <FixtureVal ID="17">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="19" Type="Scene" Name="All white" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,255,1,255,2,255</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,255,2,255</FixtureVal>
@@ -633,7 +609,7 @@
    <FixtureVal ID="27">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="20" Type="Scene" Name="Red/blue across" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="9">0,0,1,0,2,255</FixtureVal>
@@ -646,11 +622,11 @@
    <FixtureVal ID="27">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="21" Type="Scene" Name="Back outs red" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="25">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="22" Type="Scene" Name="Only stage sides" Path="Chaser scenes/Stage/Front lights solo">
+  <Function ID="22" Type="Scene" Name="Only stage front sides" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">4,255</FixtureVal>
    <FixtureVal ID="8">4,255</FixtureVal>
@@ -732,12 +708,12 @@
    <FixtureVal ID="27">3,255</FixtureVal>
   </Function>
   <Function ID="31" Type="Scene" Name="Back outs green" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="25">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="32" Type="Scene" Name="Back outs blue" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="25">0,0,1,0,2,255</FixtureVal>
   </Function>
@@ -784,7 +760,7 @@
    <FixtureVal ID="27">0,120,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="36" Type="Chaser" Name="Rainbow" Path="Color chasers">
-   <Speed FadeIn="310" FadeOut="310" Duration="310"/>
+   <Speed FadeIn="62" FadeOut="62" Duration="62"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -811,7 +787,7 @@
    <FixtureVal ID="27">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="38" Type="Scene" Name="Back outs magenta" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="25">0,255,1,0,2,255</FixtureVal>
   </Function>
@@ -824,7 +800,7 @@
    <FixtureVal ID="25">3,255</FixtureVal>
   </Function>
   <Function ID="41" Type="Scene" Name="Back outs yellow" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="25">0,255,1,255,2,0</FixtureVal>
   </Function>
@@ -832,24 +808,24 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="9">3,127</FixtureVal>
   </Function>
-  <Function ID="43" Type="Scene" Name="Only front left" Path="Chaser scenes/Stage/Front lights solo">
+  <Function ID="43" Type="Scene" Name="Only side left" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">4,255</FixtureVal>
   </Function>
-  <Function ID="44" Type="Scene" Name="Only front right" Path="Chaser scenes/Stage/Front lights solo">
+  <Function ID="44" Type="Scene" Name="Only side right" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="11">4,255</FixtureVal>
   </Function>
-  <Function ID="45" Type="Scene" Name="Only side left" Path="Chaser scenes/Stage/Front lights solo">
+  <Function ID="45" Type="Scene" Name="Only front side left" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">4,255</FixtureVal>
   </Function>
-  <Function ID="46" Type="Scene" Name="Only side right" Path="Chaser scenes/Stage/Front lights solo">
+  <Function ID="46" Type="Scene" Name="Only front side right" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="8">4,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="545"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="174"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -865,12 +841,12 @@
    <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="48" Type="Scene" Name="Back outs white" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="809"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="809"/>
    <FixtureVal ID="24">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="25">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="49" Type="Scene" Name="RGB mix" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="9">0,255,1,0,2,0</FixtureVal>
@@ -910,7 +886,7 @@
    <FixtureVal ID="27"/>
   </Function>
   <Function ID="54" Type="Chaser" Name="Off/on" Path="Dim chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="1090"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -922,7 +898,7 @@
    <FixtureVal ID="5">0,249</FixtureVal>
   </Function>
   <Function ID="56" Type="Scene" Name="Back outs cyan" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="25">0,0,1,255,2,255</FixtureVal>
   </Function>
@@ -935,38 +911,26 @@
    <FixtureVal ID="14">1,127</FixtureVal>
   </Function>
   <Function ID="59" Type="Scene" Name="Back outs off" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="24">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="25">0,0,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="60" Type="Scene" Name="Back mids red" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="27">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="61" Type="Scene" Name="Only back left" Path="Chaser scenes/Room">
+  <Function ID="61" Type="Scene" Name="Steve's light default color" Path="Still colors">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="19">3,255</FixtureVal>
-  </Function>
-  <Function ID="62" Type="Scene" Name="Only back right" Path="Chaser scenes/Room">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="30">3,255</FixtureVal>
-  </Function>
-  <Function ID="63" Type="Scene" Name="Only back right Pro" Path="Chaser scenes/Room">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="30">3,255</FixtureVal>
-  </Function>
-  <Function ID="64" Type="Scene" Name="Only Steve" Path="Chaser scenes/Room">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="18">3,255</FixtureVal>
+   <FixtureVal ID="29">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="65" Type="Scene" Name="Back mids magenta" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="404"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="404"/>
    <FixtureVal ID="28">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="27">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="66" Type="Scene" Name="Dune-ish" Path="Still colors/Full stage presets">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <ChannelGroupsVal>0,255,1,66,2,0</ChannelGroupsVal>
    <FixtureVal ID="7">0,255,1,66,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,66,2,0</FixtureVal>
@@ -979,48 +943,32 @@
    <FixtureVal ID="22">0,255,1,66,2,0</FixtureVal>
    <FixtureVal ID="27">0,255,1,66,2,0</FixtureVal>
   </Function>
-  <Function ID="67" Type="Scene" Name="Only stage front sides" Path="Chaser scenes/Stage/Front lights solo">
+  <Function ID="67" Type="Scene" Name="Only stage sides" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">4,170</FixtureVal>
    <FixtureVal ID="11">4,170</FixtureVal>
   </Function>
-  <Function ID="68" Type="Scene" Name="All on" Path="Chaser scenes/Room">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <ChannelGroupsVal>8,255</ChannelGroupsVal>
-   <FixtureVal ID="19">3,255</FixtureVal>
-   <FixtureVal ID="18">3,255</FixtureVal>
-   <FixtureVal ID="29">3,255</FixtureVal>
-   <FixtureVal ID="30">3,255</FixtureVal>
-  </Function>
-  <Function ID="69" Type="Scene" Name="All off" Path="Chaser scenes/Room">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <ChannelGroupsVal>8,0</ChannelGroupsVal>
-   <FixtureVal ID="19">3,0</FixtureVal>
-   <FixtureVal ID="18">3,0</FixtureVal>
-   <FixtureVal ID="29">3,0</FixtureVal>
-   <FixtureVal ID="30">3,0</FixtureVal>
-  </Function>
   <Function ID="70" Type="Scene" Name="Back mids blue" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="27">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="71" Type="Scene" Name="Back mids cyan" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="27">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="72" Type="Scene" Name="Back mids green" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="27">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="73" Type="Scene" Name="Steve's light on" Path="Effects and others">
-   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
-   <FixtureVal ID="18">3,255</FixtureVal>
+   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <FixtureVal ID="29">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="1090"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1073,8 +1021,8 @@
    <FixtureVal ID="2">1,0</FixtureVal>
   </Function>
   <Function ID="84" Type="Scene" Name="Steve's light off" Path="Effects and others">
-   <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
-   <FixtureVal ID="18">3,0</FixtureVal>
+   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
+   <FixtureVal ID="29">3,0</FixtureVal>
   </Function>
   <Function ID="85" Type="Sequence" Name="Encoder 2 Down" Path="LP encoder press logic" BoundScene="86">
    <Speed FadeIn="0" FadeOut="0" Duration="5"/>
@@ -1102,7 +1050,7 @@
    <FixtureVal ID="12">1,0</FixtureVal>
   </Function>
   <Function ID="90" Type="Scene" Name="Back mids yellow" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="27">0,255,1,255,2,0</FixtureVal>
   </Function>
@@ -1167,167 +1115,163 @@
    <FixtureVal ID="20">3,0</FixtureVal>
   </Function>
   <Function ID="101" Type="Scene" Name="Back mids white" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="27">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="102" Type="Scene" Name="Back mids off" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="28">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="27">0,0,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="103" Type="Scene" Name="Back center off" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,0,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="104" Type="Scene" Name="Back center red" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="105" Type="Scene" Name="Back center magenta" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="106" Type="Scene" Name="Back center blue" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="107" Type="Scene" Name="Back center cyan" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="108" Type="Scene" Name="Back center green" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="109" Type="Scene" Name="Back center yellow" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,255,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="110" Type="Scene" Name="Back center white" Path="Still colors/Stage backs">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="22">0,255,1,255,2,255</FixtureVal>
   </Function>
-  <Function ID="111" Type="Scene" Name="Sides red" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="111" Type="Scene" Name="Front sides red" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="112" Type="Scene" Name="Sides off" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="112" Type="Scene" Name="Front sides off" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="8">0,0,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="113" Type="Scene" Name="Sides green" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="113" Type="Scene" Name="Front sides green" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,0,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="114" Type="Scene" Name="Sides blue" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="114" Type="Scene" Name="Front sides blue" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,0,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="115" Type="Scene" Name="Sides yellow" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="115" Type="Scene" Name="Front sides yellow" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="8">0,255,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="116" Type="Scene" Name="Sides cyan" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="116" Type="Scene" Name="Front sides cyan" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="8">0,0,1,255,2,255</FixtureVal>
   </Function>
-  <Function ID="117" Type="Scene" Name="Sides magenta" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="117" Type="Scene" Name="Front sides magenta" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="118" Type="Scene" Name="Sides white" Path="Still colors/Stage sides">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="118" Type="Scene" Name="Front sides white" Path="Still colors/Stage fronts">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="7">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="8">0,255,1,255,2,255</FixtureVal>
   </Function>
-  <Function ID="119" Type="Scene" Name="Front sides off" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="119" Type="Scene" Name="Sides off" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="11">0,0,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="120" Type="Scene" Name="Front sides red" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="120" Type="Scene" Name="Sides red" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="121" Type="Scene" Name="Front sides yellow" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="121" Type="Scene" Name="Sides yellow" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="11">0,255,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="122" Type="Scene" Name="Front sides green" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="122" Type="Scene" Name="Sides green" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="11">0,0,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="123" Type="Scene" Name="Front sides cyan" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="123" Type="Scene" Name="Sides cyan" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="11">0,0,1,255,2,255</FixtureVal>
   </Function>
-  <Function ID="124" Type="Scene" Name="Front sides blue" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="124" Type="Scene" Name="Sides blue" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="125" Type="Scene" Name="Front sides magenta" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="125" Type="Scene" Name="Sides magenta" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="11">0,255,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="126" Type="Scene" Name="Front sides white" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+  <Function ID="126" Type="Scene" Name="Sides white" Path="Still colors/Stage sides">
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="10">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="11">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="127" Type="Scene" Name="Front center off" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,0,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="128" Type="Scene" Name="Front center red" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="129" Type="Scene" Name="Front center yellow" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,255,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="130" Type="Scene" Name="Front center green" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,0,1,255,2,0</FixtureVal>
   </Function>
   <Function ID="131" Type="Scene" Name="Front center cyan" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,0,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="132" Type="Scene" Name="Front center blue" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,0,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="133" Type="Scene" Name="Front center magenta" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,255,1,0,2,255</FixtureVal>
   </Function>
   <Function ID="134" Type="Scene" Name="Front center white" Path="Still colors/Stage fronts">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
+   <Speed FadeIn="1003" FadeOut="1003" Duration="0"/>
    <FixtureVal ID="9">0,255,1,255,2,255</FixtureVal>
   </Function>
   <Function ID="135" Type="Scene" Name="All off" Path="Still colors/Room">
    <Speed FadeIn="1024" FadeOut="1024" Duration="0"/>
    <ChannelGroupsVal>12,0,13,0,14,255,5,0,9,0,10,255</ChannelGroupsVal>
-   <FixtureVal ID="18">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="19">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="29">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="30">0,0,1,0,2,0</FixtureVal>
-   <FixtureVal ID="17">0,0,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="136" Type="Scene" Name="Back outs strobe full" Path="Par strobes/Stage backs">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1406,7 +1350,7 @@
    <FixtureVal ID="25">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="1090"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1414,7 +1358,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">147</Step>
   </Function>
   <Function ID="152" Type="Chaser" Name="Backlights on/off" Path="Backlight chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="545"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="174"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1422,7 +1366,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">154</Step>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="1090"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1438,7 +1382,7 @@
    <FixtureVal ID="25">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="545"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="174"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1449,7 +1393,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="545"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="174"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1460,7 +1404,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="545"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="174"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1542,47 +1486,47 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">4,0</FixtureVal>
   </Function>
-  <Function ID="174" Type="Scene" Name="Side strobe slowest" Path="Par strobes/Stage sides">
+  <Function ID="174" Type="Scene" Name="Front sides strobe slowest" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,8</FixtureVal>
    <FixtureVal ID="8">3,8</FixtureVal>
   </Function>
-  <Function ID="175" Type="Scene" Name="Side strobe off" Path="Par strobes/Stage sides">
+  <Function ID="175" Type="Scene" Name="Front sides strobe off" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,0</FixtureVal>
    <FixtureVal ID="8">3,0</FixtureVal>
   </Function>
-  <Function ID="176" Type="Scene" Name="Side strobe full" Path="Par strobes/Stage sides">
+  <Function ID="176" Type="Scene" Name="Front sides strobe full" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,255</FixtureVal>
    <FixtureVal ID="8">3,255</FixtureVal>
   </Function>
-  <Function ID="177" Type="Scene" Name="Side strobe 25%" Path="Par strobes/Stage sides">
+  <Function ID="177" Type="Scene" Name="Front sides strobe 25%" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,70</FixtureVal>
    <FixtureVal ID="8">3,70</FixtureVal>
   </Function>
-  <Function ID="178" Type="Scene" Name="Side strobe 40%" Path="Par strobes/Stage sides">
+  <Function ID="178" Type="Scene" Name="Front sides strobe 40%" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,107</FixtureVal>
    <FixtureVal ID="8">3,107</FixtureVal>
   </Function>
-  <Function ID="179" Type="Scene" Name="Side strobe 50%" Path="Par strobes/Stage sides">
+  <Function ID="179" Type="Scene" Name="Front sides strobe 50%" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,132</FixtureVal>
    <FixtureVal ID="8">3,132</FixtureVal>
   </Function>
-  <Function ID="180" Type="Scene" Name="Side strobe 75%" Path="Par strobes/Stage sides">
+  <Function ID="180" Type="Scene" Name="Front sides strobe 75%" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,194</FixtureVal>
    <FixtureVal ID="8">3,194</FixtureVal>
   </Function>
-  <Function ID="181" Type="Scene" Name="Side strobe 90%" Path="Par strobes/Stage sides">
+  <Function ID="181" Type="Scene" Name="Front sides strobe 90%" Path="Par strobes/Stage fronts">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="7">3,230</FixtureVal>
    <FixtureVal ID="8">3,230</FixtureVal>
   </Function>
-  <Function ID="182" Type="Scene" Name="Front sides strobe 25%" Path="Par strobes/Stage fronts">
+  <Function ID="182" Type="Scene" Name="Sides strobe 25%" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,70</FixtureVal>
    <FixtureVal ID="11">3,70</FixtureVal>
@@ -1590,14 +1534,6 @@
   <Function ID="183" Type="Scene" Name="Merch light default color" Path="Still colors">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="16">0,255,1,255,2,255</FixtureVal>
-  </Function>
-  <Function ID="185" Type="Scene" Name="Enable manual color selection" Path="LP">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
-   <FixtureVal ID="26">0,255</FixtureVal>
-  </Function>
-  <Function ID="186" Type="Scene" Name="Disable manual color selection" Path="LP">
-   <Speed FadeIn="5000" FadeOut="5000" Duration="0"/>
-   <FixtureVal ID="26">0,0</FixtureVal>
   </Function>
   <Function ID="187" Type="Scene" Name="Blinder left only" Path="Chaser scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1607,32 +1543,32 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="31">1,255</FixtureVal>
   </Function>
-  <Function ID="189" Type="Scene" Name="Front sides strobe full" Path="Par strobes/Stage fronts">
+  <Function ID="189" Type="Scene" Name="Sides strobe full" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,255</FixtureVal>
    <FixtureVal ID="11">3,255</FixtureVal>
   </Function>
-  <Function ID="190" Type="Scene" Name="Front sides strobe off" Path="Par strobes/Stage fronts">
+  <Function ID="190" Type="Scene" Name="Sides strobe off" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,0</FixtureVal>
    <FixtureVal ID="11">3,0</FixtureVal>
   </Function>
-  <Function ID="191" Type="Scene" Name="Front sides strobe 40%" Path="Par strobes/Stage fronts">
+  <Function ID="191" Type="Scene" Name="Sides strobe 40%" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,107</FixtureVal>
    <FixtureVal ID="11">3,107</FixtureVal>
   </Function>
-  <Function ID="192" Type="Scene" Name="Front sides strobe 50%" Path="Par strobes/Stage fronts">
+  <Function ID="192" Type="Scene" Name="Sides strobe 50%" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,132</FixtureVal>
    <FixtureVal ID="11">3,132</FixtureVal>
   </Function>
-  <Function ID="193" Type="Scene" Name="Front sides strobe 75%" Path="Par strobes/Stage fronts">
+  <Function ID="193" Type="Scene" Name="Sides strobe 75%" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,194</FixtureVal>
    <FixtureVal ID="11">3,194</FixtureVal>
   </Function>
-  <Function ID="194" Type="Scene" Name="Front sides strobe 90%" Path="Par strobes/Stage fronts">
+  <Function ID="194" Type="Scene" Name="Sides strobe 90%" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,230</FixtureVal>
    <FixtureVal ID="11">3,230</FixtureVal>
@@ -1641,7 +1577,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="9">4,255</FixtureVal>
   </Function>
-  <Function ID="196" Type="Scene" Name="Front sides strobe slowest" Path="Par strobes/Stage fronts">
+  <Function ID="196" Type="Scene" Name="Sides strobe slowest" Path="Par strobes/Stage sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="10">3,8</FixtureVal>
    <FixtureVal ID="11">3,8</FixtureVal>
@@ -1701,7 +1637,7 @@
    <Step Number="5">118</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="1090"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1713,10 +1649,9 @@
    <Step Number="1">144</Step>
    <Step Number="2">145</Step>
    <Step Number="3">146</Step>
-   <Step Number="4">186</Step>
   </Function>
   <Function ID="209" Type="Chaser" Name="Blinders on/off">
-   <Speed FadeIn="1235" FadeOut="1117" Duration="1090"/>
+   <Speed FadeIn="470" FadeOut="980" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1736,14 +1671,15 @@
    <FixtureVal ID="31">0,255,1,255</FixtureVal>
   </Function>
   <Function ID="213" Type="RGBMatrix" Name="Backlights">
-   <Speed FadeIn="560" FadeOut="448" Duration="637"/>
+   <Speed FadeIn="417" FadeOut="540" Duration="348"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Gradient</Algorithm>
-   <MonoColor>4294901760</MonoColor>
-   <EndColor>4278255360</EndColor>
+   <MonoColor>4279671808</MonoColor>
+   <EndColor>4291299584</EndColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>6</FixtureGroup>
+   <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="5"/>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
@@ -1992,7 +1928,7 @@
      </Appearance>
      <Visibility>99</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>5000</Time>
+     <Time>1003</Time>
      <Function FadeIn="6" FadeOut="6" Duration="0">9</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">115</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">118</Function>
@@ -2084,7 +2020,7 @@
      </Appearance>
      <Visibility>99</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>2000</Time>
+     <Time>3000</Time>
      <Function FadeIn="6" FadeOut="6" Duration="0">13</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">18</Function>
      <Function FadeIn="6" FadeOut="6" Duration="0">1</Function>
@@ -2107,7 +2043,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>1090</Time>
+     <Time>348</Time>
      <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">54</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">209</Function>
@@ -2133,7 +2069,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="34"/>
      </AbsoluteValue>
-     <Time>1235</Time>
+     <Time>470</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">47</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">54</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">209</Function>
@@ -2171,7 +2107,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="35"/>
      </AbsoluteValue>
-     <Time>1117</Time>
+     <Time>980</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">47</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">54</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">209</Function>
@@ -2215,15 +2151,15 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="245" Y="745" Width="795" Height="260"/>
+    <WindowState Visible="True" X="245" Y="745" Width="890" Height="285"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Slider Caption="Merch light color (not functional)" ID="140" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="430" Y="45" Width="140" Height="205"/>
+    <Slider Caption="Merch light color override" ID="140" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="430" Y="45" Width="115" Height="235"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -2231,8 +2167,9 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="128">
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="16">0</Channel>
       <Channel Fixture="16">1</Channel>
       <Channel Fixture="16">2</Channel>
@@ -2242,7 +2179,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Strobe intensity" ID="92" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="10" Y="45" Width="80" Height="205"/>
+     <WindowState Visible="True" X="10" Y="45" Width="80" Height="235"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -2251,7 +2188,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="141">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="5">1</Channel>
      </Level>
      <Playback>
@@ -2259,7 +2196,7 @@
      </Playback>
     </Slider>
     <Slider Caption="Flower effect speed" ID="94" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="350" Y="45" Width="75" Height="205"/>
+     <WindowState Visible="True" X="350" Y="45" Width="75" Height="235"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -2276,24 +2213,6 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Blinder master intensity" ID="88" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="180" Y="45" Width="80" Height="205"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4278190080</ForegroundColor>
-      <BackgroundColor>4279374354</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255">
-      <Channel Fixture="14">0</Channel>
-      <Channel Fixture="31">2</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
     <SoloFrame Caption="" ID="47">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -2302,7 +2221,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="575" Y="45" Width="125" Height="205"/>
+     <WindowState Visible="True" X="670" Y="45" Width="125" Height="235"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -2311,7 +2230,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="Smoke power on" ID="46" Icon="">
-      <WindowState Visible="True" X="5" Y="5" Width="115" Height="95"/>
+      <WindowState Visible="True" X="5" Y="5" Width="115" Height="110"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -2324,7 +2243,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Smoke power off" ID="48" Icon="">
-      <WindowState Visible="True" X="5" Y="105" Width="115" Height="95"/>
+      <WindowState Visible="True" X="5" Y="120" Width="115" Height="110"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -2338,7 +2257,7 @@
      </Button>
     </SoloFrame>
     <Button Caption="Black Out" ID="2" Icon="">
-     <WindowState Visible="True" X="705" Y="45" Width="80" Height="205"/>
+     <WindowState Visible="True" X="800" Y="45" Width="85" Height="235"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2352,7 +2271,7 @@
      <Input Universe="0" Channel="216"/>
     </Button>
     <Slider Caption="Strobe speed" ID="77" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="95" Y="45" Width="80" Height="205"/>
+     <WindowState Visible="True" X="95" Y="45" Width="80" Height="235"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -2361,15 +2280,15 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="195">
+     <Level LowLimit="0" HighLimit="255" Value="143">
       <Channel Fixture="12">0</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Flower effect" ID="313" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="265" Y="45" Width="80" Height="205"/>
+    <Slider Caption="Blinder master intensity" ID="324" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="180" Y="45" Width="80" Height="235"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -2377,9 +2296,48 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
+     <Input Universe="0" Channel="65539"/>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="146">
+      <Channel Fixture="31">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Flower effect" ID="325" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="265" Y="45" Width="80" Height="235"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="65540"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="207">
+     <Level LowLimit="0" HighLimit="255" Value="205">
       <Channel Fixture="14">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Steve's light color override" ID="88" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="550" Y="45" Width="115" Height="235"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
+     <Reset/>
+     <Level LowLimit="0" HighLimit="255" Value="128">
+      <Channel Fixture="29">0</Channel>
+      <Channel Fixture="29">1</Channel>
+      <Channel Fixture="29">2</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -2425,8 +2383,8 @@
      <Input Universe="0" Channel="5"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="10">4</Channel>
-      <Channel Fixture="11">4</Channel>
+      <Channel Fixture="7">4</Channel>
+      <Channel Fixture="8">4</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -2444,8 +2402,8 @@
      <Input Universe="0" Channel="4"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="7">4</Channel>
-      <Channel Fixture="8">4</Channel>
+      <Channel Fixture="10">4</Channel>
+      <Channel Fixture="11">4</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -2643,7 +2601,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="185"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="190"/>
@@ -3085,7 +3043,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="88"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="201"/>
@@ -3272,7 +3230,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>637</Time>
+     <Time>348</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">213</Function>
     </SpeedDial>
     <SpeedDial Caption="Fade In" ID="211">
@@ -3286,7 +3244,7 @@
      </Appearance>
      <Visibility>98</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>560</Time>
+     <Time>417</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">213</Function>
     </SpeedDial>
     <SpeedDial Caption="Fade Out" ID="212">
@@ -3300,7 +3258,7 @@
      </Appearance>
      <Visibility>98</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>448</Time>
+     <Time>540</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">213</Function>
     </SpeedDial>
    </Frame>
@@ -3567,7 +3525,7 @@
       </Appearance>
       <Input Universe="2" Channel="0"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -3585,7 +3543,7 @@
       </Appearance>
       <Input Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">1</Channel>
       </Level>
       <Playback>
@@ -3603,7 +3561,7 @@
       </Appearance>
       <Input Universe="2" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">2</Channel>
       </Level>
       <Playback>
@@ -3653,7 +3611,7 @@
       </Appearance>
       <Input Universe="2" Channel="16"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -3671,7 +3629,7 @@
       </Appearance>
       <Input Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">1</Channel>
       </Level>
       <Playback>
@@ -3689,7 +3647,7 @@
       </Appearance>
       <Input Universe="2" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">2</Channel>
       </Level>
       <Playback>
@@ -3739,7 +3697,7 @@
       </Appearance>
       <Input Universe="2" Channel="4"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="21">0</Channel>
       </Level>
       <Playback>
@@ -3757,7 +3715,7 @@
       </Appearance>
       <Input Universe="2" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="21">1</Channel>
       </Level>
       <Playback>
@@ -3775,7 +3733,7 @@
       </Appearance>
       <Input Universe="2" Channel="6"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="21">2</Channel>
       </Level>
       <Playback>
@@ -3825,7 +3783,7 @@
       </Appearance>
       <Input Universe="2" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
@@ -3843,7 +3801,7 @@
       </Appearance>
       <Input Universe="2" Channel="9"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">1</Channel>
       </Level>
       <Playback>
@@ -3861,7 +3819,7 @@
       </Appearance>
       <Input Universe="2" Channel="10"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">2</Channel>
       </Level>
       <Playback>
@@ -3911,7 +3869,7 @@
       </Appearance>
       <Input Universe="2" Channel="12"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">0</Channel>
       </Level>
       <Playback>
@@ -3929,7 +3887,7 @@
       </Appearance>
       <Input Universe="2" Channel="13"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">1</Channel>
       </Level>
       <Playback>
@@ -3947,7 +3905,7 @@
       </Appearance>
       <Input Universe="2" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">2</Channel>
       </Level>
       <Playback>
@@ -3997,7 +3955,7 @@
       </Appearance>
       <Input Universe="2" Channel="24"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">0</Channel>
       </Level>
       <Playback>
@@ -4015,7 +3973,7 @@
       </Appearance>
       <Input Universe="2" Channel="25"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">1</Channel>
       </Level>
       <Playback>
@@ -4033,7 +3991,7 @@
       </Appearance>
       <Input Universe="2" Channel="26"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">2</Channel>
       </Level>
       <Playback>
@@ -4101,7 +4059,7 @@
       </Appearance>
       <Input Universe="2" Channel="29"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="130"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4133,7 +4091,7 @@
       </Appearance>
       <Input Universe="2" Channel="20"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="15">0</Channel>
       </Level>
       <Playback>
@@ -4151,7 +4109,7 @@
       </Appearance>
       <Input Universe="2" Channel="21"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="15">1</Channel>
       </Level>
       <Playback>
@@ -4169,7 +4127,7 @@
       </Appearance>
       <Input Universe="2" Channel="22"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="15">2</Channel>
       </Level>
       <Playback>
@@ -4187,7 +4145,7 @@
       </Appearance>
       <Input Universe="2" Channel="23"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4237,7 +4195,7 @@
       </Appearance>
       <Input Universe="2" Channel="41"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="236"/>
+      <Level LowLimit="0" HighLimit="255" Value="146"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4288,7 +4246,7 @@
      </Appearance>
      <Input Universe="2" Channel="30"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="146">
+     <Level LowLimit="0" HighLimit="255" Value="79">
       <Channel Fixture="20">4</Channel>
      </Level>
      <Playback>
@@ -4334,7 +4292,7 @@
      </Appearance>
      <Input Universe="2" Channel="31"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="137">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="20">5</Channel>
      </Level>
      <Playback>
@@ -4380,7 +4338,7 @@
      </Appearance>
      <Input Universe="2" Channel="32"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="154">
+     <Level LowLimit="0" HighLimit="255" Value="132">
       <Channel Fixture="20">6</Channel>
      </Level>
      <Playback>
@@ -4426,7 +4384,7 @@
      </Appearance>
      <Input Universe="2" Channel="33"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="144">
+     <Level LowLimit="0" HighLimit="255" Value="127">
       <Channel Fixture="20">7</Channel>
      </Level>
      <Playback>
@@ -4570,7 +4528,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="164"/>
      </Enable>
@@ -4702,7 +4660,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="161"/>
      </Enable>
@@ -4819,7 +4777,7 @@
       <Input Universe="0" Channel="180"/>
      </Button>
     </SoloFrame>
-    <SoloFrame Caption="Sides color" ID="270">
+    <SoloFrame Caption="Front sides color" ID="270">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4827,7 +4785,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="280" Y="90" Width="90" Height="325"/>
+     <WindowState Visible="True" X="370" Y="90" Width="90" Height="325"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -4836,7 +4794,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="167"/>
+      <Input Universe="0" Channel="170"/>
      </Enable>
      <Button Caption="Red" ID="262" Icon="">
       <WindowState Visible="True" X="5" Y="40" Width="80" Height="35"/>
@@ -4951,7 +4909,7 @@
       <Input Universe="0" Channel="180"/>
      </Button>
     </SoloFrame>
-    <SoloFrame Caption="Front sides color" ID="279">
+    <SoloFrame Caption="Sides color" ID="279">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4959,16 +4917,16 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="370" Y="90" Width="90" Height="325"/>
+     <WindowState Visible="True" X="280" Y="90" Width="90" Height="325"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
-      <Input Universe="0" Channel="170"/>
+      <Input Universe="0" Channel="167"/>
      </Enable>
      <Button Caption="Red" ID="271" Icon="">
       <WindowState Visible="True" X="5" Y="40" Width="80" Height="35"/>
@@ -5372,7 +5330,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="158"/>
      </Enable>
@@ -5559,7 +5517,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Back outs color" ID="135" Page="1">
+    <SoloFrame Caption="Back outs strobe" ID="135" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5701,7 +5659,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Back mids color" ID="155" Page="1">
+    <SoloFrame Caption="Back mids strobe" ID="155" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5843,7 +5801,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Back mids color" ID="165" Page="1">
+    <SoloFrame Caption="Back mids strobe" ID="165" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5985,7 +5943,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Sides color" ID="175" Page="1">
+    <SoloFrame Caption="Front sides strobe" ID="175" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5993,7 +5951,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="280" Y="90" Width="90" Height="325"/>
+     <WindowState Visible="False" X="370" Y="90" Width="90" Height="325"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -6002,7 +5960,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65703"/>
+      <Input Universe="0" Channel="65706"/>
      </Enable>
      <Button Caption="Slowest" ID="179" Icon="">
       <WindowState Visible="False" X="5" Y="40" Width="80" Height="35"/>
@@ -6127,7 +6085,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Front sides color" ID="185" Page="1">
+    <SoloFrame Caption="Sides strobe" ID="185" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6135,7 +6093,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="370" Y="90" Width="90" Height="325"/>
+     <WindowState Visible="False" X="280" Y="90" Width="90" Height="325"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -6144,7 +6102,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65706"/>
+      <Input Universe="0" Channel="65703"/>
      </Enable>
      <Button Caption="Slowest" ID="189" Icon="">
       <WindowState Visible="False" X="5" Y="40" Width="80" Height="35"/>
@@ -6269,7 +6227,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Front center color" ID="195" Page="1">
+    <SoloFrame Caption="Front center strobe" ID="195" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6411,7 +6369,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Room color" ID="205" Page="1">
+    <SoloFrame Caption="Room strobe" ID="205" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
