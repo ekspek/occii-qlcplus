@@ -53,6 +53,10 @@
   <Name>Encoder 4 Absolute Slider</Name>
   <Type>Slider</Type>
  </Channel>
+ <Channel Number="38">
+  <Name>Manual color selection</Name>
+  <Type>Slider</Type>
+ </Channel>
  <Channel Number="39">
   <Name>Blinder left intensity</Name>
   <Type>Slider</Type>
