@@ -874,7 +874,7 @@
    <FixtureVal ID="8">4,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="191"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="2500"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -935,7 +935,7 @@
    <FixtureVal ID="27"/>
   </Function>
   <Function ID="54" Type="Chaser" Name="Off/on" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="382"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1052,7 +1052,7 @@
    <FixtureVal ID="29">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="382"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1439,7 +1439,7 @@
    <FixtureVal ID="25">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="382"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1447,7 +1447,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">147</Step>
   </Function>
   <Function ID="152" Type="Chaser" Name="Backlights on/off" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="191"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="2500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1455,7 +1455,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">154</Step>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="382"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1471,7 +1471,7 @@
    <FixtureVal ID="25">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="191"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="2500"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1482,7 +1482,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="191"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="2500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1493,7 +1493,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="191"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="2500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1754,7 +1754,7 @@
    <Step Number="6">63</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right">
-   <Speed FadeIn="0" FadeOut="0" Duration="382"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1768,7 +1768,7 @@
    <Step Number="3">146</Step>
   </Function>
   <Function ID="209" Type="Chaser" Name="Blinders on/off">
-   <Speed FadeIn="0" FadeOut="0" Duration="382"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1788,7 +1788,7 @@
    <FixtureVal ID="31">0,255,1,255</FixtureVal>
   </Function>
   <Function ID="213" Type="RGBMatrix" Name="Backlights">
-   <Speed FadeIn="417" FadeOut="540" Duration="382"/>
+   <Speed FadeIn="420" FadeOut="540" Duration="395"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
@@ -1814,6 +1814,16 @@
    <FixtureVal ID="18">4,231</FixtureVal>
    <FixtureVal ID="19">4,231</FixtureVal>
    <FixtureVal ID="32">4,231</FixtureVal>
+  </Function>
+  <Function ID="216" Type="RGBMatrix" Name="Room lights">
+   <Speed FadeIn="420" FadeOut="540" Duration="395"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4278255360</EndColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>5</FixtureGroup>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Roboto,12,-1,5,50,0,0,0,0,0</Font>
@@ -1860,7 +1870,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="590" Y="495" Width="550" Height="225"/>
+    <WindowState Visible="True" X="595" Y="495" Width="550" Height="225"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -2044,7 +2054,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="1150" Y="445" Width="715" Height="455"/>
+    <WindowState Visible="True" X="1155" Y="445" Width="665" Height="540"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -2052,7 +2062,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <SpeedDial Caption="Stage color change" ID="21">
-     <WindowState Visible="True" X="445" Y="40" Width="265" Height="245"/>
+     <WindowState Visible="True" X="5" Y="290" Width="265" Height="245"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2143,7 +2153,7 @@
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="Room color change" ID="30">
-     <WindowState Visible="True" X="445" Y="290" Width="265" Height="155"/>
+     <WindowState Visible="True" X="275" Y="290" Width="265" Height="155"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2163,33 +2173,6 @@
      <Function FadeIn="6" FadeOut="6" Duration="0">14</Function>
     </SpeedDial>
     <SpeedDial Caption="Chaser duration" ID="1">
-     <WindowState Visible="True" X="5" Y="290" Width="215" Height="155"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4279374354</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Visibility>99</Visibility>
-     <AbsoluteValue Minimum="0" Maximum="2000"/>
-     <Tap>
-      <Input Universe="0" Channel="215"/>
-     </Tap>
-     <Time>382</Time>
-     <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">54</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">209</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">207</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="5">156</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="5">157</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="5">155</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="5">152</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">153</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">151</Function>
-     <Function FadeIn="0" FadeOut="0" Duration="6">74</Function>
-    </SpeedDial>
-    <SpeedDial Caption="Chaser fade in duration" ID="3">
      <WindowState Visible="True" X="5" Y="40" Width="215" Height="245"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -2202,7 +2185,41 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="34"/>
      </AbsoluteValue>
-     <Time>0</Time>
+     <Tap>
+      <Input Universe="0" Channel="215"/>
+     </Tap>
+     <Time>5000</Time>
+     <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">54</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">209</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">207</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="5">156</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="5">157</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="5">155</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="5">152</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">153</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">151</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">74</Function>
+     <Preset ID="16">
+      <Name>1s</Name>
+      <Value>1000</Value>
+      <Input Universe="0" Channel="143"/>
+     </Preset>
+    </SpeedDial>
+    <SpeedDial Caption="Chaser fade in duration" ID="3">
+     <WindowState Visible="True" X="225" Y="40" Width="215" Height="245"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>99</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="5000">
+      <Input Universe="2" Channel="35"/>
+     </AbsoluteValue>
+     <Time>78</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">47</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">54</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">209</Function>
@@ -2225,10 +2242,11 @@
      <Preset ID="18">
       <Name>0,5s</Name>
       <Value>500</Value>
+      <Input Universe="0" Channel="146"/>
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="Chaser fade out duration" ID="31">
-     <WindowState Visible="True" X="225" Y="40" Width="215" Height="245"/>
+     <WindowState Visible="True" X="445" Y="40" Width="215" Height="245"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2238,7 +2256,7 @@
      </Appearance>
      <Visibility>99</Visibility>
      <AbsoluteValue Minimum="0" Maximum="5000">
-      <Input Universe="2" Channel="35"/>
+      <Input Universe="2" Channel="36"/>
      </AbsoluteValue>
      <Time>0</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">47</Function>
@@ -2263,11 +2281,12 @@
      <Preset ID="18">
       <Name>0,5s</Name>
       <Value>500</Value>
+      <Input Universe="0" Channel="149"/>
      </Preset>
     </SpeedDial>
    </Frame>
    <Clock Type="Clock" Caption="" ID="138">
-    <WindowState Visible="True" X="590" Y="445" Width="270" Height="45"/>
+    <WindowState Visible="True" X="595" Y="445" Width="270" Height="45"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -2284,7 +2303,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="245" Y="745" Width="890" Height="285"/>
+    <WindowState Visible="True" X="250" Y="730" Width="890" Height="285"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -2478,7 +2497,7 @@
     </Slider>
    </Frame>
    <Clock Type="Stopwatch" Caption="" ID="45">
-    <WindowState Visible="True" X="870" Y="445" Width="270" Height="45"/>
+    <WindowState Visible="True" X="875" Y="445" Width="270" Height="45"/>
     <Appearance>
      <FrameStyle>Raised</FrameStyle>
      <ForegroundColor>4294967295</ForegroundColor>
@@ -2572,7 +2591,7 @@
      </Appearance>
      <Input Universe="0" Channel="7"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="17">3</Channel>
       <Channel Fixture="18">3</Channel>
       <Channel Fixture="19">3</Channel>
@@ -3333,24 +3352,12 @@
      <Font>Default</Font>
     </Appearance>
     <WindowState Visible="True" X="1615" Y="10" Width="380" Height="375"/>
-    <AllowChildren>False</AllowChildren>
-    <AllowResize>False</AllowResize>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Matrix Caption="Backlights" ID="208">
-     <WindowState Visible="True" X="5" Y="40" Width="245" Height="330"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4279374354</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Function ID="213" InstantApply="true"/>
-     <Input Universe="0" Channel="202"/>
-    </Matrix>
     <SpeedDial Caption="Duration" ID="210">
      <WindowState Visible="True" X="255" Y="40" Width="115" Height="110"/>
      <Appearance>
@@ -3365,7 +3372,8 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>382</Time>
+     <Time>395</Time>
+     <Function FadeIn="0" FadeOut="0" Duration="6">216</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">213</Function>
     </SpeedDial>
     <SpeedDial Caption="Fade In" ID="211">
@@ -3379,7 +3387,8 @@
      </Appearance>
      <Visibility>98</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
-     <Time>417</Time>
+     <Time>420</Time>
+     <Function FadeIn="6" FadeOut="0" Duration="0">216</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">213</Function>
     </SpeedDial>
     <SpeedDial Caption="Fade Out" ID="212">
@@ -3394,8 +3403,52 @@
      <Visibility>98</Visibility>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
      <Time>540</Time>
+     <Function FadeIn="0" FadeOut="6" Duration="0">216</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">213</Function>
     </SpeedDial>
+    <Frame Caption="Group" ID="313">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="5" Y="40" Width="245" Height="325"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Multipage PagesNum="2" CurrentPage="0"/>
+     <Shortcut Page="0" Name="Page: 1"/>
+     <Shortcut Page="1" Name="Page: 2"/>
+     <PagesLoop>False</PagesLoop>
+     <Matrix Caption="Backlights" ID="208">
+      <WindowState Visible="True" X="5" Y="40" Width="235" Height="280"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="213" InstantApply="true"/>
+      <Input Universe="0" Channel="202"/>
+     </Matrix>
+     <Matrix Caption="Room lights" ID="314" Page="1">
+      <WindowState Visible="False" X="5" Y="40" Width="235" Height="280"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="216" InstantApply="true"/>
+     </Matrix>
+    </Frame>
    </Frame>
    <Frame Caption="Manual color selection" ID="213">
     <Appearance>
@@ -3678,7 +3731,7 @@
       </Appearance>
       <Input Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">1</Channel>
       </Level>
       <Playback>
@@ -3696,7 +3749,7 @@
       </Appearance>
       <Input Universe="2" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">2</Channel>
       </Level>
       <Playback>
@@ -3764,7 +3817,7 @@
       </Appearance>
       <Input Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">1</Channel>
       </Level>
       <Playback>
@@ -3782,7 +3835,7 @@
       </Appearance>
       <Input Universe="2" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">2</Channel>
       </Level>
       <Playback>
@@ -3850,7 +3903,7 @@
       </Appearance>
       <Input Universe="2" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="21">1</Channel>
       </Level>
       <Playback>
@@ -3868,7 +3921,7 @@
       </Appearance>
       <Input Universe="2" Channel="6"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="21">2</Channel>
       </Level>
       <Playback>
@@ -3936,7 +3989,7 @@
       </Appearance>
       <Input Universe="2" Channel="9"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">1</Channel>
       </Level>
       <Playback>
@@ -3954,7 +4007,7 @@
       </Appearance>
       <Input Universe="2" Channel="10"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">2</Channel>
       </Level>
       <Playback>
@@ -4022,7 +4075,7 @@
       </Appearance>
       <Input Universe="2" Channel="13"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">1</Channel>
       </Level>
       <Playback>
@@ -4040,7 +4093,7 @@
       </Appearance>
       <Input Universe="2" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">2</Channel>
       </Level>
       <Playback>
@@ -4144,7 +4197,7 @@
       </Appearance>
       <Input Universe="2" Channel="27"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4381,7 +4434,7 @@
      </Appearance>
      <Input Universe="2" Channel="30"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="2">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="20">4</Channel>
      </Level>
      <Playback>
@@ -4427,7 +4480,7 @@
      </Appearance>
      <Input Universe="2" Channel="31"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="20">
       <Channel Fixture="20">5</Channel>
      </Level>
      <Playback>
@@ -5323,7 +5376,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="176"/>
      </Enable>
