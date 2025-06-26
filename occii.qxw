@@ -11,9 +11,7 @@
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1 - Main" ID="0">
     <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1"/>
-    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
-     <PluginParameters UniverseChannels="144"/>
-    </Output>
+    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3 - Loopback" ID="2">
@@ -170,20 +168,10 @@
    <Model>LED Par 56</Model>
    <Mode>6 Channel</Mode>
    <ID>14</ID>
-   <Name>Steve's light</Name>
+   <Name>Merch light</Name>
    <Universe>0</Universe>
    <Address>65</Address>
    <Channels>6</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>Eurolite</Manufacturer>
-   <Model>LED PAR 56 RGB DMX</Model>
-   <Mode>5 Channels</Mode>
-   <ID>15</ID>
-   <Name>Merch light</Name>
-   <Universe>0</Universe>
-   <Address>72</Address>
-   <Channels>5</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Eurolite</Manufacturer>
@@ -341,7 +329,7 @@
    <Model>Generic RGB</Model>
    <Mode>RGB Dimmer</Mode>
    <ID>33</ID>
-   <Name>LP Steve's light</Name>
+   <Name>LP Merch light</Name>
    <Universe>2</Universe>
    <Address>20</Address>
    <Channels>4</Channels>
@@ -429,7 +417,6 @@
    <Head X="1" Y="0" Fixture="11">0</Head>
    <Head X="1" Y="1" Fixture="13">0</Head>
    <Head X="1" Y="2" Fixture="14">0</Head>
-   <Head X="2" Y="2" Fixture="15">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="5">
    <Name>Room pars</Name>
@@ -485,9 +472,8 @@
    <Step Number="2">206</Step>
    <Step Number="3">204</Step>
    <Step Number="4">18</Step>
-   <Step Number="5">183</Step>
-   <Step Number="6">61</Step>
-   <Step Number="7">64</Step>
+   <Step Number="5">61</Step>
+   <Step Number="6">64</Step>
   </Function>
   <Function ID="3" Type="Scene" Name="All red" Path="Still colors/Full stage presets">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
@@ -745,10 +731,6 @@
    <Speed FadeIn="0" FadeOut="1500" Duration="0"/>
    <FixtureVal ID="25">0,223</FixtureVal>
   </Function>
-  <Function ID="27" Type="Scene" Name="Merch light on" Path="Effects and others">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
-   <FixtureVal ID="15">3,255</FixtureVal>
-  </Function>
   <Function ID="28" Type="Scene" Name="Only stage backs" Path="Chaser scenes/Stage/Front lights solo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="27">3,255</FixtureVal>
@@ -893,7 +875,7 @@
    <FixtureVal ID="37">5,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="323"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="323"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -976,7 +958,7 @@
    <FixtureVal ID="31">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="32">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="61" Type="Scene" Name="Steve's light default color" Path="Still colors">
+  <Function ID="61" Type="Scene" Name="Merch light default color" Path="Still colors">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="33">0,255,1,255,2,255</FixtureVal>
   </Function>
@@ -1054,12 +1036,12 @@
    <FixtureVal ID="31">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="32">0,0,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="73" Type="Scene" Name="Steve's light on" Path="Effects and others">
+  <Function ID="73" Type="Scene" Name="Merch light on" Path="Effects and others">
    <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
    <FixtureVal ID="33">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="647"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="647"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1111,7 +1093,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,0</FixtureVal>
   </Function>
-  <Function ID="84" Type="Scene" Name="Steve's light off" Path="Effects and others">
+  <Function ID="84" Type="Scene" Name="Merch light off" Path="Effects and others">
    <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
    <FixtureVal ID="33">3,0</FixtureVal>
   </Function>
@@ -1126,10 +1108,6 @@
   <Function ID="86" Type="Scene" Name="New Scene" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">1,0</FixtureVal>
-  </Function>
-  <Function ID="87" Type="Scene" Name="Merch light off" Path="Effects and others">
-   <Speed FadeIn="2000" FadeOut="2000" Duration="0"/>
-   <FixtureVal ID="15">3,0</FixtureVal>
   </Function>
   <Function ID="88" Type="Scene" Name="Blinders on full" Path="Effects and others">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1446,7 +1424,7 @@
    <FixtureVal ID="32">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="647"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="647"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1454,7 +1432,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">147</Step>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="647"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="647"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1470,7 +1448,7 @@
    <FixtureVal ID="32">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="323"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="323"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1481,7 +1459,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="323"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="323"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1492,7 +1470,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="323"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="323"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1619,10 +1597,6 @@
    <FixtureVal ID="9">3,70</FixtureVal>
    <FixtureVal ID="10">3,70</FixtureVal>
   </Function>
-  <Function ID="183" Type="Scene" Name="Merch light default color" Path="Still colors">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="15">0,255,1,255,2,255</FixtureVal>
-  </Function>
   <Function ID="184" Type="Scene" Name="Room strobes 25%" Path="Par strobes/Room">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>11,76</ChannelGroupsVal>
@@ -1736,12 +1710,11 @@
   <Function ID="205" Type="Collection" Name="Opening effects" Path="Openings">
    <Step Number="0">57</Step>
    <Step Number="1">78</Step>
-   <Step Number="2">27</Step>
-   <Step Number="3">79</Step>
-   <Step Number="4">81</Step>
-   <Step Number="5">83</Step>
-   <Step Number="6">84</Step>
-   <Step Number="7">89</Step>
+   <Step Number="2">79</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">83</Step>
+   <Step Number="5">89</Step>
+   <Step Number="6">73</Step>
   </Function>
   <Function ID="206" Type="Collection" Name="Opening stage color" Path="Openings">
    <Step Number="0">48</Step>
@@ -1753,7 +1726,7 @@
    <Step Number="6">63</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right">
-   <Speed FadeIn="0" FadeOut="500" Duration="647"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="647"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1787,8 +1760,8 @@
    <EndColor>4291299584</EndColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>6</FixtureGroup>
-   <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="5"/>
+   <Property Name="presetIndex" Value="Rainbow"/>
   </Function>
   <Function ID="214" Type="Scene" Name="Room strobes 80%" Path="Par strobes/Room">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1817,11 +1790,11 @@
    <EndColor>4278190335</EndColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>5</FixtureGroup>
-   <Property Name="presetIndex" Value="Sunset"/>
    <Property Name="presetSize" Value="5"/>
+   <Property Name="presetIndex" Value="Sunset"/>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="647"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="647"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1829,7 +1802,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">44</Step>
   </Function>
   <Function ID="218" Type="Chaser" Name="Backlights random" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="647"/>
+   <Speed FadeIn="196" FadeOut="529" Duration="647"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1873,7 +1846,6 @@
    <FxItem ID="12" XPos="524.906" YPos="586.466"/>
    <FxItem ID="13" XPos="2203.45" YPos="2699.1"/>
    <FxItem ID="14" XPos="2013.67" YPos="4883.87"/>
-   <FxItem ID="15" XPos="2941.91" YPos="5042.33"/>
    <FxItem ID="16" XPos="1396.55" YPos="2879.31"/>
    <FxItem ID="17" XPos="3448.28" YPos="2887.93"/>
    <FxItem ID="18" XPos="1387.93" YPos="3896.55"/>
@@ -2005,8 +1977,8 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="129"/>
     </Button>
-    <Button Caption="Steve's light" ID="15" Icon="">
-     <WindowState Visible="True" X="280" Y="135" Width="80" Height="80"/>
+    <Button Caption="Merch light" ID="15" Icon="">
+     <WindowState Visible="True" X="460" Y="135" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -2017,7 +1989,7 @@
      <Function ID="73"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <Input Universe="0" Channel="138"/>
+     <Input Universe="0" Channel="140"/>
     </Button>
     <Button Caption="Smoke ventilator" ID="16" Icon="">
      <WindowState Visible="True" X="100" Y="135" Width="80" Height="80"/>
@@ -2047,19 +2019,19 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="137"/>
     </Button>
-    <Button Caption="Merch light" ID="19" Icon="">
-     <WindowState Visible="True" X="460" Y="135" Width="80" Height="80"/>
+    <Button Caption="Flash 10" ID="19" Icon="">
+     <WindowState Visible="True" X="280" Y="135" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4282795590</BackgroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="27"/>
+     <Function ID="4294967295"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
-     <Input Universe="0" Channel="140"/>
+     <Input Universe="0" Channel="138"/>
     </Button>
     <Button Caption="Stage rainbow" ID="20" Icon="">
      <WindowState Visible="True" X="370" Y="45" Width="80" Height="80"/>
@@ -2248,7 +2220,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="35"/>
      </AbsoluteValue>
-     <Time>0</Time>
+     <Time>196</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">217</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">47</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">207</Function>
@@ -2286,7 +2258,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="36"/>
      </AbsoluteValue>
-     <Time>500</Time>
+     <Time>529</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">217</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">47</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">207</Function>
@@ -2337,26 +2309,6 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Slider Caption="Merch light color override" ID="140" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="430" Y="45" Width="115" Height="235"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4278190080</ForegroundColor>
-      <BackgroundColor>4279374354</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="true">Level</SliderMode>
-     <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="255">
-      <Channel Fixture="15">0</Channel>
-      <Channel Fixture="15">1</Channel>
-      <Channel Fixture="15">2</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
     <Slider Caption="Strobe intensity" ID="92" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="10" Y="45" Width="80" Height="235"/>
      <Appearance>
@@ -2502,7 +2454,7 @@
       <Function>4294967295</Function>
      </Playback>
     </Slider>
-    <Slider Caption="Steve's light color override" ID="88" WidgetStyle="Knob" InvertedAppearance="false">
+    <Slider Caption="Merch light color override" ID="88" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="550" Y="45" Width="115" Height="235"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -4233,7 +4185,7 @@
       </Appearance>
       <Input Universe="2" Channel="23"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
