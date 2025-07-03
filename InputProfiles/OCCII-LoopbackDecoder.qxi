@@ -73,4 +73,16 @@
   <Name>Blinder front right max intensity</Name>
   <Type>Slider</Type>
  </Channel>
+ <Channel Number="43">
+  <Name>Crowns strobe ring speed</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="44">
+  <Name>Crowns strobe ring toggle</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="45">
+  <Name>Crowns strobe ring output</Name>
+  <Type>Slider</Type>
+ </Channel>
 </InputProfile>
