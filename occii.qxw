@@ -1558,8 +1558,8 @@
    <EndColor>4294901760</EndColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>6</FixtureGroup>
-   <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="5"/>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
@@ -2138,7 +2138,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="170">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="28">3</Channel>
       <Channel Fixture="29">3</Channel>
      </Level>
@@ -2175,7 +2175,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="162">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="31">3</Channel>
       <Channel Fixture="32">3</Channel>
      </Level>
@@ -2194,7 +2194,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="172">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="27">3</Channel>
      </Level>
      <Playback>
@@ -2834,7 +2834,7 @@
       </Appearance>
       <Input Universe="2" Channel="0"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">0</Channel>
       </Level>
       <Playback>
@@ -2852,7 +2852,7 @@
       </Appearance>
       <Input Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">1</Channel>
       </Level>
       <Playback>
@@ -2870,7 +2870,7 @@
       </Appearance>
       <Input Universe="2" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">2</Channel>
       </Level>
       <Playback>
@@ -2888,7 +2888,7 @@
       </Appearance>
       <Input Universe="2" Channel="3"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="170"/>
+      <Level LowLimit="0" HighLimit="255" Value="1"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -2920,7 +2920,7 @@
       </Appearance>
       <Input Universe="2" Channel="16"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">0</Channel>
       </Level>
       <Playback>
@@ -2938,7 +2938,7 @@
       </Appearance>
       <Input Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">1</Channel>
       </Level>
       <Playback>
@@ -2956,7 +2956,7 @@
       </Appearance>
       <Input Universe="2" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">2</Channel>
       </Level>
       <Playback>
@@ -2974,7 +2974,7 @@
       </Appearance>
       <Input Universe="2" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="170"/>
+      <Level LowLimit="0" HighLimit="255" Value="1"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3006,7 +3006,7 @@
       </Appearance>
       <Input Universe="2" Channel="4"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="19">0</Channel>
       </Level>
       <Playback>
@@ -3024,7 +3024,7 @@
       </Appearance>
       <Input Universe="2" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="19">1</Channel>
       </Level>
       <Playback>
@@ -3042,7 +3042,7 @@
       </Appearance>
       <Input Universe="2" Channel="6"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="19">2</Channel>
       </Level>
       <Playback>
@@ -3060,7 +3060,7 @@
       </Appearance>
       <Input Universe="2" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="162"/>
+      <Level LowLimit="0" HighLimit="255" Value="1"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3092,7 +3092,7 @@
       </Appearance>
       <Input Universe="2" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">0</Channel>
       </Level>
       <Playback>
@@ -3110,7 +3110,7 @@
       </Appearance>
       <Input Universe="2" Channel="9"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">1</Channel>
       </Level>
       <Playback>
@@ -3128,7 +3128,7 @@
       </Appearance>
       <Input Universe="2" Channel="10"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">2</Channel>
       </Level>
       <Playback>
@@ -3146,7 +3146,7 @@
       </Appearance>
       <Input Universe="2" Channel="11"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="172"/>
+      <Level LowLimit="0" HighLimit="255" Value="1"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3178,7 +3178,7 @@
       </Appearance>
       <Input Universe="2" Channel="12"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">0</Channel>
       </Level>
       <Playback>
@@ -3196,7 +3196,7 @@
       </Appearance>
       <Input Universe="2" Channel="13"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">1</Channel>
       </Level>
       <Playback>
@@ -3214,7 +3214,7 @@
       </Appearance>
       <Input Universe="2" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="228">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">2</Channel>
       </Level>
       <Playback>
@@ -3232,7 +3232,7 @@
       </Appearance>
       <Input Universe="2" Channel="15"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="162"/>
+      <Level LowLimit="0" HighLimit="255" Value="1"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4263,7 +4263,7 @@
     <Shortcut Page="6" Name="Page: 7">
      <Input Universe="0" Channel="175"/>
     </Shortcut>
-    <Shortcut Page="7" Name="Page: 8">
+    <Shortcut Page="7" Name="8: Audio input (experimental)">
      <Input Universe="0" Channel="178"/>
     </Shortcut>
     <PagesLoop>False</PagesLoop>
@@ -5284,7 +5284,7 @@
       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
      </Appearance>
     </Label>
-    <Label Caption="4: Stage UV dimmer" ID="338" Page="2">
+    <Label Caption="5: Stage UV dimmer" ID="338" Page="2">
      <WindowState Visible="False" X="470" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -5726,7 +5726,7 @@
       </Playback>
      </Slider>
     </Frame>
-    <SpeedDial Caption="Duration" ID="210" Page="4">
+    <SpeedDial Caption="Duration" ID="210" Page="5">
      <WindowState Visible="False" X="595" Y="40" Width="340" Height="170"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -5759,7 +5759,7 @@
       <Value>500</Value>
      </Preset>
     </SpeedDial>
-    <SpeedDial Caption="Fade In" ID="211" Page="4">
+    <SpeedDial Caption="Fade In" ID="211" Page="5">
      <WindowState Visible="False" X="595" Y="215" Width="340" Height="160"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -5789,7 +5789,7 @@
       <Value>500</Value>
      </Preset>
     </SpeedDial>
-    <SpeedDial Caption="Fade Out" ID="212" Page="4">
+    <SpeedDial Caption="Fade Out" ID="212" Page="5">
      <WindowState Visible="False" X="595" Y="380" Width="340" Height="170"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -5819,7 +5819,7 @@
       <Value>500</Value>
      </Preset>
     </SpeedDial>
-    <Matrix Caption="Backlights" ID="208" Page="4">
+    <Matrix Caption="Backlights" ID="208" Page="5">
      <WindowState Visible="False" X="5" Y="40" Width="585" Height="510"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -5833,36 +5833,36 @@
      <Control ID="2">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="3">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Sunset</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Sunset</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="4">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Abstract</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Abstract</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="5">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Ocean</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Ocean</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="6">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="orientation">Radial</Property>
+      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="7">
@@ -5879,56 +5879,56 @@
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="direction">Right</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
+      <Property Name="tailfade">Yes</Property>
+      <Property Name="direction">Right</Property>
      </Control>
      <Control ID="10">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="direction">Left</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
+      <Property Name="tailfade">Yes</Property>
+      <Property Name="direction">Left</Property>
      </Control>
      <Control ID="11">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="direction">In</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
+      <Property Name="tailfade">Yes</Property>
+      <Property Name="direction">In</Property>
      </Control>
      <Control ID="12">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="direction">Out</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
+      <Property Name="tailfade">Yes</Property>
+      <Property Name="direction">Out</Property>
      </Control>
      <Control ID="13">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
-      <Property Name="presetIndex">Fire</Property>
       <Property Name="stepsize">50</Property>
-      <Property Name="ramp">20</Property>
+      <Property Name="presetIndex">Fire</Property>
       <Property Name="presetSize">5</Property>
+      <Property Name="ramp">20</Property>
      </Control>
      <Control ID="14">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
-      <Property Name="presetIndex">Ocean</Property>
       <Property Name="stepsize">50</Property>
-      <Property Name="ramp">20</Property>
+      <Property Name="presetIndex">Ocean</Property>
       <Property Name="presetSize">10</Property>
+      <Property Name="ramp">20</Property>
      </Control>
      <Control ID="15">
       <Type>Animation</Type>
       <Resource>Random Pixel Per Row</Resource>
      </Control>
     </Matrix>
-    <Frame Caption="Manual color selection" ID="213" Page="3">
+    <Frame Caption="Manual color selection" ID="213" Page="4">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5936,7 +5936,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="160" Y="40" Width="625" Height="500"/>
+     <WindowState Visible="False" X="170" Y="40" Width="625" Height="500"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -6299,7 +6299,7 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="3: Steve's light color" ID="82" Page="2">
+    <Label Caption="4: Steve's light color" ID="82" Page="2">
      <WindowState Visible="False" X="355" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -6553,6 +6553,19 @@
       </Playback>
      </Slider>
     </Frame>
+    <AudioTriggers BarsNumber="16" Caption="Crown centers audio based intensity" ID="80" Page="7">
+     <WindowState Visible="False" X="5" Y="45" Width="930" Height="505"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <VolumeBar Name="Volume Bar" Type="1" MinThreshold="51" MaxThreshold="204" Divisor="1" Index="1000">
+      <DMXChannels>39,3,41,3</DMXChannels>
+     </VolumeBar>
+    </AudioTriggers>
    </Frame>
    <Button Caption="Black Out" ID="2" Icon="">
     <WindowState Visible="True" X="1820" Y="10" Width="85" Height="235"/>
