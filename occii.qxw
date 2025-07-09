@@ -819,14 +819,6 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="24">1,255</FixtureVal>
   </Function>
-  <Function ID="28" Type="Scene" Name="Only stage backs" Path="Chaser scenes/Stage/Front lights solo">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="27">3,255</FixtureVal>
-   <FixtureVal ID="28">3,255</FixtureVal>
-   <FixtureVal ID="29">3,255</FixtureVal>
-   <FixtureVal ID="31">3,255</FixtureVal>
-   <FixtureVal ID="32">3,255</FixtureVal>
-  </Function>
   <Function ID="29" Type="Scene" Name="New Scene" Hidden="True">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="26">0,0</FixtureVal>
@@ -963,7 +955,7 @@
    <FixtureVal ID="37">5,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="343"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="361"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -973,9 +965,12 @@
    <Step Number="3" FadeIn="0" Hold="404" FadeOut="1372">51</Step>
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">42</Step>
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">39</Step>
-   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">45</Step>
-   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">44</Step>
-   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="8" FadeIn="196" Hold="147" FadeOut="529">185</Step>
+   <Step Number="9" FadeIn="196" Hold="147" FadeOut="529">184</Step>
+   <Step Number="10" FadeIn="196" Hold="147" FadeOut="529">189</Step>
+   <Step Number="11" FadeIn="196" Hold="147" FadeOut="529">186</Step>
   </Function>
   <Function ID="48" Type="Scene" Name="Back outs white" Path="Still colors/Stage backs">
    <Speed FadeIn="3000" FadeOut="3000" Duration="809"/>
@@ -1062,6 +1057,15 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="30">0,0</FixtureVal>
   </Function>
+  <Function ID="64" Type="Chaser" Name="Front random" Path="Dim chasers">
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+  </Function>
   <Function ID="65" Type="Scene" Name="Back mids magenta" Path="Still colors/Stage backs">
    <Speed FadeIn="3000" FadeOut="3000" Duration="404"/>
    <FixtureVal ID="31">0,255,1,0,2,255</FixtureVal>
@@ -1086,6 +1090,16 @@
    <FixtureVal ID="9">4,170</FixtureVal>
    <FixtureVal ID="10">4,170</FixtureVal>
   </Function>
+  <Function ID="68" Type="Chaser" Name="Backlights blinking" Path="Backlight chasers">
+   <Speed FadeIn="0" FadeOut="500" Duration="180"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">150</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">154</Step>
+   <Step Number="2" FadeIn="0" Hold="343" FadeOut="500">154</Step>
+   <Step Number="3" FadeIn="0" Hold="343" FadeOut="500">154</Step>
+  </Function>
   <Function ID="70" Type="Scene" Name="Back mids blue" Path="Still colors/Stage backs">
    <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <FixtureVal ID="31">0,0,1,0,2,255</FixtureVal>
@@ -1106,7 +1120,7 @@
    <FixtureVal ID="33">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="686"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1449,7 +1463,7 @@
    <FixtureVal ID="32">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="686"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1457,7 +1471,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">147</Step>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="686"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1473,7 +1487,7 @@
    <FixtureVal ID="32">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="343"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="361"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1484,7 +1498,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="343"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="361"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1495,7 +1509,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="343"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="361"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1628,7 +1642,7 @@
    <FixtureVal ID="38">3,255</FixtureVal>
   </Function>
   <Function ID="194" Type="Chaser" Name="Crowns ring/center" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1667,7 +1681,7 @@
    <Step Number="6">63</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right">
-   <Speed FadeIn="196" FadeOut="529" Duration="686"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1701,12 +1715,12 @@
    <EndColor>4294901760</EndColor>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>6</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
    <Property Name="presetIndex" Value="Rainbow"/>
+   <Property Name="orientation" Value="Horizontal"/>
    <Property Name="presetSize" Value="5"/>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="686"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1714,7 +1728,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">44</Step>
   </Function>
   <Function ID="218" Type="Chaser" Name="Backlights random" Path="Backlight chasers">
-   <Speed FadeIn="196" FadeOut="529" Duration="686"/>
+   <Speed FadeIn="0" FadeOut="500" Duration="722"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2103,9 +2117,11 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>686</Time>
+     <Time>722</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">217</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">64</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">194</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">207</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">156</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">157</Function>
@@ -2113,6 +2129,7 @@
      <Function FadeIn="0" FadeOut="0" Duration="5">155</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">153</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">151</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="4">68</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">74</Function>
      <Preset ID="16">
       <Name>1s</Name>
@@ -2133,9 +2150,11 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="35"/>
      </AbsoluteValue>
-     <Time>196</Time>
+     <Time>0</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">217</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">47</Function>
+     <Function FadeIn="6" FadeOut="0" Duration="0">64</Function>
+     <Function FadeIn="6" FadeOut="0" Duration="0">194</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">207</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">156</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">157</Function>
@@ -2143,6 +2162,7 @@
      <Function FadeIn="6" FadeOut="0" Duration="0">155</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">153</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">151</Function>
+     <Function FadeIn="6" FadeOut="0" Duration="0">68</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">74</Function>
      <Preset ID="16">
       <Name>0s</Name>
@@ -2171,9 +2191,11 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="36"/>
      </AbsoluteValue>
-     <Time>529</Time>
+     <Time>500</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">217</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">47</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">64</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">194</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">207</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">156</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">157</Function>
@@ -2181,6 +2203,7 @@
      <Function FadeIn="0" FadeOut="6" Duration="0">155</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">153</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">151</Function>
+     <Function FadeIn="0" FadeOut="6" Duration="0">68</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">74</Function>
      <Preset ID="16">
       <Name>0s</Name>
@@ -2789,7 +2812,7 @@
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3048,16 +3071,16 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="201"/>
      </Button>
-     <Button Caption="Override 10" ID="627" Icon="">
+     <Button Caption="Backlights blinking" ID="627" Icon="">
       <WindowState Visible="True" X="680" Y="50" Width="75" Height="70"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundColor>4282795590</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="68"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="200"/>
@@ -3159,7 +3182,7 @@
       </Appearance>
       <Input Universe="2" Channel="3"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3245,7 +3268,7 @@
       </Appearance>
       <Input Universe="2" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3331,7 +3354,7 @@
       </Appearance>
       <Input Universe="2" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3417,7 +3440,7 @@
       </Appearance>
       <Input Universe="2" Channel="11"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3503,7 +3526,7 @@
       </Appearance>
       <Input Universe="2" Channel="15"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -6076,36 +6099,36 @@
      <Control ID="2">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetIndex">Rainbow</Property>
+      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="3">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetIndex">Sunset</Property>
+      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="4">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetIndex">Abstract</Property>
+      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="5">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetIndex">Ocean</Property>
+      <Property Name="orientation">Horizontal</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="6">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="orientation">Radial</Property>
       <Property Name="presetIndex">Rainbow</Property>
+      <Property Name="orientation">Radial</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="7">
@@ -6121,50 +6144,50 @@
      <Control ID="9">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
+      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="direction">Right</Property>
      </Control>
      <Control ID="10">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
+      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="direction">Left</Property>
      </Control>
      <Control ID="11">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
+      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="direction">In</Property>
      </Control>
      <Control ID="12">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
+      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
       <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="direction">Out</Property>
      </Control>
      <Control ID="13">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
-      <Property Name="ramp">20</Property>
       <Property Name="presetIndex">Fire</Property>
-      <Property Name="presetSize">5</Property>
       <Property Name="stepsize">50</Property>
+      <Property Name="presetSize">5</Property>
+      <Property Name="ramp">20</Property>
      </Control>
      <Control ID="14">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
-      <Property Name="ramp">20</Property>
       <Property Name="presetIndex">Ocean</Property>
-      <Property Name="presetSize">10</Property>
       <Property Name="stepsize">50</Property>
+      <Property Name="presetSize">10</Property>
+      <Property Name="ramp">20</Property>
      </Control>
      <Control ID="15">
       <Type>Animation</Type>
