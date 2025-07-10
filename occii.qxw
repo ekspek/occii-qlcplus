@@ -4,14 +4,16 @@
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.1</Version>
-  <Author>Daniel</Author>
+  <Author>occii</Author>
  </Creator>
  <Engine Autostart="2">
   <InputOutputMap>
    <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1 - Main" ID="0">
-    <Input Plugin="MIDI" UID="None" Line="0" Profile="Ayra Digicon-1"/>
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1"/>
+    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
+     <PluginParameters UniverseChannels="144"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3 - Loopback" ID="2">
@@ -5360,7 +5362,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Back mids" ID="136" Page="2">
@@ -5370,7 +5372,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="3: Back center" ID="156" Page="2">
@@ -5380,7 +5382,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="4: Sides" ID="166" Page="2">
@@ -5390,7 +5392,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Front sides" ID="176" Page="2">
@@ -5400,7 +5402,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Front center" ID="186" Page="2">
@@ -5410,7 +5412,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="8:" ID="216" Page="2">
@@ -5420,7 +5422,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Strobe intensity" ID="140" Page="3">
@@ -5430,7 +5432,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Strobe speed" ID="157" Page="3">
@@ -5440,14 +5442,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Strobe intensity" ID="295" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5487,7 +5489,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="3: Crowns strobe ring speed" ID="330" Page="3">
@@ -5497,7 +5499,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Front blinders left" ID="331" Page="3">
@@ -5507,7 +5509,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Front blinders right" ID="332" Page="3">
@@ -5517,7 +5519,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="7: Back blinders left" ID="333" Page="3">
@@ -5527,7 +5529,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="8: Back blinders right" ID="334" Page="3">
@@ -5537,7 +5539,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Left ring dimmer" ID="335" Page="4">
@@ -5547,7 +5549,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Right ring dimmer" ID="338" Page="4">
@@ -5557,14 +5559,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Strobe speed" ID="345" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5599,9 +5601,9 @@
     </Frame>
     <Frame Caption="Flower speed" ID="347" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5637,9 +5639,9 @@
     </Frame>
     <Frame Caption="Room dimmer" ID="352" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5683,7 +5685,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="8:" ID="361">
@@ -5693,7 +5695,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="7:" ID="362">
@@ -5703,7 +5705,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Front center" ID="363">
@@ -5713,7 +5715,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Back stages" ID="364">
@@ -5723,7 +5725,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="4: Sides" ID="365">
@@ -5733,7 +5735,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="3: Back center" ID="366">
@@ -5743,7 +5745,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Back mids" ID="367">
@@ -5753,7 +5755,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Back outs" ID="368">
@@ -5763,14 +5765,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Back outs" ID="370" Page="2">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5806,9 +5808,9 @@
     </Frame>
     <Frame Caption="Back outs" ID="372" Page="2">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5844,9 +5846,9 @@
     </Frame>
     <Frame Caption="Back center" ID="374" Page="2">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5881,9 +5883,9 @@
     </Frame>
     <Frame Caption="Sides" ID="376" Page="2">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5919,9 +5921,9 @@
     </Frame>
     <Frame Caption="Front sides" ID="378" Page="2">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -5957,9 +5959,9 @@
     </Frame>
     <Frame Caption="Front center" ID="380" Page="2">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -6145,49 +6147,49 @@
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="taillength">50</Property>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="direction">Right</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="10">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="taillength">50</Property>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="direction">Left</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="11">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="taillength">50</Property>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="direction">In</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="12">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="taillength">50</Property>
-      <Property Name="orientation">Horizontal</Property>
       <Property Name="direction">Out</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="13">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
       <Property Name="presetIndex">Fire</Property>
       <Property Name="stepsize">50</Property>
-      <Property Name="presetSize">5</Property>
       <Property Name="ramp">20</Property>
+      <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="14">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
       <Property Name="presetIndex">Ocean</Property>
       <Property Name="stepsize">50</Property>
-      <Property Name="presetSize">10</Property>
       <Property Name="ramp">20</Property>
+      <Property Name="presetSize">10</Property>
      </Control>
      <Control ID="15">
       <Type>Animation</Type>
@@ -6418,9 +6420,9 @@
     </Frame>
     <Frame Caption="Front blinders left" ID="382" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -6455,9 +6457,9 @@
     </Frame>
     <Frame Caption="Front blinders left" ID="388" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -6492,9 +6494,9 @@
     </Frame>
     <Frame Caption="Crowns strobe ring speed" ID="5" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -6614,7 +6616,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="4: Pit light strobe" ID="162" Page="3">
@@ -6624,14 +6626,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Pit light strobe" ID="164" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -6684,7 +6686,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back outs color" ID="174" Page="1">
@@ -6910,7 +6912,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back mids color" ID="185" Page="1">
@@ -7143,7 +7145,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back mids color" ID="196" Page="1">
@@ -7376,7 +7378,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Sides color" ID="206" Page="1">
@@ -7609,7 +7611,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back stages color" ID="296" Page="1">
@@ -7842,7 +7844,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Front center color" ID="322" Page="1">
@@ -8075,7 +8077,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="8:" ID="324" Page="1">
@@ -8085,7 +8087,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Button Caption="Clear colors" ID="326" Page="1" Icon="">
@@ -8104,9 +8106,9 @@
     </Button>
     <Frame Caption="Pit light dimmer" ID="576" Page="3">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8181,7 +8183,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Room dimmer" ID="581" Page="3">
@@ -8191,7 +8193,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Pit light dimmer" ID="582" Page="3">
@@ -8201,14 +8203,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Crowns UV dimmer" ID="585" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8249,7 +8251,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="4: DJ light color" ID="587" Page="3">
@@ -8259,7 +8261,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Pit light color" ID="588" Page="3">
@@ -8269,7 +8271,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Flower effect" ID="589" Page="3">
@@ -8279,7 +8281,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="7: Flower effect speed" ID="590" Page="3">
@@ -8289,7 +8291,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="8: Smoke power" ID="591" Page="3">
@@ -8299,7 +8301,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Left ring color" ID="592" Page="4">
@@ -8309,7 +8311,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="4: Left center color" ID="593" Page="4">
@@ -8319,7 +8321,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Right ring color" ID="594" Page="4">
@@ -8329,7 +8331,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="8: Right center color" ID="595" Page="4">
@@ -8339,14 +8341,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Left ring dimmer" ID="597" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8381,9 +8383,9 @@
     </Frame>
     <Frame Caption="Left ring color" ID="599" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8419,9 +8421,9 @@
     </Frame>
     <Frame Caption="Left center dimmer" ID="601" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8456,9 +8458,9 @@
     </Frame>
     <Frame Caption="Left ring color" ID="603" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8494,9 +8496,9 @@
     </Frame>
     <Frame Caption="Right ring dimmer" ID="605" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8531,9 +8533,9 @@
     </Frame>
     <Frame Caption="Right ring color" ID="607" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8569,9 +8571,9 @@
     </Frame>
     <Frame Caption="Right center dimmer" ID="609" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8606,9 +8608,9 @@
     </Frame>
     <Frame Caption="Left ring color" ID="611" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8649,7 +8651,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Label Caption="3: Right strobe" ID="622" Page="4">
@@ -8659,14 +8661,14 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,75,0,0,0,0,0,Bold</Font>
      </Appearance>
     </Label>
     <Frame Caption="Left crown strobe" ID="624" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -8701,9 +8703,9 @@
     </Frame>
     <Frame Caption="Left crown strobe" ID="626" Page="4">
      <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
+      <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
