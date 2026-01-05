@@ -3,7 +3,7 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.13.1</Version>
+  <Version>4.14.3</Version>
   <Author>occii</Author>
  </Creator>
  <Engine Autostart="2">
@@ -12,7 +12,7 @@
    <Universe Name="Universe 1 - Main" ID="0">
     <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1"/>
     <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
-     <PluginParameters UniverseChannels="144"/>
+     <PluginParameters UniverseChannels="119"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
@@ -80,7 +80,7 @@
    <Model>Crown FX PAR77</Model>
    <Mode>9 Channel</Mode>
    <ID>5</ID>
-   <Name>Stage side left</Name>
+   <Name>Stage front left</Name>
    <Universe>0</Universe>
    <Address>17</Address>
    <Channels>9</Channels>
@@ -90,7 +90,7 @@
    <Model>Crown FX PAR77</Model>
    <Mode>9 Channel</Mode>
    <ID>6</ID>
-   <Name>Stage side right</Name>
+   <Name>Stage front right</Name>
    <Universe>0</Universe>
    <Address>26</Address>
    <Channels>9</Channels>
@@ -110,7 +110,7 @@
    <Model>Vector FT-64</Model>
    <Mode>6 channels</Mode>
    <ID>8</ID>
-   <Name>Stage front left</Name>
+   <Name>Stage side left</Name>
    <Universe>0</Universe>
    <Address>5</Address>
    <Channels>6</Channels>
@@ -120,7 +120,7 @@
    <Model>Vector FT-64</Model>
    <Mode>6 channels</Mode>
    <ID>9</ID>
-   <Name>Stage front right</Name>
+   <Name>Stage side right</Name>
    <Universe>0</Universe>
    <Address>11</Address>
    <Channels>6</Channels>
@@ -915,7 +915,7 @@
    <FixtureVal ID="32">5,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="326"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1023,7 +1023,7 @@
    <FixtureVal ID="25">0,0</FixtureVal>
   </Function>
   <Function ID="64" Type="Chaser" Name="Front random" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1058,7 +1058,7 @@
    <FixtureVal ID="9">4,170</FixtureVal>
   </Function>
   <Function ID="68" Type="Chaser" Name="Backlights blinking" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="163"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1091,7 +1091,7 @@
    <FixtureVal ID="28">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1263,78 +1263,86 @@
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="32">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,0</FixtureVal>
   </Function>
   <Function ID="112" Type="Scene" Name="Back sides off" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="32">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,0</FixtureVal>
   </Function>
   <Function ID="113" Type="Scene" Name="Back sides green" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="32">0,0,1,255,2,0</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,0</FixtureVal>
   </Function>
   <Function ID="114" Type="Scene" Name="Back sides blue" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="32">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,0,3,255</FixtureVal>
   </Function>
   <Function ID="115" Type="Scene" Name="Back sides yellow" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="32">0,255,1,255,2,0</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,0</FixtureVal>
   </Function>
   <Function ID="116" Type="Scene" Name="Back sides cyan" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="32">0,0,1,255,2,255</FixtureVal>
+   <FixtureVal ID="2">1,0,2,255,3,255</FixtureVal>
   </Function>
   <Function ID="117" Type="Scene" Name="Back sides magenta" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="32">0,255,1,0,2,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,0,3,255</FixtureVal>
   </Function>
   <Function ID="118" Type="Scene" Name="Back sides white" Path="Still colors/Stage backs">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="31">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="32">0,255,1,255,2,255</FixtureVal>
+   <FixtureVal ID="2">1,255,2,255,3,255</FixtureVal>
   </Function>
-  <Function ID="119" Type="Scene" Name="Front sides off" Path="Still colors/Stage fronts">
+  <Function ID="119" Type="Scene" Name="Sides off" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="9">0,0,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="120" Type="Scene" Name="Front sides red" Path="Still colors/Stage fronts">
+  <Function ID="120" Type="Scene" Name="Sides red" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="9">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="121" Type="Scene" Name="Front sides yellow" Path="Still colors/Stage fronts">
+  <Function ID="121" Type="Scene" Name="Sides yellow" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="9">0,255,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="122" Type="Scene" Name="Front sides green" Path="Still colors/Stage fronts">
+  <Function ID="122" Type="Scene" Name="Sides green" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="9">0,0,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="123" Type="Scene" Name="Front sides cyan" Path="Still colors/Stage fronts">
+  <Function ID="123" Type="Scene" Name="Sides cyan" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="9">0,0,1,255,2,255</FixtureVal>
   </Function>
-  <Function ID="124" Type="Scene" Name="Front sides blue" Path="Still colors/Stage fronts">
+  <Function ID="124" Type="Scene" Name="Sides blue" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="9">0,0,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="125" Type="Scene" Name="Front sides magenta" Path="Still colors/Stage fronts">
+  <Function ID="125" Type="Scene" Name="Sides magenta" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="9">0,255,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="126" Type="Scene" Name="Front sides white" Path="Still colors/Stage fronts">
+  <Function ID="126" Type="Scene" Name="Sides white" Path="Still colors/Stage sides">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="8">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="9">0,255,1,255,2,255</FixtureVal>
@@ -1394,7 +1402,7 @@
    <FixtureVal ID="38">1,255</FixtureVal>
   </Function>
   <Function ID="139" Type="Chaser" Name="Back blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1402,7 +1410,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
   </Function>
   <Function ID="140" Type="Chaser" Name="Blinders back/front" Path="Blinder chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1410,7 +1418,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">210</Step>
   </Function>
   <Function ID="141" Type="Chaser" Name="Blinders back to front" Path="Blinder chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1466,7 +1474,7 @@
    <FixtureVal ID="27">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1474,7 +1482,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">147</Step>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1490,7 +1498,7 @@
    <FixtureVal ID="27">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="326"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1501,7 +1509,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="326"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1512,7 +1520,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="326"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1522,7 +1530,7 @@
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">11</Step>
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">39</Step>
   </Function>
-  <Function ID="165" Type="Scene" Name="Sides blue" Path="Still colors/Stage sides">
+  <Function ID="165" Type="Scene" Name="Front sides blue" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="35">0,0,1,0,2,255</FixtureVal>
@@ -1644,7 +1652,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="194" Type="Chaser" Name="Crowns ring/center" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1661,28 +1669,28 @@
    <FixtureVal ID="33">3,255</FixtureVal>
    <FixtureVal ID="35">3,255</FixtureVal>
   </Function>
-  <Function ID="201" Type="Scene" Name="Sides green" Path="Still colors/Stage sides">
+  <Function ID="201" Type="Scene" Name="Front sides green" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="35">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="34">0,0,1,255,2,0</FixtureVal>
    <FixtureVal ID="33">0,0,1,255,2,0</FixtureVal>
   </Function>
-  <Function ID="202" Type="Scene" Name="Sides red" Path="Still colors/Stage sides">
+  <Function ID="202" Type="Scene" Name="Front sides red" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="35">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="34">0,255,1,0,2,0</FixtureVal>
    <FixtureVal ID="33">0,255,1,0,2,0</FixtureVal>
   </Function>
-  <Function ID="203" Type="Scene" Name="Sides magenta" Path="Still colors/Stage sides">
+  <Function ID="203" Type="Scene" Name="Front sides magenta" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="35">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="34">0,255,1,0,2,255</FixtureVal>
    <FixtureVal ID="33">0,255,1,0,2,255</FixtureVal>
   </Function>
-  <Function ID="204" Type="Scene" Name="Sides yellow" Path="Still colors/Stage sides">
+  <Function ID="204" Type="Scene" Name="Front sides yellow" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,255,1,255,2,0</FixtureVal>
    <FixtureVal ID="35">0,255,1,255,2,0</FixtureVal>
@@ -1709,7 +1717,7 @@
    <Step Number="7">214</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1722,7 +1730,7 @@
    <Step Number="2">145</Step>
    <Step Number="3">146</Step>
   </Function>
-  <Function ID="209" Type="Scene" Name="Sides cyan" Path="Still colors/Stage sides">
+  <Function ID="209" Type="Scene" Name="Front sides cyan" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,0,1,255,2,255</FixtureVal>
    <FixtureVal ID="35">0,0,1,255,2,255</FixtureVal>
@@ -1742,26 +1750,26 @@
    <FixtureVal ID="30">0,255,1,255</FixtureVal>
   </Function>
   <Function ID="213" Type="RGBMatrix" Name="Backlights">
-   <Speed FadeIn="218" FadeOut="100" Duration="100"/>
+   <Speed FadeIn="218" FadeOut="100" Duration="213"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Gradient</Algorithm>
-   <MonoColor>4278190335</MonoColor>
-   <EndColor>4294901760</EndColor>
+   <Color Index="0">4278190335</Color>
+   <Color Index="1">4294901760</Color>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>6</FixtureGroup>
-   <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="5"/>
   </Function>
-  <Function ID="214" Type="Scene" Name="Sides white" Path="Still colors/Stage sides">
+  <Function ID="214" Type="Scene" Name="Front sides white" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="35">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="34">0,255,1,255,2,255</FixtureVal>
    <FixtureVal ID="33">0,255,1,255,2,255</FixtureVal>
   </Function>
-  <Function ID="215" Type="Scene" Name="Sides off" Path="Still colors/Stage sides">
+  <Function ID="215" Type="Scene" Name="Front sides off" Path="Still colors/Stage fronts">
    <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
    <FixtureVal ID="36">0,0,1,0,2,0</FixtureVal>
    <FixtureVal ID="35">0,0,1,0,2,0</FixtureVal>
@@ -1774,7 +1782,7 @@
    <FixtureVal ID="6">3,255</FixtureVal>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1782,7 +1790,7 @@
    <Step Number="1" FadeIn="0" Hold="244" FadeOut="500">222</Step>
   </Function>
   <Function ID="218" Type="Chaser" Name="Backlights random" Path="Backlight chasers">
-   <Speed FadeIn="0" FadeOut="500" Duration="653"/>
+   <Speed FadeIn="78" FadeOut="0" Duration="823"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1821,7 +1829,7 @@
    <FixtureVal ID="34">3,255</FixtureVal>
   </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
-   <Font>Roboto,12,-1,5,50,0,0,0,0,0</Font>
+   <Font>Roboto,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="5" Height="3" Depth="6" Units="0"/>
@@ -1914,7 +1922,7 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="133"/>
     </Button>
-    <Button Caption="Smoke" ID="11" Icon="">
+    <Button Caption="Flash 7" ID="11" Icon="">
      <WindowState Visible="True" X="10" Y="135" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -1984,7 +1992,7 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="140"/>
     </Button>
-    <Button Caption="Smoke ventilator" ID="16" Icon="">
+    <Button Caption="Flash 8" ID="16" Icon="">
      <WindowState Visible="True" X="100" Y="135" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -2012,7 +2020,7 @@
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="137"/>
     </Button>
-    <Button Caption="DJ light" ID="19" Icon="">
+    <Button Caption="Flash 10" ID="19" Icon="">
      <WindowState Visible="True" X="280" Y="135" Width="80" Height="80"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
@@ -2187,7 +2195,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>653</Time>
+     <Time>823</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">217</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">64</Function>
@@ -2223,7 +2231,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="35"/>
      </AbsoluteValue>
-     <Time>0</Time>
+     <Time>78</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">217</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">47</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">64</Function>
@@ -2267,7 +2275,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="36"/>
      </AbsoluteValue>
-     <Time>500</Time>
+     <Time>0</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">217</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">47</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">64</Function>
@@ -2306,7 +2314,7 @@
      <ForegroundColor>4294967295</ForegroundColor>
      <BackgroundColor>4284572001</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
-     <Font>Roboto,-1,28,5,75,0,0,0,0,0</Font>
+     <Font>Roboto,-1,28,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
     </Appearance>
    </Clock>
    <Clock Type="Stopwatch" Caption="" ID="45">
@@ -2316,7 +2324,7 @@
      <ForegroundColor>4294967295</ForegroundColor>
      <BackgroundColor>4284572001</BackgroundColor>
      <BackgroundImage>None</BackgroundImage>
-     <Font>Roboto,-1,28,5,75,0,0,0,0,0</Font>
+     <Font>Roboto,-1,28,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
     </Appearance>
     <PlayPause/>
     <Reset/>
@@ -2336,26 +2344,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Slider Caption="Front sides" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="330" Y="45" Width="75" Height="220"/>
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>4294967295</ForegroundColor>
-      <BackgroundColor>4279374354</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Input Universe="0" Channel="5"/>
-     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="4">
-      <Channel Fixture="8">4</Channel>
-      <Channel Fixture="9">4</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-    <Slider Caption="Sides" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+    <Slider Caption="Sides" ID="37" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="250" Y="45" Width="75" Height="220"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -2367,6 +2356,25 @@
      <Input Universe="0" Channel="4"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="8">4</Channel>
+      <Channel Fixture="9">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Front sides" ID="22" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="330" Y="45" Width="75" Height="220"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Input Universe="0" Channel="5"/>
+     <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="33">3</Channel>
       <Channel Fixture="34">3</Channel>
       <Channel Fixture="35">3</Channel>
@@ -2387,7 +2395,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
      </Level>
@@ -2406,7 +2414,7 @@
      </Appearance>
      <Input Universe="0" Channel="6"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="16">
       <Channel Fixture="7">3</Channel>
      </Level>
      <Playback>
@@ -2424,7 +2432,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="26">3</Channel>
       <Channel Fixture="27">3</Channel>
      </Level>
@@ -2443,7 +2451,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="255">
       <Channel Fixture="22">3</Channel>
      </Level>
      <Playback>
@@ -2535,7 +2543,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="2" ID="302">
@@ -2545,7 +2553,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="3" ID="303">
@@ -2555,7 +2563,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="4" ID="304">
@@ -2565,7 +2573,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="5" ID="305">
@@ -2575,7 +2583,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="6" ID="306">
@@ -2585,7 +2593,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="7" ID="307">
@@ -2595,7 +2603,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="8" ID="308">
@@ -2605,7 +2613,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="9" ID="309">
@@ -2615,7 +2623,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="10" ID="310">
@@ -2625,7 +2633,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Button Caption="Override 1" ID="612" Icon="">
@@ -2905,7 +2913,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="2" ID="101">
@@ -2915,7 +2923,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="3" ID="102">
@@ -2925,7 +2933,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="4" ID="103">
@@ -2935,7 +2943,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="5" ID="104">
@@ -2945,7 +2953,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="6" ID="105">
@@ -2955,7 +2963,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="7" ID="106">
@@ -2965,7 +2973,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="8" ID="107">
@@ -2975,7 +2983,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="9" ID="108">
@@ -2985,7 +2993,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Label Caption="10" ID="109">
@@ -2995,7 +3003,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>4279374354</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Roboto,10,-1,5,75,0,0,0,0,0</Font>
+       <Font>Roboto,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
       </Appearance>
      </Label>
      <Button Caption="Sides alternate" ID="247" Icon="">
@@ -3227,7 +3235,7 @@
       </Appearance>
       <Input Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="0">1</Channel>
       </Level>
       <Playback>
@@ -3263,7 +3271,7 @@
       </Appearance>
       <Input Universe="2" Channel="3"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3313,7 +3321,7 @@
       </Appearance>
       <Input Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">1</Channel>
       </Level>
       <Playback>
@@ -3349,7 +3357,7 @@
       </Appearance>
       <Input Universe="2" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3399,7 +3407,7 @@
       </Appearance>
       <Input Universe="2" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="16">1</Channel>
       </Level>
       <Playback>
@@ -3435,7 +3443,7 @@
       </Appearance>
       <Input Universe="2" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3485,7 +3493,7 @@
       </Appearance>
       <Input Universe="2" Channel="9"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">1</Channel>
       </Level>
       <Playback>
@@ -3521,7 +3529,7 @@
       </Appearance>
       <Input Universe="2" Channel="11"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3571,7 +3579,7 @@
       </Appearance>
       <Input Universe="2" Channel="13"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="4">1</Channel>
       </Level>
       <Playback>
@@ -3607,7 +3615,7 @@
       </Appearance>
       <Input Universe="2" Channel="15"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3719,7 +3727,7 @@
       </Appearance>
       <Input Universe="2" Channel="28"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="166">
+      <Level LowLimit="0" HighLimit="255" Value="186">
        <Channel Fixture="10">1</Channel>
       </Level>
       <Playback>
@@ -4078,7 +4086,7 @@
       </Appearance>
       <Input Universe="2" Channel="49"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4164,7 +4172,7 @@
       </Appearance>
       <Input Universe="2" Channel="53"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4250,7 +4258,7 @@
       </Appearance>
       <Input Universe="2" Channel="57"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4336,7 +4344,7 @@
       </Appearance>
       <Input Universe="2" Channel="61"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="255"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4515,7 +4523,7 @@
      </Appearance>
      <Input Universe="2" Channel="31"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="9">
+     <Level LowLimit="0" HighLimit="255" Value="4">
       <Channel Fixture="21">5</Channel>
      </Level>
      <Playback>
@@ -4561,7 +4569,7 @@
      </Appearance>
      <Input Universe="2" Channel="32"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="43">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="21">6</Channel>
      </Level>
      <Playback>
@@ -5000,7 +5008,7 @@
       <Input Universe="0" Channel="180"/>
      </Button>
     </SoloFrame>
-    <SoloFrame Caption="Sides color" ID="270">
+    <SoloFrame Caption="Front sides" ID="270">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5008,16 +5016,16 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="355" Y="90" Width="115" Height="445"/>
+     <WindowState Visible="True" X="470" Y="90" Width="115" Height="445"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="167"/>
+      <Input Universe="0" Channel="170"/>
      </Enable>
      <Button Caption="Red" ID="262" Icon="">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="50"/>
@@ -5132,7 +5140,7 @@
       <Input Universe="0" Channel="180"/>
      </Button>
     </SoloFrame>
-    <SoloFrame Caption="Front sides color" ID="279">
+    <SoloFrame Caption="Sides color" ID="279">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -5140,16 +5148,16 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="470" Y="90" Width="115" Height="445"/>
+     <WindowState Visible="True" X="355" Y="90" Width="115" Height="445"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="170"/>
+      <Input Universe="0" Channel="167"/>
      </Enable>
      <Button Caption="Red" ID="271" Icon="">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="50"/>
@@ -5279,7 +5287,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="173"/>
      </Enable>
@@ -5535,7 +5543,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Back mids" ID="136" Page="2">
@@ -5545,7 +5553,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="3: Back center" ID="156" Page="2">
@@ -5555,7 +5563,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="4: Sides" ID="166" Page="2">
@@ -5565,7 +5573,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Front sides" ID="176" Page="2">
@@ -5575,7 +5583,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Front center" ID="186" Page="2">
@@ -5585,7 +5593,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="8:" ID="216" Page="2">
@@ -5595,7 +5603,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Strobe intensity" ID="140" Page="3">
@@ -5605,7 +5613,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Strobe speed" ID="157" Page="3">
@@ -5615,7 +5623,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Frame Caption="Strobe intensity" ID="295" Page="3">
@@ -5647,7 +5655,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="166">
+      <Level LowLimit="0" HighLimit="255" Value="186">
        <Channel Fixture="20">0</Channel>
       </Level>
       <Playback>
@@ -5662,7 +5670,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Front blinders left" ID="331" Page="3">
@@ -5672,7 +5680,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Front blinders right" ID="332" Page="3">
@@ -5682,7 +5690,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="7: Back blinders left" ID="333" Page="3">
@@ -5692,7 +5700,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="8: Back blinders right" ID="334" Page="3">
@@ -5702,7 +5710,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Frame Caption="Strobe speed" ID="345" Page="3">
@@ -5734,7 +5742,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="212">
+      <Level LowLimit="0" HighLimit="255" Value="186">
        <Channel Fixture="10">0</Channel>
       </Level>
       <Playback>
@@ -5809,7 +5817,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="13">3</Channel>
        <Channel Fixture="14">3</Channel>
        <Channel Fixture="15">3</Channel>
@@ -5827,7 +5835,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="8:" ID="361">
@@ -5837,7 +5845,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="7:" ID="362">
@@ -5847,7 +5855,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Front center" ID="363">
@@ -5857,7 +5865,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="5: Front sides" ID="364">
@@ -5867,7 +5875,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="4: Sides" ID="365">
@@ -5877,7 +5885,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="3: Back center" ID="366">
@@ -5887,7 +5895,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="2: Back mids" ID="367">
@@ -5897,7 +5905,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Back outs" ID="368">
@@ -5907,7 +5915,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Frame Caption="Back outs" ID="370" Page="2">
@@ -5926,7 +5934,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65694"/>
+      <Input Universe="0" Channel="131230"/>
      </Enable>
      <Slider Caption="Back outs strobe speed" ID="369" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
@@ -5964,7 +5972,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65697"/>
+      <Input Universe="0" Channel="131233"/>
      </Enable>
      <Slider Caption="Back mids strobe speed" ID="371" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
@@ -6002,7 +6010,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65700"/>
+      <Input Universe="0" Channel="131236"/>
      </Enable>
      <Slider Caption="Back center strobe speed" ID="373" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
@@ -6023,45 +6031,7 @@
       </Playback>
      </Slider>
     </Frame>
-    <Frame Caption="Sides" ID="376" Page="2">
-     <Appearance>
-      <FrameStyle>Raised</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>4281084972</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="False" X="355" Y="90" Width="115" Height="455"/>
-     <AllowChildren>False</AllowChildren>
-     <AllowResize>False</AllowResize>
-     <ShowHeader>True</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Enable>
-      <Input Universe="0" Channel="65703"/>
-     </Enable>
-     <Slider Caption="Sides strobe speed" ID="375" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
-      <Appearance>
-       <FrameStyle>Raised</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4279374354</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Input Universe="0" Channel="7"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="5">7</Channel>
-       <Channel Fixture="6">7</Channel>
-      </Level>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-    </Frame>
-    <Frame Caption="Front sides" ID="378" Page="2">
+    <Frame Caption="Front sides" ID="376" Page="2">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -6077,9 +6047,47 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65706"/>
+      <Input Universe="0" Channel="131242"/>
      </Enable>
-     <Slider Caption="Front sides strobe speed" ID="377" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="Front sides strobe speed" ID="375" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="8"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="5">7</Channel>
+       <Channel Fixture="6">7</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
+    <Frame Caption="Sides" ID="378" Page="2">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="355" Y="90" Width="115" Height="455"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Enable>
+      <Input Universe="0" Channel="131239"/>
+     </Enable>
+     <Slider Caption="Sides strobe speed" ID="377" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
@@ -6115,7 +6123,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65709"/>
+      <Input Universe="0" Channel="131245"/>
      </Enable>
      <Slider Caption="Front center strobe speed" ID="379" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="False" X="5" Y="40" Width="105" Height="410"/>
@@ -6150,7 +6158,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>100</Time>
+     <Time>213</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">213</Function>
      <Preset ID="16">
       <Name>0ms</Name>
@@ -6243,36 +6251,36 @@
      <Control ID="2">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="3">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Sunset</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Sunset</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="4">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Abstract</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Abstract</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="5">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Ocean</Property>
       <Property Name="orientation">Horizontal</Property>
+      <Property Name="presetIndex">Ocean</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="6">
       <Type>Animation</Type>
       <Resource>Gradient</Resource>
-      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="orientation">Radial</Property>
+      <Property Name="presetIndex">Rainbow</Property>
       <Property Name="presetSize">5</Property>
      </Control>
      <Control ID="7">
@@ -6288,50 +6296,50 @@
      <Control ID="9">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="taillength">50</Property>
+      <Property Name="direction">Right</Property>
       <Property Name="orientation">Horizontal</Property>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="direction">Right</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="10">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="taillength">50</Property>
+      <Property Name="direction">Left</Property>
       <Property Name="orientation">Horizontal</Property>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="direction">Left</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="11">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="taillength">50</Property>
+      <Property Name="direction">In</Property>
       <Property Name="orientation">Horizontal</Property>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="direction">In</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="12">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="taillength">50</Property>
+      <Property Name="direction">Out</Property>
       <Property Name="orientation">Horizontal</Property>
       <Property Name="tailfade">Yes</Property>
-      <Property Name="direction">Out</Property>
+      <Property Name="taillength">50</Property>
      </Control>
      <Control ID="13">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
       <Property Name="presetIndex">Fire</Property>
-      <Property Name="stepsize">50</Property>
       <Property Name="presetSize">5</Property>
       <Property Name="ramp">20</Property>
+      <Property Name="stepsize">50</Property>
      </Control>
      <Control ID="14">
       <Type>Animation</Type>
       <Resource>Plasma</Resource>
       <Property Name="presetIndex">Ocean</Property>
-      <Property Name="stepsize">50</Property>
       <Property Name="presetSize">10</Property>
       <Property Name="ramp">20</Property>
+      <Property Name="stepsize">50</Property>
      </Control>
      <Control ID="15">
       <Type>Animation</Type>
@@ -6486,8 +6494,8 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Front side left" ID="298" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="False" X="300" Y="340" Width="100" Height="165"/>
+     <Slider Caption="Side left" ID="298" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="False" X="90" Y="340" Width="100" Height="165"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -6505,8 +6513,8 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Front side right" ID="299" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="False" X="510" Y="340" Width="100" Height="165"/>
+     <Slider Caption="Side right" ID="299" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="False" X="720" Y="340" Width="100" Height="165"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -6559,8 +6567,8 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Side left center" ID="315" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="False" X="195" Y="340" Width="100" Height="165"/>
+     <Slider Caption="Front side left center" ID="315" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="False" X="300" Y="340" Width="100" Height="165"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -6578,8 +6586,8 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Side left ring" ID="342" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="False" X="90" Y="340" Width="100" Height="165"/>
+     <Slider Caption="Front side left ring" ID="342" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="False" X="195" Y="340" Width="100" Height="165"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -6597,8 +6605,8 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Side right center" ID="343" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="False" X="615" Y="340" Width="100" Height="165"/>
+     <Slider Caption="Front side right center" ID="343" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="False" X="510" Y="340" Width="100" Height="165"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -6616,8 +6624,8 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="Side right ring" ID="348" WidgetStyle="Knob" InvertedAppearance="false">
-      <WindowState Visible="False" X="720" Y="340" Width="100" Height="165"/>
+     <Slider Caption="Front side right ring" ID="348" WidgetStyle="Knob" InvertedAppearance="false">
+      <WindowState Visible="False" X="615" Y="340" Width="100" Height="165"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -6706,7 +6714,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="196781"/>
      </Enable>
@@ -6824,7 +6832,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back outs color" ID="174" Page="1">
@@ -6842,7 +6850,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="65694"/>
      </Enable>
@@ -7053,7 +7061,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back mids color" ID="185" Page="1">
@@ -7071,7 +7079,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="65697"/>
      </Enable>
@@ -7286,7 +7294,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Back mids color" ID="196" Page="1">
@@ -7519,10 +7527,10 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Sides color" ID="206" Page="1">
+    <SoloFrame Caption="Front sides" ID="206" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7530,7 +7538,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="355" Y="90" Width="115" Height="445"/>
+     <WindowState Visible="False" X="470" Y="90" Width="115" Height="445"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -7539,7 +7547,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65703"/>
+      <Input Universe="0" Channel="65706"/>
      </Enable>
      <Button Caption="R" ID="198" Icon="">
       <WindowState Visible="False" X="5" Y="40" Width="35" Height="50"/>
@@ -7752,10 +7760,10 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
-    <SoloFrame Caption="Front sides" ID="296" Page="1">
+    <SoloFrame Caption="Sides" ID="296" Page="1">
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -7763,7 +7771,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="470" Y="90" Width="115" Height="445"/>
+     <WindowState Visible="False" X="355" Y="90" Width="115" Height="445"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -7772,7 +7780,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Enable>
-      <Input Universe="0" Channel="65706"/>
+      <Input Universe="0" Channel="65703"/>
      </Enable>
      <Button Caption="R" ID="209" Icon="">
       <WindowState Visible="False" X="5" Y="40" Width="35" Height="50"/>
@@ -7985,7 +7993,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <SoloFrame Caption="Front center color" ID="322" Page="1">
@@ -8003,7 +8011,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="65709"/>
      </Enable>
@@ -8218,7 +8226,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="8:" ID="324" Page="1">
@@ -8228,7 +8236,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Button Caption="Clear colors" ID="326" Page="1" Icon="">
@@ -8252,7 +8260,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="1: Room dimmer" ID="581" Page="3">
@@ -8262,7 +8270,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Frame Caption="Crowns UV dimmer" ID="585" Page="3">
@@ -8279,7 +8287,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="196775"/>
      </Enable>
@@ -8310,7 +8318,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="6: Flower effect" ID="589" Page="3">
@@ -8320,7 +8328,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Label Caption="7: Flower effect speed" ID="590" Page="3">
@@ -8330,7 +8338,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Frame Caption="Back blinders left" ID="98" Page="3">
@@ -8414,7 +8422,7 @@
       <ForegroundColor>4294967295</ForegroundColor>
       <BackgroundColor>4279374354</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
-      <Font>Roboto,9,-1,5,75,0,0,0,0,0</Font>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
     <Frame Caption="Stage backs dimmer" ID="417" Page="3">
@@ -8431,7 +8439,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="196770"/>
      </Enable>
@@ -8474,7 +8482,7 @@
   </Frame>
   <Properties>
    <Size Width="3000" Height="2000"/>
-   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal">
+   <GrandMaster Visible="1" ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal">
     <Input Universe="0" Channel="9"/>
    </GrandMaster>
   </Properties>
