@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>5.0.1</Version>
+  <Author>occii</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Internal" BPM="120"/>
+   <Universe Name="Universe 1" ID="0">
+    <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1"/>
+    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
+     <PluginParameters UniverseChannels="119"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1">
+    <Input Plugin="Loopback" UID="Loopback 1" Line="0"/>
+    <Output Plugin="Loopback" UID="Loopback 1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 64 Short</Model>
+   <Mode>5CH</Mode>
+   <ID>0</ID>
+   <Name>Front center</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-64</Model>
+   <Mode>6 channels</Mode>
+   <ID>1</ID>
+   <Name>Side left</Name>
+   <Universe>0</Universe>
+   <Address>5</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-64</Model>
+   <Mode>6 channels</Mode>
+   <ID>2</ID>
+   <Name>Side right</Name>
+   <Universe>0</Universe>
+   <Address>11</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Crown FX PAR77</Model>
+   <Mode>9 Channel</Mode>
+   <ID>3</ID>
+   <Name>Front left</Name>
+   <Universe>0</Universe>
+   <Address>17</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Stairville</Manufacturer>
+   <Model>Crown FX PAR77</Model>
+   <Mode>9 Channel</Mode>
+   <ID>4</ID>
+   <Name>Front right</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>9</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>Compact Par 7 Tri</Model>
+   <Mode>8  Channel</Mode>
+   <ID>5</ID>
+   <Name>Back center</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Tri Par</Model>
+   <Mode>6 Channels</Mode>
+   <ID>6</ID>
+   <Name>Back left</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Tri Par</Model>
+   <Mode>6 Channels</Mode>
+   <ID>7</ID>
+   <Name>Back right</Name>
+   <Universe>0</Universe>
+   <Address>49</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>8</ID>
+   <Name>Backlight 1 (left)</Name>
+   <Universe>0</Universe>
+   <Address>55</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>9</ID>
+   <Name>Backlight 2</Name>
+   <Universe>0</Universe>
+   <Address>61</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>10</ID>
+   <Name>Backlight 3</Name>
+   <Universe>0</Universe>
+   <Address>67</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>11</ID>
+   <Name>Backlight 4</Name>
+   <Universe>0</Universe>
+   <Address>73</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>12</ID>
+   <Name>Backlight 5 (right)</Name>
+   <Universe>0</Universe>
+   <Address>79</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>13</ID>
+   <Name>Merch light</Name>
+   <Universe>0</Universe>
+   <Address>85</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>14</ID>
+   <Name>Room front left</Name>
+   <Universe>0</Universe>
+   <Address>91</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>15</ID>
+   <Name>Room front right</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>16</ID>
+   <Name>Room back left</Name>
+   <Universe>0</Universe>
+   <Address>101</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>17</ID>
+   <Name>Room back right</Name>
+   <Universe>0</Universe>
+   <Address>106</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>SP-1500 MKII</Model>
+   <Mode>Default</Mode>
+   <ID>18</ID>
+   <Name>Main strobo</Name>
+   <Universe>0</Universe>
+   <Address>111</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED SVF-1</Model>
+   <Mode>2 channels</Mode>
+   <ID>19</ID>
+   <Name>Flower</Name>
+   <Universe>0</Universe>
+   <Address>113</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>MultiDim MKII</Model>
+   <Mode>4-channel</Mode>
+   <ID>20</ID>
+   <Name>Blinder dimmers</Name>
+   <Universe>0</Universe>
+   <Address>115</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Backlights</Name>
+   <Size X="5" Y="1"/>
+   <Head X="0" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="9">0</Head>
+   <Head X="2" Y="0" Fixture="10">0</Head>
+   <Head X="3" Y="0" Fixture="11">0</Head>
+   <Head X="4" Y="0" Fixture="12">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>Stage pars</Name>
+   <Size X="5" Y="5"/>
+   <Head X="0" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="9">0</Head>
+   <Head X="2" Y="0" Fixture="10">0</Head>
+   <Head X="3" Y="0" Fixture="11">0</Head>
+   <Head X="4" Y="0" Fixture="12">0</Head>
+   <Head X="1" Y="1" Fixture="6">0</Head>
+   <Head X="2" Y="1" Fixture="5">0</Head>
+   <Head X="3" Y="1" Fixture="7">0</Head>
+   <Head X="0" Y="2" Fixture="1">0</Head>
+   <Head X="4" Y="2" Fixture="2">0</Head>
+   <Head X="1" Y="3" Fixture="3">1</Head>
+   <Head X="2" Y="3" Fixture="0">0</Head>
+   <Head X="3" Y="3" Fixture="4">1</Head>
+   <Head X="1" Y="4" Fixture="3">0</Head>
+   <Head X="3" Y="4" Fixture="4">0</Head>
+  </FixtureGroup>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="4" Depth="5" Units="0" POV="1"/>
+   <StageItem>0</StageItem>
+   <FxItem ID="0" XPos="2365" YPos="3000" ZPos="6000" XRot="-56"/>
+   <FxItem ID="1" XPos="360" YPos="2813" ZPos="4713" XRot="-50" YRot="60"/>
+   <FxItem ID="2" XPos="4479" YPos="2703" ZPos="4713" XRot="-49" YRot="-60"/>
+   <FxItem ID="3" XPos="1318.87" YPos="173.489" ZPos="2822.94"/>
+   <FxItem ID="4" XPos="3406.61" YPos="173.489" ZPos="2822.94"/>
+   <FxItem ID="5" XPos="2372.21" YPos="173.489" ZPos="1367.98"/>
+   <FxItem ID="6" XPos="1353.95" YPos="173.489" ZPos="1367.98"/>
+   <FxItem ID="7" XPos="3430.46" YPos="173.489" ZPos="1367.98"/>
+   <FxItem ID="8" XPos="878.461" YPos="2591.02" ZPos="462.017" XRot="40"/>
+   <FxItem ID="9" XPos="1634.2" YPos="2591.02" ZPos="462.017" XRot="40"/>
+   <FxItem ID="10" XPos="2389.94" YPos="2591.02" ZPos="462.017" XRot="40"/>
+   <FxItem ID="11" XPos="3145.68" YPos="2591.02" ZPos="462.017" XRot="40"/>
+   <FxItem ID="12" XPos="3901.43" YPos="2591.02" ZPos="462.017" XRot="40"/>
+   <FxItem ID="13" XPos="3198.96" YPos="173.489" ZPos="4503.8"/>
+   <FxItem ID="14" XPos="1669.63" YPos="173.489" ZPos="3921.53"/>
+   <FxItem ID="15" XPos="3135.82" YPos="173.489" ZPos="3921.53"/>
+   <FxItem ID="16" XPos="1664.96" YPos="-10" ZPos="4592.66"/>
+   <FxItem ID="17" XPos="2476.39" YPos="173.489" ZPos="4524.84"/>
+   <FxItem ID="18" XPos="2289.54" YPos="173.489" ZPos="1958.66"/>
+   <FxItem ID="19" XPos="2244.88" YPos="4.15429" ZPos="3835.01"/>
+   <FxItem ID="20" XPos="2376.58" YPos="129.601" ZPos="2141.99"/>
+   <MeshItem ID="0" XPos="-610" YPos="30" ZPos="3800" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="1" XPos="3580" YPos="30" ZPos="3800" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="2" XPos="2400" YPos="2800" ZPos="-600" YRot="90" ZScale="2.3" Res="C:/QLC+5/Meshes/stage/truss_flat_2m.obj"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="Page 1" ID="0">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 2" ID="1">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 3" ID="2">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+  <Frame Caption="Page 4" ID="3">
+   <Appearance>
+    <Font>Roboto Condensed,16,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
+   </Appearance>
+   <WindowState Visible="True" X="0" Y="0" Width="1920" Height="1080"/>
+   <AllowResize>False</AllowResize>
+   <ShowHeader>False</ShowHeader>
+   <ShowEnableButton>True</ShowEnableButton>
+   <Collapsed>False</Collapsed>
+   <Disabled>False</Disabled>
+  </Frame>
+ </VirtualConsole>
+</Workspace>
