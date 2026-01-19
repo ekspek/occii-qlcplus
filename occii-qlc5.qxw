@@ -260,6 +260,86 @@
    <Address>131</Address>
    <Channels>9</Channels>
   </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Stage</Name>
+   <Size X="5" Y="4"/>
+   <Head X="0" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="9">0</Head>
+   <Head X="2" Y="0" Fixture="10">0</Head>
+   <Head X="3" Y="0" Fixture="11">0</Head>
+   <Head X="4" Y="0" Fixture="12">0</Head>
+   <Head X="0" Y="1" Fixture="6">0</Head>
+   <Head X="2" Y="1" Fixture="5">0</Head>
+   <Head X="4" Y="1" Fixture="7">0</Head>
+   <Head X="0" Y="2" Fixture="1">0</Head>
+   <Head X="4" Y="2" Fixture="2">0</Head>
+   <Head X="0" Y="3" Fixture="3">0</Head>
+   <Head X="1" Y="3" Fixture="3">1</Head>
+   <Head X="2" Y="3" Fixture="0">0</Head>
+   <Head X="3" Y="3" Fixture="4">1</Head>
+   <Head X="4" Y="3" Fixture="4">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>Backlights</Name>
+   <Size X="5" Y="1"/>
+   <Head X="0" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="9">0</Head>
+   <Head X="2" Y="0" Fixture="10">0</Head>
+   <Head X="3" Y="0" Fixture="11">0</Head>
+   <Head X="4" Y="0" Fixture="12">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>Stage backs</Name>
+   <Size X="3" Y="1"/>
+   <Head X="0" Y="0" Fixture="6">0</Head>
+   <Head X="1" Y="0" Fixture="5">0</Head>
+   <Head X="2" Y="0" Fixture="7">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>Stage fronts</Name>
+   <Size X="5" Y="1"/>
+   <Head X="0" Y="0" Fixture="3">0</Head>
+   <Head X="1" Y="0" Fixture="3">1</Head>
+   <Head X="2" Y="0" Fixture="0">0</Head>
+   <Head X="3" Y="0" Fixture="4">1</Head>
+   <Head X="4" Y="0" Fixture="4">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>Stage sides</Name>
+   <Size X="2" Y="1"/>
+   <Head X="0" Y="0" Fixture="1">0</Head>
+   <Head X="1" Y="0" Fixture="2">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="5">
+   <Name>Effects and misc.</Name>
+   <Size X="5" Y="7"/>
+   <Head X="2" Y="0" Fixture="15">0</Head>
+   <Head X="2" Y="1" Fixture="14">0</Head>
+   <Head X="3" Y="2" Fixture="23">0</Head>
+   <Head X="2" Y="3" Fixture="22">0</Head>
+   <Head X="3" Y="3" Fixture="22">1</Head>
+   <Head X="1" Y="4" Fixture="16">0</Head>
+   <Head X="3" Y="4" Fixture="17">0</Head>
+   <Head X="1" Y="5" Fixture="18">0</Head>
+   <Head X="2" Y="5" Fixture="20">0</Head>
+   <Head X="3" Y="5" Fixture="21">0</Head>
+   <Head X="4" Y="5" Fixture="19">0</Head>
+   <Head X="4" Y="6" Fixture="13">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>Facing artists</Name>
+   <Size X="5" Y="3"/>
+   <Head X="1" Y="0" Fixture="6">0</Head>
+   <Head X="2" Y="0" Fixture="5">0</Head>
+   <Head X="3" Y="0" Fixture="7">0</Head>
+   <Head X="0" Y="1" Fixture="1">0</Head>
+   <Head X="4" Y="1" Fixture="2">0</Head>
+   <Head X="0" Y="2" Fixture="3">0</Head>
+   <Head X="1" Y="2" Fixture="3">1</Head>
+   <Head X="2" Y="2" Fixture="0">0</Head>
+   <Head X="3" Y="2" Fixture="4">1</Head>
+   <Head X="4" Y="2" Fixture="4">0</Head>
+  </FixtureGroup>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -270,8 +350,9 @@
    <FxItem ID="1" XPos="1400" YPos="3100" ZPos="4600" XRot="-68" YRot="63"/>
    <FxItem ID="2" XPos="5600" YPos="3100" ZPos="4600" XRot="-68" YRot="-63"/>
    <FxItem ID="3" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
+   <FxItem ID="3" Head="1" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
    <FxItem ID="4" XPos="5000" YPos="3100" ZPos="8000" XRot="-68" YRot="-10"/>
-   <FxItem ID="4" Head="1" XPos="5000" YPos="3100" ZPos="8000"/>
+   <FxItem ID="4" Head="1" XPos="5000" YPos="3100" ZPos="8000" XRot="-68" YRot="-10"/>
    <FxItem ID="5" XPos="3500" YPos="3600" ZPos="2500" XRot="-52"/>
    <FxItem ID="6" XPos="1800" YPos="3600" ZPos="2500" XRot="-60" YRot="12"/>
    <FxItem ID="7" XPos="5000" YPos="3600" ZPos="2500" XRot="-60" YRot="-12"/>
@@ -291,8 +372,8 @@
    <FxItem ID="21" XPos="4500" YPos="3040" ZPos="11400" XRot="-57" YRot="-5"/>
    <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8480"/>
    <FxItem ID="23" XPos="3700" YPos="3100" ZPos="8250" XRot="90" YRot="-90"/>
-   <MeshItem ID="0" XPos="600" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
-   <MeshItem ID="1" XPos="4390" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="0" XPos="600" YPos="700" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="1" XPos="4390" YPos="700" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="2" XPos="2500" YPos="-600" ZPos="1500" XScale="2.5" YScale="0.3" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="3" XPos="3500" YPos="3270" ZPos="-790" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
    <MeshItem ID="4" XPos="3500" YPos="3660" ZPos="1650" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
