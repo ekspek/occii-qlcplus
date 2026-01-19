@@ -165,7 +165,7 @@
    <Model>SP-1500 MKII</Model>
    <Mode>Default</Mode>
    <ID>14</ID>
-   <Name>SP-1500 MKII [15]</Name>
+   <Name>Main strobo</Name>
    <Universe>0</Universe>
    <Address>111</Address>
    <Channels>2</Channels>
@@ -175,10 +175,80 @@
    <Model>MultiDim MKII</Model>
    <Mode>4-channel</Mode>
    <ID>15</ID>
-   <Name>MultiDim MKII [16]</Name>
+   <Name>Blinder dimmers</Name>
    <Universe>0</Universe>
    <Address>115</Address>
    <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>16</ID>
+   <Name>Room front left</Name>
+   <Universe>0</Universe>
+   <Address>91</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>17</ID>
+   <Name>Room front right</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>18</ID>
+   <Name>DJ light</Name>
+   <Universe>0</Universe>
+   <Address>101</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PAR 56 RGB DMX</Model>
+   <Mode>5 Channels</Mode>
+   <ID>19</ID>
+   <Name>Merch table light</Name>
+   <Universe>0</Universe>
+   <Address>106</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>NeoLED</Manufacturer>
+   <Model>Vector FT-56</Model>
+   <Mode>6 channels</Mode>
+   <ID>20</ID>
+   <Name>Room back left</Name>
+   <Universe>0</Universe>
+   <Address>119</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 64 Short Pro</Model>
+   <Mode>6 Channels</Mode>
+   <ID>21</ID>
+   <Name>Room back right</Name>
+   <Universe>0</Universe>
+   <Address>125</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>2 Channel</Mode>
+   <ID>22</ID>
+   <Name>Flower SVF-1</Name>
+   <Universe>0</Universe>
+   <Address>113</Address>
+   <Channels>2</Channels>
   </Fixture>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -191,6 +261,7 @@
    <FxItem ID="2" XPos="5600" YPos="3100" ZPos="4600" XRot="-68" YRot="-63"/>
    <FxItem ID="3" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
    <FxItem ID="4" XPos="5000" YPos="3100" ZPos="8000" XRot="-68" YRot="-10"/>
+   <FxItem ID="4" Head="1" XPos="5000" YPos="3100" ZPos="8000"/>
    <FxItem ID="5" XPos="3500" YPos="3600" ZPos="2500" XRot="-52"/>
    <FxItem ID="6" XPos="1800" YPos="3600" ZPos="2500" XRot="-60" YRot="12"/>
    <FxItem ID="7" XPos="5000" YPos="3600" ZPos="2500" XRot="-60" YRot="-12"/>
@@ -202,6 +273,13 @@
    <FxItem ID="13" XPos="3500" YPos="3000" ZPos="12500" ZRot="-75"/>
    <FxItem ID="14" XPos="3500" YPos="4100" ZPos="4500" XRot="180"/>
    <FxItem ID="15" XPos="3500" YPos="4100" ZPos="3000"/>
+   <FxItem ID="16" XPos="1910" YPos="3120" ZPos="9860" XRot="-44"/>
+   <FxItem ID="17" XPos="5230" YPos="3120" ZPos="9860" XRot="-44" YRot="-14"/>
+   <FxItem ID="18" XPos="2580" YPos="3040" ZPos="11400" XRot="16" YRot="69"/>
+   <FxItem ID="19" XPos="5300" YPos="3040" ZPos="11400" XRot="33"/>
+   <FxItem ID="20" XPos="3690" YPos="3040" ZPos="11400" XRot="-57" YRot="-13"/>
+   <FxItem ID="21" XPos="4500" YPos="3040" ZPos="11400" XRot="-57" YRot="-5"/>
+   <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8480"/>
    <MeshItem ID="0" XPos="600" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="1" XPos="4390" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="2" XPos="2500" YPos="-600" ZPos="1500" XScale="2.5" YScale="0.3" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
