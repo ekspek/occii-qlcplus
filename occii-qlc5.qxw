@@ -250,6 +250,16 @@
    <Address>113</Address>
    <Channels>2</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>LED PST-10</Model>
+   <Mode>9 channel</Mode>
+   <ID>23</ID>
+   <Name>Disco ball spot</Name>
+   <Universe>0</Universe>
+   <Address>131</Address>
+   <Channels>9</Channels>
+  </Fixture>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -280,6 +290,7 @@
    <FxItem ID="20" XPos="3690" YPos="3040" ZPos="11400" XRot="-57" YRot="-13"/>
    <FxItem ID="21" XPos="4500" YPos="3040" ZPos="11400" XRot="-57" YRot="-5"/>
    <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8480"/>
+   <FxItem ID="23" XPos="3700" YPos="3100" ZPos="8250" XRot="90" YRot="-90"/>
    <MeshItem ID="0" XPos="600" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="1" XPos="4390" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="2" XPos="2500" YPos="-600" ZPos="1500" XScale="2.5" YScale="0.3" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
