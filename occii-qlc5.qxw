@@ -70,19 +70,148 @@
    <Address>26</Address>
    <Channels>9</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>Compact Par 7 Tri</Model>
+   <Mode>8  Channel</Mode>
+   <ID>5</ID>
+   <Name>Stage back center</Name>
+   <Universe>0</Universe>
+   <Address>35</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Tri Par</Model>
+   <Mode>6 Channels</Mode>
+   <ID>6</ID>
+   <Name>Stage back left</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Tri Par</Model>
+   <Mode>6 Channels</Mode>
+   <ID>7</ID>
+   <Name>Stage back right</Name>
+   <Universe>0</Universe>
+   <Address>49</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>8</ID>
+   <Name>Backlight 1 (left)</Name>
+   <Universe>0</Universe>
+   <Address>55</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>9</ID>
+   <Name>Backlight 2</Name>
+   <Universe>0</Universe>
+   <Address>61</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>10</ID>
+   <Name>Backlight 3</Name>
+   <Universe>0</Universe>
+   <Address>67</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>11</ID>
+   <Name>Backlight 4</Name>
+   <Universe>0</Universe>
+   <Address>73</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>12</ID>
+   <Name>Backlight 5 (right)</Name>
+   <Universe>0</Universe>
+   <Address>79</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>LED Par 56</Model>
+   <Mode>6 Channel</Mode>
+   <ID>13</ID>
+   <Name>Merch wall light</Name>
+   <Universe>0</Universe>
+   <Address>85</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>SP-1500 MKII</Model>
+   <Mode>Default</Mode>
+   <ID>14</ID>
+   <Name>SP-1500 MKII [15]</Name>
+   <Universe>0</Universe>
+   <Address>111</Address>
+   <Channels>2</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Showtec</Manufacturer>
+   <Model>MultiDim MKII</Model>
+   <Mode>4-channel</Mode>
+   <ID>15</ID>
+   <Name>MultiDim MKII [16]</Name>
+   <Universe>0</Universe>
+   <Address>115</Address>
+   <Channels>4</Channels>
+  </Fixture>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
-   <Grid Width="5" Height="3" Depth="5" Units="0"/>
-   <StageItem>1</StageItem>
-   <FxItem ID="0" XPos="2500" YPos="2500" ZPos="8000" XRot="-64"/>
-   <FxItem ID="1" XPos="400" YPos="2500" ZPos="4600" XRot="-68" YRot="63"/>
-   <FxItem ID="2" XPos="4600" YPos="2500" ZPos="4600" XRot="-68" YRot="-63"/>
-   <FxItem ID="3" XPos="1000" YPos="2500" ZPos="8000" XRot="-68" YRot="7"/>
-   <FxItem ID="4" XPos="4000" YPos="2500" ZPos="8000" XRot="-68" YRot="-10"/>
-   <MeshItem ID="0" XPos="-400" YPos="0" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
-   <MeshItem ID="1" XPos="3410" YPos="0" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <Grid Width="6" Height="4" Depth="13" Units="0" POV="1"/>
+   <StageItem>0</StageItem>
+   <FxItem ID="0" XPos="3500" YPos="3100" ZPos="8000" XRot="-64"/>
+   <FxItem ID="1" XPos="1400" YPos="3100" ZPos="4600" XRot="-68" YRot="63"/>
+   <FxItem ID="2" XPos="5600" YPos="3100" ZPos="4600" XRot="-68" YRot="-63"/>
+   <FxItem ID="3" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
+   <FxItem ID="4" XPos="5000" YPos="3100" ZPos="8000" XRot="-68" YRot="-10"/>
+   <FxItem ID="5" XPos="3500" YPos="3600" ZPos="2500" XRot="-52"/>
+   <FxItem ID="6" XPos="1800" YPos="3600" ZPos="2500" XRot="-60" YRot="12"/>
+   <FxItem ID="7" XPos="5000" YPos="3600" ZPos="2500" XRot="-60" YRot="-12"/>
+   <FxItem ID="8" XPos="1500" YPos="3100" ZPos="300" XRot="47" YRot="-14"/>
+   <FxItem ID="9" XPos="2500" YPos="3100" ZPos="300" XRot="47" YRot="-7"/>
+   <FxItem ID="10" XPos="3500" YPos="3100" ZPos="300" XRot="47"/>
+   <FxItem ID="11" XPos="4500" YPos="3100" ZPos="300" XRot="47" YRot="7"/>
+   <FxItem ID="12" XPos="5500" YPos="3100" ZPos="300" XRot="47" YRot="14"/>
+   <FxItem ID="13" XPos="3500" YPos="3000" ZPos="12500" ZRot="-75"/>
+   <FxItem ID="14" XPos="3500" YPos="4100" ZPos="4500" XRot="180"/>
+   <FxItem ID="15" XPos="3500" YPos="4100" ZPos="3000"/>
+   <MeshItem ID="0" XPos="600" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="1" XPos="4390" YPos="600" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="2" XPos="2500" YPos="-600" ZPos="1500" XScale="2.5" YScale="0.3" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="3" XPos="3500" YPos="3270" ZPos="-790" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="4" XPos="3500" YPos="3660" ZPos="1650" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="5" XPos="3500" YPos="3410" ZPos="3610" YRot="90" ZScale="2.2" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="6" XPos="3600" YPos="3400" ZPos="7270" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="7" XPos="3600" YPos="3400" ZPos="5500" YRot="90" ZScale="2.07" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="8" XPos="3600" YPos="3400" ZPos="8800" YRot="90" XScale="1.06" ZScale="2.09" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="9" XPos="3600" YPos="3300" ZPos="10500" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
