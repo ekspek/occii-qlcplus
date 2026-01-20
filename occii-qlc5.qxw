@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SDESK">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>5.0.1</Version>
@@ -348,7 +348,7 @@
    <ValueStyle>0</ValueStyle>
    <Grid Width="6" Height="4" Depth="13" Units="0" POV="1"/>
    <StageItem>0</StageItem>
-   <FxItem ID="0" XPos="3500" YPos="3100" ZPos="7700" XRot="-64"/>
+   <FxItem ID="0" XPos="3500" YPos="3440" ZPos="7700" XRot="-61"/>
    <FxItem ID="1" XPos="1400" YPos="3100" ZPos="4600" XRot="-68" YRot="63"/>
    <FxItem ID="2" XPos="5600" YPos="3100" ZPos="4600" XRot="-68" YRot="-63"/>
    <FxItem ID="3" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
@@ -373,10 +373,10 @@
    <FxItem ID="20" XPos="3690" YPos="3300" ZPos="12500" XRot="-57" YRot="-13"/>
    <FxItem ID="21" XPos="4500" YPos="3300" ZPos="12500" XRot="-57" YRot="-5"/>
    <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8450"/>
-   <FxItem ID="23" XPos="3700" YPos="2980" ZPos="10170" XRot="-97" YRot="13"/>
+   <FxItem ID="23" XPos="3700" YPos="2980" ZPos="10170" XRot="-93" YRot="15"/>
    <MeshItem ID="0" XPos="400" YPos="700" ZPos="3650" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="1" XPos="4570" YPos="700" ZPos="3650" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
-   <MeshItem ID="2" XPos="2500" YPos="-600" ZPos="1500" XScale="2.5" YScale="0.3" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="2" XPos="2500" YPos="-650" ZPos="1500" XScale="2.5" YScale="0.35" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="3" XPos="3500" YPos="3270" ZPos="-790" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
    <MeshItem ID="4" XPos="3500" YPos="3660" ZPos="1650" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
    <MeshItem ID="5" XPos="3500" YPos="3410" ZPos="3610" YRot="90" ZScale="2.2" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
