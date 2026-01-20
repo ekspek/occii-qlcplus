@@ -3,15 +3,17 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>5.1.0</Version>
-  <Author>Daniel</Author>
+  <Version>5.0.1</Version>
+  <Author>occii</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Internal" BPM="120"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="None" Line="0" Profile="Ayra Digicon-1"/>
-    <Output Plugin="DMX USB" UID="None" Line="0"/>
+    <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1"/>
+    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
+     <PluginParameters UniverseChannels="140"/>
+    </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2">
@@ -227,7 +229,7 @@
    <ID>20</ID>
    <Name>Room back left</Name>
    <Universe>0</Universe>
-   <Address>119</Address>
+   <Address>128</Address>
    <Channels>6</Channels>
   </Fixture>
   <Fixture>
@@ -237,7 +239,7 @@
    <ID>21</ID>
    <Name>Room back right</Name>
    <Universe>0</Universe>
-   <Address>125</Address>
+   <Address>134</Address>
    <Channels>6</Channels>
   </Fixture>
   <Fixture>
@@ -257,7 +259,7 @@
    <ID>23</ID>
    <Name>Disco ball spot</Name>
    <Universe>0</Universe>
-   <Address>131</Address>
+   <Address>119</Address>
    <Channels>9</Channels>
   </Fixture>
   <FixtureGroup ID="0">
@@ -346,7 +348,7 @@
    <ValueStyle>0</ValueStyle>
    <Grid Width="6" Height="4" Depth="13" Units="0" POV="1"/>
    <StageItem>0</StageItem>
-   <FxItem ID="0" XPos="3500" YPos="3100" ZPos="8000" XRot="-64"/>
+   <FxItem ID="0" XPos="3500" YPos="3100" ZPos="7700" XRot="-64"/>
    <FxItem ID="1" XPos="1400" YPos="3100" ZPos="4600" XRot="-68" YRot="63"/>
    <FxItem ID="2" XPos="5600" YPos="3100" ZPos="4600" XRot="-68" YRot="-63"/>
    <FxItem ID="3" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
@@ -361,27 +363,27 @@
    <FxItem ID="10" XPos="3500" YPos="3100" ZPos="300" XRot="47"/>
    <FxItem ID="11" XPos="4500" YPos="3100" ZPos="300" XRot="47" YRot="7"/>
    <FxItem ID="12" XPos="5500" YPos="3100" ZPos="300" XRot="47" YRot="14"/>
-   <FxItem ID="13" XPos="3500" YPos="3000" ZPos="12500" ZRot="-75"/>
-   <FxItem ID="14" XPos="3500" YPos="4100" ZPos="4500" XRot="180"/>
+   <FxItem ID="13" XPos="3500" YPos="3000" ZPos="13140" ZRot="-75"/>
+   <FxItem ID="14" XPos="3460" YPos="3450" ZPos="4020" XRot="180"/>
    <FxItem ID="15" XPos="3500" YPos="4100" ZPos="3000"/>
-   <FxItem ID="16" XPos="1910" YPos="3120" ZPos="9860" XRot="-44"/>
-   <FxItem ID="17" XPos="5230" YPos="3120" ZPos="9860" XRot="-44" YRot="-14"/>
-   <FxItem ID="18" XPos="2580" YPos="3040" ZPos="11400" XRot="16" YRot="69"/>
-   <FxItem ID="19" XPos="5300" YPos="3040" ZPos="11400" XRot="33"/>
-   <FxItem ID="20" XPos="3690" YPos="3040" ZPos="11400" XRot="-57" YRot="-13"/>
-   <FxItem ID="21" XPos="4500" YPos="3040" ZPos="11400" XRot="-57" YRot="-5"/>
-   <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8480"/>
-   <FxItem ID="23" XPos="3700" YPos="3100" ZPos="8250" XRot="90" YRot="-90"/>
-   <MeshItem ID="0" XPos="600" YPos="700" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
-   <MeshItem ID="1" XPos="4390" YPos="700" ZPos="3500" XScale="0.5" ZScale="0.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <FxItem ID="16" XPos="1910" YPos="3000" ZPos="9860" XRot="-44"/>
+   <FxItem ID="17" XPos="5230" YPos="3000" ZPos="9860" XRot="-44" YRot="-14"/>
+   <FxItem ID="18" XPos="2580" YPos="3300" ZPos="12500" XRot="16" YRot="69"/>
+   <FxItem ID="19" XPos="5300" YPos="3300" ZPos="12500" XRot="33"/>
+   <FxItem ID="20" XPos="3690" YPos="3300" ZPos="12500" XRot="-57" YRot="-13"/>
+   <FxItem ID="21" XPos="4500" YPos="3300" ZPos="12500" XRot="-57" YRot="-5"/>
+   <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8450"/>
+   <FxItem ID="23" XPos="3700" YPos="2980" ZPos="10170" XRot="-97" YRot="13"/>
+   <MeshItem ID="0" XPos="400" YPos="700" ZPos="3650" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
+   <MeshItem ID="1" XPos="4570" YPos="700" ZPos="3650" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="2" XPos="2500" YPos="-600" ZPos="1500" XScale="2.5" YScale="0.3" ZScale="2.5" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
    <MeshItem ID="3" XPos="3500" YPos="3270" ZPos="-790" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
    <MeshItem ID="4" XPos="3500" YPos="3660" ZPos="1650" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
    <MeshItem ID="5" XPos="3500" YPos="3410" ZPos="3610" YRot="90" ZScale="2.2" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
-   <MeshItem ID="6" XPos="3600" YPos="3400" ZPos="7270" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
-   <MeshItem ID="7" XPos="3600" YPos="3400" ZPos="5500" YRot="90" ZScale="2.07" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
-   <MeshItem ID="8" XPos="3600" YPos="3400" ZPos="8800" YRot="90" XScale="1.06" ZScale="2.09" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
-   <MeshItem ID="9" XPos="3600" YPos="3300" ZPos="10500" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="6" XPos="3600" YPos="3400" ZPos="7100" YRot="90" ZScale="2.06" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="7" XPos="3600" YPos="3400" ZPos="5100" YRot="90" ZScale="2.07" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="8" XPos="3600" YPos="3270" ZPos="9100" YRot="90" XScale="1.06" ZScale="2.09" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
+   <MeshItem ID="9" XPos="3600" YPos="3600" ZPos="11600" YRot="90" ZScale="2.1" Res="C:/QLC+5/Meshes/stage/truss_triangle_2m.obj"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
