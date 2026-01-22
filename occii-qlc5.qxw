@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SDESK">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>5.0.1</Version>
-  <Author>occii</Author>
+  <Version>5.1.0</Version>
+  <Author>Daniel</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <BeatGenerator BeatType="Internal" BPM="120"/>
    <Universe Name="Universe 1" ID="0">
-    <Input Plugin="MIDI" UID="Ayra MIDI Operator " Line="0" Profile="Ayra Digicon-1"/>
-    <Output Plugin="DMX USB" UID="DMX USB PRO - DMX Output 1 - (S/N: EN414225)" Line="0">
-     <PluginParameters UniverseChannels="140"/>
-    </Output>
+    <Input Plugin="MIDI" UID="None" Line="0" Profile="Ayra Digicon-1"/>
+    <Output Plugin="DMX USB" UID="None" Line="0"/>
    </Universe>
    <Universe Name="Universe 2" ID="1"/>
    <Universe Name="Universe 3" ID="2">
@@ -342,13 +340,54 @@
    <Head X="3" Y="2" Fixture="4">1</Head>
    <Head X="4" Y="2" Fixture="4">0</Head>
   </FixtureGroup>
+  <FixtureGroup ID="7">
+   <Name>Stage front sides</Name>
+   <Size X="4" Y="1"/>
+   <Head X="0" Y="0" Fixture="3">0</Head>
+   <Head X="1" Y="0" Fixture="3">1</Head>
+   <Head X="2" Y="0" Fixture="4">0</Head>
+   <Head X="3" Y="0" Fixture="4">1</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="8">
+   <Name>Backlight outs</Name>
+   <Size X="2" Y="1"/>
+   <Head X="0" Y="0" Fixture="8">0</Head>
+   <Head X="1" Y="0" Fixture="12">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="9">
+   <Name>Backlight mids</Name>
+   <Size X="2" Y="1"/>
+   <Head X="0" Y="0" Fixture="9">0</Head>
+   <Head X="1" Y="0" Fixture="11">0</Head>
+  </FixtureGroup>
+  <Palette ID="0" Type="Color" Name="Custom color 1" Value="#ff0000"/>
+  <Palette ID="1" Type="Color" Name="Custom color 2" Value="#00ff00"/>
+  <Palette ID="2" Type="Color" Name="Custom color 3" Value="#0000ff"/>
+  <Palette ID="3" Type="Color" Name="Custom color 4" Value="#ffff00"/>
+  <Palette ID="4" Type="Color" Name="Custom color 5" Value="#ff00ff"/>
+  <Palette ID="5" Type="Color" Name="Custom color 6" Value="#00ffff"/>
+  <Palette ID="6" Type="Color" Name="Custom color 7" Value="#ffffff"/>
+  <Palette ID="7" Type="Color" Name="Custom color 8" Value="#000000"/>
+  <Palette ID="8" Type="Color" Name="Red" Value="#ff0000"/>
+  <Palette ID="9" Type="Color" Name="Blue" Value="#ff0000"/>
+  <Palette ID="10" Type="Color" Name="Green" Value="#00ff00"/>
+  <Palette ID="11" Type="Color" Name="Yellow" Value="#ffff00"/>
+  <Palette ID="12" Type="Color" Name="Cyan" Value="#00ffff"/>
+  <Palette ID="13" Type="Color" Name="Magenta" Value="#ff00ff"/>
+  <Palette ID="14" Type="Color" Name="White" Value="#ffffff"/>
+  <Palette ID="15" Type="Color" Name="Black" Value="#000000"/>
+  <Function ID="0" Type="Scene" Name="Front center red">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0"/>
+   <Palette ID="0"/>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="6" Height="4" Depth="13" Units="0" POV="1"/>
    <StageItem>0</StageItem>
-   <FxItem ID="0" XPos="3500" YPos="3440" ZPos="7700" XRot="-61"/>
+   <FxItem ID="0" XPos="3500" YPos="2950" ZPos="7700" XRot="-63"/>
    <FxItem ID="1" XPos="1400" YPos="3100" ZPos="4600" XRot="-68" YRot="63"/>
    <FxItem ID="2" XPos="5600" YPos="3100" ZPos="4600" XRot="-68" YRot="-63"/>
    <FxItem ID="3" XPos="2000" YPos="3100" ZPos="8000" XRot="-68" YRot="7"/>
@@ -397,6 +436,14 @@
    <ShowEnableButton>True</ShowEnableButton>
    <Collapsed>False</Collapsed>
    <Disabled>False</Disabled>
+   <Button Caption="Front center red" ID="0">
+    <WindowState Visible="True" X="150" Y="66" Width="94" Height="94"/>
+    <Appearance>
+     <BackgroundColor>4282664004</BackgroundColor>
+    </Appearance>
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+   </Button>
   </Frame>
   <Frame Caption="Page 2" ID="1">
    <Appearance>
