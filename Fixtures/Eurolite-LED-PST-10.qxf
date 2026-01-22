@@ -19,7 +19,29 @@
  <Channel Name="Blue" Preset="IntensityBlue"/>
  <Channel Name="Red" Preset="IntensityRed"/>
  <Channel Name="White" Preset="IntensityWhite"/>
- <Channel Name="Preset colors" Preset="ColorMacro"/>
+ <Channel Name="Preset colors">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="9">No function</Capability>
+  <Capability Min="10" Max="19">Red</Capability>
+  <Capability Min="20" Max="29">Green</Capability>
+  <Capability Min="30" Max="39">Blue</Capability>
+  <Capability Min="40" Max="49">White</Capability>
+  <Capability Min="50" Max="59">Yellow</Capability>
+  <Capability Min="60" Max="69">Magenta</Capability>
+  <Capability Min="70" Max="79">Cyan</Capability>
+  <Capability Min="80" Max="89">Dark orange</Capability>
+  <Capability Min="90" Max="99">Green yellow</Capability>
+  <Capability Min="100" Max="109">Salmon</Capability>
+  <Capability Min="110" Max="119">Turquoise</Capability>
+  <Capability Min="120" Max="129">Light green</Capability>
+  <Capability Min="130" Max="139">Orange</Capability>
+  <Capability Min="140" Max="149">Straw</Capability>
+  <Capability Min="150" Max="159">Lavender</Capability>
+  <Capability Min="160" Max="169">Light blue</Capability>
+  <Capability Min="170" Max="179">Dark blue</Capability>
+  <Capability Min="180" Max="189">Pink</Capability>
+  <Capability Min="190" Max="255">All on</Capability>
+ </Channel>
  <Channel Name="Auto and sound program">
   <Group Byte="0">Effect</Group>
   <Capability Min="0" Max="9">No function</Capability>
@@ -57,8 +79,8 @@
   <Channel Number="0">Master dimmer</Channel>
   <Channel Number="1">Strobe effect</Channel>
   <Channel Number="2">Red</Channel>
-  <Channel Number="3">Blue</Channel>
-  <Channel Number="4">Green</Channel>
+  <Channel Number="3">Green</Channel>
+  <Channel Number="4">Blue</Channel>
   <Channel Number="5">White</Channel>
   <Channel Number="6">Preset colors</Channel>
   <Channel Number="7">Auto and sound program</Channel>
@@ -91,7 +113,7 @@
   <Channel Number="4" ActsOn="3">Speed auto and sound program</Channel>
  </Mode>
  <Physical>
-  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Bulb Type="CDM 70W" Lumens="0" ColourTemperature="0"/>
   <Dimensions Weight="1" Width="163" Height="197" Depth="202"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
