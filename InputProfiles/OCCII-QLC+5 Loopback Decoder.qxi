@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>5.2.0</Version>
+  <Author>Daniel</Author>
+ </Creator>
+ <Manufacturer>OCCII</Manufacturer>
+ <Model>QLC+5 Loopback Decoder</Model>
+ <Type>DMX</Type>
+ <Channel Number="0">
+  <Name>Backlight 1 red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="1">
+  <Name>Backlight 1 green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="2">
+  <Name>Backlight 1 blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="3">
+  <Name>Backlight 1 dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="4">
+  <Name>Backlight 2 red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="5">
+  <Name>Backlight 2 green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="6">
+  <Name>Backlight 2 blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="7">
+  <Name>Backlight 2 dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="8">
+  <Name>Backlight 3 red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="9">
+  <Name>Backlight 3 green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="10">
+  <Name>Backlight 3 blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="11">
+  <Name>Backlight 3 dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="12">
+  <Name>Backlight 4 red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="13">
+  <Name>Backlight 4 green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="14">
+  <Name>Backlight 4 blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="15">
+  <Name>Backlight 4 dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>Backlight 5 red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Backlight 5 green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>Backlight 5 blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>Backlight 5 dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Merch light wall red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Merch light wall green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Merch light wall blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>Merch light wall dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="24">
+  <Name>Room back left red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="25">
+  <Name>Room back left green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="26">
+  <Name>Room back left blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="27">
+  <Name>Room back left dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="28">
+  <Name>Crown left ring red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="29">
+  <Name>Crown left ring green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="30">
+  <Name>Crown left ring blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="31">
+  <Name>Crown left ring dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="32">
+  <Name>Crown left center red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="33">
+  <Name>Crown left center green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="34">
+  <Name>Crown left center blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="35">
+  <Name>Crown left center dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="36">
+  <Name>Crown right ring red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="37">
+  <Name>Crown right ring green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="38">
+  <Name>Crown right ring blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="39">
+  <Name>Crown right ring dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="40">
+  <Name>Crown right center red</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="41">
+  <Name>Crown right center green</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="42">
+  <Name>Crown right center blue</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="43">
+  <Name>Crown right center dimmer</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="44">
+  <Name>Strobe intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="45">
+  <Name>Strobe toggle</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="46">
+  <Name>Left crowd blinder intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="47">
+  <Name>Right crowd blinder intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="48">
+  <Name>Crowd blinders max intensity</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="49">
+  <Name>Crowns strobe ring speed</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="50">
+  <Name>Crowns strobe ring toggle</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>
