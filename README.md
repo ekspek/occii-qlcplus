@@ -18,39 +18,24 @@ Makes use of QLC+ loopback logic, more information [here](https://www.qlcplus.or
 
 ### QLC+
 
-* ~~Basic functionality~~
-* Add customizable color presets
-* ~~Make use of bank/flash/go buttons~~
-* ~~Add strobe control to stage pars~~
-* ~~Add merch light color picker to VC~~
-* ~~Get encoders to work~~
-* Add more color chasers
-* ~~Add more fine control for flower functions~~
-* Add MIDI-coupled control for effects (blinders, strobe, flower)
-* Separate DJ light/merch light/room light control from rest of lights
-* Add MIDI controls for backlight RGB matrix function
+* Upgrade to QLC+5
+  - Program color scenes
+  - Program chasers
+  - Couple chasers to Override buttons
+  - Couple chasers to Override buttons
+  - Program extra VC page with Cue/Flash functionality
+  - Program LED bar presets
 
 ### Hardware
 
-* ~~Replace pars with broken LEDs~~
-* ~~Check for more power sockets on the ceiling~~ (Luc will get to it)
-* ~~Add ventilator with smoke machine~~
-* Replace XLR with DMX cables
-* Hang safety cables for all pars
-* ~~Hang more pars on back wall~~
-* Get a disco light spot
-* Add safety wire to disco ball
-* Pars to illuminate back wall
-* MOVING HEAD PLZZZZZ
+* Better quality backlight pars
+* Fix smoke machine or get hazer
+  - Stress-test the OCCII fire alarm system
+* Moving heads
+* Get stage-level power socket
+* Get new DMX cables
 
 ### Documentation
 
-* ~~Quick Start guide~~
-* Main documentation manual
-    * Setting up
-    * Programming scenes
-    * Programming VC
-    * DMX addresses
-    * DMX tables
-    * Fixture list
-    * Cable and fixture map
+* Update patch list
+* DMX cabling map
