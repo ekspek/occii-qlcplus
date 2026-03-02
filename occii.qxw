@@ -98,7 +98,7 @@
   <Fixture>
    <Manufacturer>Showtec</Manufacturer>
    <Model>LED Par 64 Short</Model>
-   <Mode>5CH</Mode>
+   <Mode>5 channel</Mode>
    <ID>7</ID>
    <Name>Stage front center</Name>
    <Universe>0</Universe>
@@ -469,32 +469,32 @@
   <Fixture>
    <Manufacturer>Showtec</Manufacturer>
    <Model>LED Light Bar 16</Model>
-   <Mode>5-channel</Mode>
+   <Mode>48-channel</Mode>
    <ID>44</ID>
    <Name>LED Light Bar 16</Name>
    <Universe>0</Universe>
-   <Address>144</Address>
-   <Channels>5</Channels>
+   <Address>399</Address>
+   <Channels>48</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Varytec</Manufacturer>
    <Model>BAT.BAR 240 RGB</Model>
-   <Mode>5-channel</Mode>
+   <Mode>26-channel</Mode>
    <ID>45</ID>
    <Name>BAT.BAR 240 RGB #1</Name>
    <Universe>0</Universe>
-   <Address>149</Address>
-   <Channels>5</Channels>
+   <Address>447</Address>
+   <Channels>26</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Varytec</Manufacturer>
    <Model>BAT.BAR 240 RGB</Model>
-   <Mode>5-channel</Mode>
+   <Mode>26-channel</Mode>
    <ID>46</ID>
    <Name>BAT.BAR 240 RGB #2</Name>
    <Universe>0</Universe>
-   <Address>154</Address>
-   <Channels>5</Channels>
+   <Address>473</Address>
+   <Channels>26</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Stage pars</Name>
@@ -569,6 +569,62 @@
    <Head X="2" Y="0" Fixture="22">0</Head>
    <Head X="3" Y="0" Fixture="26">0</Head>
    <Head X="4" Y="0" Fixture="24">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="7">
+   <Name>LED bars</Name>
+   <Size X="32" Y="1"/>
+   <Head X="0" Y="0" Fixture="45">0</Head>
+   <Head X="1" Y="0" Fixture="45">1</Head>
+   <Head X="2" Y="0" Fixture="45">2</Head>
+   <Head X="3" Y="0" Fixture="45">3</Head>
+   <Head X="4" Y="0" Fixture="45">4</Head>
+   <Head X="5" Y="0" Fixture="45">5</Head>
+   <Head X="6" Y="0" Fixture="45">6</Head>
+   <Head X="7" Y="0" Fixture="45">7</Head>
+   <Head X="8" Y="0" Fixture="44">0</Head>
+   <Head X="9" Y="0" Fixture="44">1</Head>
+   <Head X="10" Y="0" Fixture="44">2</Head>
+   <Head X="11" Y="0" Fixture="44">3</Head>
+   <Head X="12" Y="0" Fixture="44">4</Head>
+   <Head X="13" Y="0" Fixture="44">5</Head>
+   <Head X="14" Y="0" Fixture="44">6</Head>
+   <Head X="15" Y="0" Fixture="44">7</Head>
+   <Head X="16" Y="0" Fixture="44">8</Head>
+   <Head X="17" Y="0" Fixture="44">9</Head>
+   <Head X="18" Y="0" Fixture="44">10</Head>
+   <Head X="19" Y="0" Fixture="44">11</Head>
+   <Head X="20" Y="0" Fixture="44">12</Head>
+   <Head X="21" Y="0" Fixture="44">13</Head>
+   <Head X="22" Y="0" Fixture="44">14</Head>
+   <Head X="23" Y="0" Fixture="44">15</Head>
+   <Head X="24" Y="0" Fixture="46">0</Head>
+   <Head X="25" Y="0" Fixture="46">1</Head>
+   <Head X="26" Y="0" Fixture="46">2</Head>
+   <Head X="27" Y="0" Fixture="46">3</Head>
+   <Head X="28" Y="0" Fixture="46">4</Head>
+   <Head X="29" Y="0" Fixture="46">5</Head>
+   <Head X="30" Y="0" Fixture="46">6</Head>
+   <Head X="31" Y="0" Fixture="46">7</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="8">
+   <Name>LED bar Showtec only</Name>
+   <Size X="16" Y="1"/>
+   <Head X="0" Y="0" Fixture="44">0</Head>
+   <Head X="1" Y="0" Fixture="44">1</Head>
+   <Head X="2" Y="0" Fixture="44">2</Head>
+   <Head X="3" Y="0" Fixture="44">3</Head>
+   <Head X="4" Y="0" Fixture="44">4</Head>
+   <Head X="5" Y="0" Fixture="44">5</Head>
+   <Head X="6" Y="0" Fixture="44">6</Head>
+   <Head X="7" Y="0" Fixture="44">7</Head>
+   <Head X="8" Y="0" Fixture="44">8</Head>
+   <Head X="9" Y="0" Fixture="44">9</Head>
+   <Head X="10" Y="0" Fixture="44">10</Head>
+   <Head X="11" Y="0" Fixture="44">11</Head>
+   <Head X="12" Y="0" Fixture="44">12</Head>
+   <Head X="13" Y="0" Fixture="44">13</Head>
+   <Head X="14" Y="0" Fixture="44">14</Head>
+   <Head X="15" Y="0" Fixture="44">15</Head>
   </FixtureGroup>
   <Function ID="0" Type="Scene" Name="All green" Path="Still colors/Room">
    <Speed FadeIn="993" FadeOut="993" Duration="0"/>
@@ -986,7 +1042,7 @@
    <FixtureVal ID="32">5,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="238"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1095,7 +1151,7 @@
    <FixtureVal ID="25">0,0</FixtureVal>
   </Function>
   <Function ID="64" Type="Chaser" Name="Front random" Path="Dim chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1133,7 +1189,7 @@
    <FixtureVal ID="9">4,170</FixtureVal>
   </Function>
   <Function ID="68" Type="Chaser" Name="Backlights blinking" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="119"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="102"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1166,7 +1222,7 @@
    <FixtureVal ID="28">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1495,7 +1551,7 @@
    <FixtureVal ID="38">1,255</FixtureVal>
   </Function>
   <Function ID="139" Type="Chaser" Name="Back blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1503,7 +1559,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
   </Function>
   <Function ID="140" Type="Chaser" Name="Blinders back/front" Path="Blinder chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1511,7 +1567,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">210</Step>
   </Function>
   <Function ID="141" Type="Chaser" Name="Blinders back to front" Path="Blinder chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1567,7 +1623,7 @@
    <FixtureVal ID="27">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1579,7 +1635,7 @@
    <FixtureVal ID="35">3,255</FixtureVal>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1595,7 +1651,7 @@
    <FixtureVal ID="27">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="238"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1606,7 +1662,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="238"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1617,7 +1673,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="238"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1628,7 +1684,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">39</Step>
   </Function>
   <Function ID="158" Type="Chaser" Name="Fronts ping-pong" Path="Dim chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1644,7 +1700,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="160" Type="Chaser" Name="UV alternate">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1673,6 +1729,28 @@
    <FixtureVal ID="35">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="34">0,0,1,0,2,255</FixtureVal>
    <FixtureVal ID="33">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="166" Type="RGBMatrix" Name="LED bars">
+   <Speed FadeIn="50" FadeOut="50" Duration="50"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <Color Index="0">4294901760</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>7</FixtureGroup>
+   <Property Name="presetSize" Value="5"/>
+  </Function>
+  <Function ID="167" Type="RGBMatrix" Name="LED bar Showtec only">
+   <Speed FadeIn="127" FadeOut="93" Duration="127"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Gradient</Algorithm>
+   <Color Index="0">4294901760</Color>
+   <Color Index="1">4278190080</Color>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>8</FixtureGroup>
+   <Property Name="presetIndex" Value="Abstract"/>
+   <Property Name="presetSize" Value="8"/>
   </Function>
   <Function ID="168" Type="Scene" Name="Back outs color 1" Path="Still custom colors/Color 1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1789,7 +1867,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="194" Type="Chaser" Name="Crowns ring/center" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1856,7 +1934,7 @@
    <Step Number="7">214</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1921,7 +1999,7 @@
    <FixtureVal ID="6">3,255</FixtureVal>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1929,7 +2007,7 @@
    <Step Number="1" FadeIn="78" Hold="784" FadeOut="39">44</Step>
   </Function>
   <Function ID="218" Type="Chaser" Name="Backlights random" Path="Backlight chasers">
-   <Speed FadeIn="500" FadeOut="1391" Duration="477"/>
+   <Speed FadeIn="39" FadeOut="588" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1965,7 +2043,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="34">3,255</FixtureVal>
   </Function>
-  <Monitor DisplayMode="1" ShowLabels="0">
+  <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Roboto,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
@@ -2340,7 +2418,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>477</Time>
+     <Time>411</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">160</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">217</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
@@ -2378,7 +2456,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="35"/>
      </AbsoluteValue>
-     <Time>500</Time>
+     <Time>39</Time>
      <Function FadeIn="6" FadeOut="0" Duration="0">160</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">217</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">47</Function>
@@ -2424,7 +2502,7 @@
      <AbsoluteValue Minimum="0" Maximum="5000">
       <Input Universe="2" Channel="36"/>
      </AbsoluteValue>
-     <Time>1391</Time>
+     <Time>588</Time>
      <Function FadeIn="0" FadeOut="6" Duration="0">160</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">217</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">47</Function>
@@ -3387,7 +3465,7 @@
       </Appearance>
       <Input Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">1</Channel>
       </Level>
       <Playback>
@@ -3405,7 +3483,7 @@
       </Appearance>
       <Input Universe="2" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="0">2</Channel>
       </Level>
       <Playback>
@@ -3473,7 +3551,7 @@
       </Appearance>
       <Input Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">1</Channel>
       </Level>
       <Playback>
@@ -3491,7 +3569,7 @@
       </Appearance>
       <Input Universe="2" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="1">2</Channel>
       </Level>
       <Playback>
@@ -3559,7 +3637,7 @@
       </Appearance>
       <Input Universe="2" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="16">1</Channel>
       </Level>
       <Playback>
@@ -3577,7 +3655,7 @@
       </Appearance>
       <Input Universe="2" Channel="6"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="16">2</Channel>
       </Level>
       <Playback>
@@ -3645,7 +3723,7 @@
       </Appearance>
       <Input Universe="2" Channel="9"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">1</Channel>
       </Level>
       <Playback>
@@ -3663,7 +3741,7 @@
       </Appearance>
       <Input Universe="2" Channel="10"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">2</Channel>
       </Level>
       <Playback>
@@ -3731,7 +3809,7 @@
       </Appearance>
       <Input Universe="2" Channel="13"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">1</Channel>
       </Level>
       <Playback>
@@ -3749,7 +3827,7 @@
       </Appearance>
       <Input Universe="2" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">2</Channel>
       </Level>
       <Playback>
@@ -4208,7 +4286,7 @@
       </Appearance>
       <Input Universe="2" Channel="47"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="5">1</Channel>
       </Level>
       <Playback>
@@ -4226,7 +4304,7 @@
       </Appearance>
       <Input Universe="2" Channel="48"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="5">2</Channel>
       </Level>
       <Playback>
@@ -4294,7 +4372,7 @@
       </Appearance>
       <Input Universe="2" Channel="51"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="5">5</Channel>
       </Level>
       <Playback>
@@ -4312,7 +4390,7 @@
       </Appearance>
       <Input Universe="2" Channel="52"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="5">6</Channel>
       </Level>
       <Playback>
@@ -4380,7 +4458,7 @@
       </Appearance>
       <Input Universe="2" Channel="55"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">1</Channel>
       </Level>
       <Playback>
@@ -4398,7 +4476,7 @@
       </Appearance>
       <Input Universe="2" Channel="56"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">2</Channel>
       </Level>
       <Playback>
@@ -4466,7 +4544,7 @@
       </Appearance>
       <Input Universe="2" Channel="59"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">5</Channel>
       </Level>
       <Playback>
@@ -4484,7 +4562,7 @@
       </Appearance>
       <Input Universe="2" Channel="60"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="6">6</Channel>
       </Level>
       <Playback>
@@ -4926,7 +5004,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="8" CurrentPage="0"/>
+    <Multipage PagesNum="8" CurrentPage="6"/>
     <Shortcut Page="0" Name="1: Stage main colors">
      <Input Universe="0" Channel="157"/>
     </Shortcut>
@@ -6406,7 +6484,7 @@
      </Preset>
     </SpeedDial>
     <Matrix Caption="Backlights" ID="208" Page="6">
-     <WindowState Visible="False" X="5" Y="40" Width="585" Height="510"/>
+     <WindowState Visible="False" X="5" Y="40" Width="585" Height="280"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -9244,6 +9322,17 @@
       </Playback>
      </Slider>
     </Frame>
+    <Matrix Caption="LED bars" ID="88" Page="6">
+     <WindowState Visible="False" X="5" Y="325" Width="585" Height="225"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="166" InstantApply="true"/>
+    </Matrix>
    </Frame>
    <Button Caption="Black Out" ID="2" Icon="">
     <WindowState Visible="False" X="1820" Y="10" Width="85" Height="235"/>
