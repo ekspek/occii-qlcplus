@@ -8,7 +8,7 @@
  </Creator>
  <Engine>
   <InputOutputMap>
-   <BeatGenerator BeatType="Internal" BPM="120"/>
+   <BeatGenerator BeatType="Internal" BPM="104"/>
    <Universe Name="Universe 1" ID="0">
     <Input Plugin="MIDI" UID="None" Line="0" Profile="Ayra Digicon-1"/>
     <Output Plugin="DMX USB" UID="None" Line="0"/>
@@ -1005,11 +1005,6 @@
    <FixtureGroup ID="17"/>
    <Palette ID="13"/>
   </Function>
-  <Function ID="52" Type="Scene" Name="Front sides red" Path="Still colors/Front sides">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureGroup ID="17"/>
-   <Palette ID="8"/>
-  </Function>
   <Function ID="53" Type="Scene" Name="Front sides white" Path="Still colors/Front sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureGroup ID="17"/>
@@ -1105,12 +1100,12 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="8" CurrentPage="4"/>
+    <Multipage PagesNum="8" CurrentPage="3"/>
     <Shortcut Page="0" Name="Main colors"/>
     <Shortcut Page="1" Name="Custom colors"/>
     <Shortcut Page="2" Name="Par strobes"/>
     <Shortcut Page="3" Name="Effect controls"/>
-    <Shortcut Page="4" Name="Page 5"/>
+    <Shortcut Page="4" Name="RGB effects"/>
     <Shortcut Page="5" Name="Page 6"/>
     <Shortcut Page="6" Name="Page 7"/>
     <Shortcut Page="7" Name="Page 8"/>
@@ -1401,12 +1396,12 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Crowd flash max intensity" ID="4" Page="3">
-     <WindowState Visible="False" X="401" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="True" X="401" Y="33" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Crowd flash max intensity" ID="0" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -1419,12 +1414,12 @@
      </Slider>
     </Frame>
     <Frame Caption="Room lights color" ID="12" Page="3">
-     <WindowState Visible="False" X="501" Y="317" Width="100" Height="284"/>
+     <WindowState Visible="True" X="501" Y="317" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Room lights color" ID="10" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -1486,12 +1481,12 @@
      </Slider>
     </Frame>
     <Frame Caption="Strobe speed" ID="5" Page="3">
-     <WindowState Visible="False" X="0" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="True" X="0" Y="33" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Strobe speed" ID="398" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -1504,12 +1499,12 @@
      </Slider>
     </Frame>
     <Frame Caption="Flower effect" ID="34" Page="3">
-     <WindowState Visible="False" X="0" Y="317" Width="100" Height="284"/>
+     <WindowState Visible="True" X="0" Y="317" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Flower effect" ID="33" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -1522,12 +1517,12 @@
      </Slider>
     </Frame>
     <Frame Caption="DJ light color" ID="9" Page="3">
-     <WindowState Visible="False" X="401" Y="317" Width="100" Height="284"/>
+     <WindowState Visible="True" X="401" Y="317" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="DJ light color" ID="8" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -1685,12 +1680,12 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Flower effect speed" ID="36" Page="3">
-     <WindowState Visible="False" X="100" Y="317" Width="100" Height="284"/>
+     <WindowState Visible="True" X="100" Y="317" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Flower effect speed" ID="35" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -1876,7 +1871,7 @@
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="53"/>
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Yellow" ID="361">
@@ -1885,7 +1880,7 @@
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="54"/>
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="350">
@@ -1926,7 +1921,7 @@
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="40"/>
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="353">
@@ -1958,7 +1953,7 @@
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="39"/>
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="352">
@@ -1984,7 +1979,7 @@
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="50"/>
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Magenta" ID="358">
@@ -1993,7 +1988,7 @@
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="51"/>
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Cyan" ID="360">
@@ -2002,7 +1997,7 @@
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="49"/>
       <Action>Toggle</Action>
      </Button>
     </SoloFrame>
@@ -2331,19 +2326,19 @@
      </Button>
     </SoloFrame>
     <Frame Caption="LED Bars" ID="427" Page="4">
-     <WindowState Visible="True" X="0" Y="317" Width="802" Height="284"/>
+     <WindowState Visible="False" X="0" Y="317" Width="802" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Slider Caption="Switch" ID="429" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="685" Y="50" Width="100" Height="217"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
       <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
      </Slider>
      <Matrix Caption="Animation 426" ID="425">
       <WindowState Visible="True" X="16" Y="50" Width="652" Height="217"/>
@@ -2351,12 +2346,12 @@
      </Matrix>
     </Frame>
     <Frame Caption="Disco ball white" ID="405" Page="3">
-     <WindowState Visible="False" X="200" Y="317" Width="100" Height="284"/>
+     <WindowState Visible="True" X="200" Y="317" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Disco ball color" ID="401" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -2514,12 +2509,12 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Disco ball strobe" ID="14" Page="3">
-     <WindowState Visible="False" X="301" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="True" X="301" Y="33" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Disco ball strobe" ID="13" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -2532,12 +2527,12 @@
      </Slider>
     </Frame>
     <Frame Caption="Crowns strobe speed" ID="2" Page="3">
-     <WindowState Visible="False" X="100" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="True" X="100" Y="33" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Crowns strobe speed" ID="400" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -2836,12 +2831,12 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Merch lights color" ID="7" Page="3">
-     <WindowState Visible="False" X="301" Y="317" Width="100" Height="284"/>
+     <WindowState Visible="True" X="301" Y="317" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Merch lights color" ID="6" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -2859,12 +2854,12 @@
      </Slider>
     </Frame>
     <Frame Caption="Disco ball white" ID="403" Page="3">
-     <WindowState Visible="False" X="200" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="True" X="200" Y="33" Width="100" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Slider Caption="Disco ball white" ID="402" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
       <Appearance>
@@ -3467,19 +3462,19 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Backlights" ID="426" Page="4">
-     <WindowState Visible="True" X="0" Y="33" Width="802" Height="284"/>
+     <WindowState Visible="False" X="0" Y="33" Width="802" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Slider Caption="Switch" ID="428" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="685" Y="50" Width="100" Height="217"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
       <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
      </Slider>
      <Matrix Caption="LED Bars" ID="424">
       <WindowState Visible="True" X="16" Y="50" Width="652" Height="217"/>
@@ -4197,7 +4192,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
-     <Multipage PagesNum="5" CurrentPage="0" PagesLoop="True"/>
+     <Multipage PagesNum="5" CurrentPage="2" PagesLoop="True"/>
      <Shortcut Page="0" Name="Stage main"/>
      <Shortcut Page="1" Name="Halogens"/>
      <Shortcut Page="2" Name="Effects"/>
@@ -4224,7 +4219,7 @@
       </Level>
      </Slider>
      <Slider Caption="Room lights" ID="277" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="501" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="True" X="501" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4256,7 +4251,7 @@
       </Level>
      </Slider>
      <Slider Caption="Back outs" ID="11" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="False" X="0" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4277,7 +4272,7 @@
       </Level>
      </Slider>
      <Slider Caption="Sides" ID="77" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="301" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="False" X="301" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4288,7 +4283,7 @@
       </Level>
      </Slider>
      <Slider Caption="Front center" ID="79" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="501" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="False" X="501" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4318,7 +4313,7 @@
       </Level>
      </Slider>
      <Slider Caption="Merch lights" ID="278" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="301" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="True" X="301" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4348,7 +4343,7 @@
       </Level>
      </Slider>
      <Slider Caption="Front sides" ID="78" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="401" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="False" X="401" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4400,7 +4395,7 @@
       </Level>
      </Slider>
      <Slider Caption="Strobe intensity" ID="287" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="0" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="True" X="0" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4431,7 +4426,7 @@
       </Level>
      </Slider>
      <Slider Caption="UV light intensity" ID="274" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="100" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="True" X="100" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4442,7 +4437,7 @@
       </Level>
      </Slider>
      <Slider Caption="DJ light" ID="291" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="401" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="True" X="401" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4462,7 +4457,7 @@
       </Level>
      </Slider>
      <Slider Caption="Back center" ID="76" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="200" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="False" X="200" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4472,7 +4467,7 @@
       </Level>
      </Slider>
      <Slider Caption="Back mids" ID="75" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="True" X="100" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="False" X="100" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4483,7 +4478,7 @@
       </Level>
      </Slider>
      <Slider Caption="Disco ball" ID="276" Page="2" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="200" Y="33" Width="100" Height="234"/>
+      <WindowState Visible="True" X="200" Y="33" Width="100" Height="234"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4930,7 +4925,7 @@
      <BackgroundColor>4278218240</BackgroundColor>
     </Appearance>
     <Visibility>98</Visibility>
-    <Time>5001</Time>
+    <Time>1991</Time>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
    </SpeedDial>
    <Slider Caption="Grand Master" ID="15" WidgetStyle="Slider" InvertedAppearance="false">
