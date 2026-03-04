@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VC">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>5.2.0</Version>
@@ -1374,7 +1374,7 @@
    <FixtureVal ID="28">3,255</FixtureVal>
   </Function>
   <Function ID="119" Type="Chaser" Name="Backlights left to right" Path="Chasers">
-   <Speed FadeIn="500" FadeOut="1011" Duration="500"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1385,7 +1385,7 @@
    <Step Number="4" FadeIn="0" Hold="250" FadeOut="0">118</Step>
   </Function>
   <Function ID="120" Type="Chaser" Name="Backlights right to left" Path="Chasers">
-   <Speed FadeIn="500" FadeOut="1011" Duration="500"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="500"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1396,7 +1396,7 @@
    <Step Number="4" FadeIn="0" Hold="500" FadeOut="0">118</Step>
   </Function>
   <Function ID="121" Type="Chaser" Name="Backlights ping-pong" Path="Chasers">
-   <Speed FadeIn="500" FadeOut="1011" Duration="500"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="500"/>
    <Direction>Backward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1407,7 +1407,7 @@
    <Step Number="4" FadeIn="0" Hold="500" FadeOut="0">118</Step>
   </Function>
   <Function ID="122" Type="Chaser" Name="Backlights random" Path="Chasers">
-   <Speed FadeIn="500" FadeOut="1011" Duration="500"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="500"/>
    <Direction>Backward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1471,7 +1471,7 @@
    <FixtureVal ID="7">5,255</FixtureVal>
   </Function>
   <Function ID="135" Type="Chaser" Name="Stage all random" Path="Chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1490,7 +1490,7 @@
    <Step Number="12" FadeIn="0" Hold="1000" FadeOut="0">118</Step>
   </Function>
   <Function ID="136" Type="Chaser" Name="Sides alternate" Path="Chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1498,7 +1498,7 @@
    <Step Number="1" FadeIn="0" Hold="1000" FadeOut="0">128</Step>
   </Function>
   <Function ID="137" Type="Chaser" Name="Backlights left/right" Path="Chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1506,7 +1506,7 @@
    <Step Number="1" FadeIn="0" Hold="1000" FadeOut="0">126</Step>
   </Function>
   <Function ID="138" Type="Chaser" Name="Backlights alternate" Path="Chasers">
-   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Speed FadeIn="1" FadeOut="1" Duration="1000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1600,12 +1600,12 @@
     <Level LowLimit="0" HighLimit="255" Value="255"/>
    </Slider>
    <SpeedDial Caption="Chaser fade in" ID="252">
-    <WindowState Visible="True" X="1321" Y="267" Width="217" Height="234"/>
+    <WindowState Visible="True" X="1321" Y="267" Width="284" Height="234"/>
     <Appearance>
      <BackgroundColor>4278218240</BackgroundColor>
     </Appearance>
     <Visibility>98</Visibility>
-    <Time>500</Time>
+    <Time>1</Time>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Function FadeIn="6" FadeOut="0" Duration="0">119</Function>
     <Function FadeIn="6" FadeOut="0" Duration="0">120</Function>
@@ -1615,14 +1615,30 @@
     <Function FadeIn="6" FadeOut="0" Duration="0">136</Function>
     <Function FadeIn="6" FadeOut="0" Duration="0">137</Function>
     <Function FadeIn="6" FadeOut="0" Duration="0">138</Function>
+    <Preset ID="18">
+     <Name>Instant</Name>
+     <Value>1</Value>
+    </Preset>
+    <Preset ID="19">
+     <Name>200ms</Name>
+     <Value>200</Value>
+    </Preset>
+    <Preset ID="20">
+     <Name>500ms</Name>
+     <Value>200</Value>
+    </Preset>
+    <Preset ID="21">
+     <Name>5s</Name>
+     <Value>5000</Value>
+    </Preset>
    </SpeedDial>
    <SpeedDial Caption="Chaser fade out" ID="253">
-    <WindowState Visible="True" X="1538" Y="267" Width="217" Height="234"/>
+    <WindowState Visible="True" X="1605" Y="267" Width="301" Height="234"/>
     <Appearance>
      <BackgroundColor>4278190190</BackgroundColor>
     </Appearance>
     <Visibility>98</Visibility>
-    <Time>781</Time>
+    <Time>1</Time>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Function FadeIn="0" FadeOut="6" Duration="0">119</Function>
     <Function FadeIn="0" FadeOut="6" Duration="0">120</Function>
@@ -1632,6 +1648,22 @@
     <Function FadeIn="0" FadeOut="6" Duration="0">136</Function>
     <Function FadeIn="0" FadeOut="6" Duration="0">137</Function>
     <Function FadeIn="0" FadeOut="6" Duration="0">138</Function>
+    <Preset ID="16">
+     <Name>Instant</Name>
+     <Value>1</Value>
+    </Preset>
+    <Preset ID="17">
+     <Name>200ms</Name>
+     <Value>200</Value>
+    </Preset>
+    <Preset ID="18">
+     <Name>500ms</Name>
+     <Value>500</Value>
+    </Preset>
+    <Preset ID="19">
+     <Name>5s</Name>
+     <Value>5000</Value>
+    </Preset>
    </SpeedDial>
    <SpeedDial Caption="Chaser speed" ID="251">
     <WindowState Visible="True" X="802" Y="267" Width="518" Height="234" Z="1"/>
@@ -2300,7 +2332,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="8" CurrentPage="0"/>
+    <Multipage PagesNum="8" CurrentPage="4"/>
     <Shortcut Page="0" Name="Main colors"/>
     <Shortcut Page="1" Name="Custom colors"/>
     <Shortcut Page="2" Name="Par strobes"/>
@@ -2490,12 +2522,12 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Back mids" ID="312">
-     <WindowState Visible="True" X="100" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="100" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Custom color 5" ID="297">
       <WindowState Visible="True" X="100" Y="301" Width="66" Height="66"/>
       <Appearance>
@@ -2833,12 +2865,12 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Sides" ID="346">
-     <WindowState Visible="True" X="301" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="301" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="White" ID="345">
       <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
       <Appearance>
@@ -2996,12 +3028,12 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Stage backs" ID="32">
-     <WindowState Visible="True" X="602" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="602" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Custom color 4" ID="24">
       <WindowState Visible="True" X="100" Y="234" Width="66" Height="66"/>
       <Appearance>
@@ -3139,12 +3171,12 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Front center" ID="380">
-     <WindowState Visible="True" X="501" Y="33" Width="100" Height="568" Z="1"/>
+     <WindowState Visible="False" X="501" Y="33" Width="100" Height="568" Z="1"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Custom color 5" ID="365">
       <WindowState Visible="True" X="100" Y="301" Width="66" Height="66"/>
       <Appearance>
@@ -3812,12 +3844,12 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Back center" ID="329">
-     <WindowState Visible="True" X="200" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="200" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Custom color 7" ID="322">
       <WindowState Visible="True" X="100" Y="434" Width="66" Height="66"/>
       <Appearance>
@@ -4116,12 +4148,12 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Backlights" ID="426" Page="4">
-     <WindowState Visible="False" X="0" Y="33" Width="802" Height="284"/>
+     <WindowState Visible="True" X="0" Y="33" Width="802" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Matrix Caption="LED Bars" ID="424">
       <WindowState Visible="True" X="16" Y="50" Width="652" Height="217"/>
       <Function ID="23" InstantApply="true"/>
@@ -4358,12 +4390,12 @@
      </Slider>
     </Frame>
     <Frame Caption="LED Bars" ID="427" Page="4">
-     <WindowState Visible="False" X="0" Y="317" Width="802" Height="284"/>
+     <WindowState Visible="True" X="0" Y="317" Width="802" Height="284"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Matrix Caption="Animation 426" ID="425">
       <WindowState Visible="True" X="16" Y="50" Width="652" Height="217"/>
       <Function ID="4294967295" InstantApply="true"/>
@@ -4378,12 +4410,12 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Front sides" ID="363">
-     <WindowState Visible="True" X="401" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="401" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Custom color 3" ID="353">
       <WindowState Visible="True" X="100" Y="167" Width="66" Height="66"/>
       <Appearance>
@@ -4539,12 +4571,12 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Back outs" ID="295">
-     <WindowState Visible="True" X="0" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="0" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Custom color 3" ID="282">
       <WindowState Visible="True" X="100" Y="167" Width="66" Height="66"/>
       <Appearance>
