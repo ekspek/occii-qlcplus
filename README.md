@@ -22,7 +22,6 @@ Makes use of QLC+ loopback logic, more information [here](https://www.qlcplus.or
   - Program color scenes
   - Program chasers
   - Couple chasers to Override buttons
-  - Couple chasers to Override buttons
   - Program extra VC page with Cue/Flash functionality
   - Program LED bar presets
 
