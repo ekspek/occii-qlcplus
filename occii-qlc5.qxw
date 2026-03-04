@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VC">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>5.2.0</Version>
@@ -706,12 +706,13 @@
   <Palette ID="15" Type="Color" Name="Black" Value="#000000"/>
   <Palette ID="16" Type="Dimmer" Name="Dimmer 100%" Value="255"/>
   <Palette ID="17" Type="Dimmer" Name="Dimmer 0%" Value="0"/>
+  <Palette ID="18" Type="Dimmer" Name="Merch light dimmer" Value="255"/>
   <Function ID="0" Type="Scene" Name="Front center red" Path="Still colors/Front center">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0"/>
    <Palette ID="8"/>
   </Function>
-  <Function ID="1" Type="RGBMatrix" Name="Backlights default" Path="Effects">
+  <Function ID="1" Type="RGBMatrix" Name="Backlights default" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -833,7 +834,7 @@
    <FixtureGroup ID="2"/>
    <Palette ID="7"/>
   </Function>
-  <Function ID="23" Type="RGBMatrix" Name="LED bars" Path="Effects">
+  <Function ID="23" Type="RGBMatrix" Name="LED bars" Path="RGB Animations">
    <Speed FadeIn="500" FadeOut="500" Duration="550"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1513,7 +1514,7 @@
    <Step Number="0" FadeIn="0" Hold="1000" FadeOut="0">123</Step>
    <Step Number="1" FadeIn="0" Hold="1000" FadeOut="0">124</Step>
   </Function>
-  <Function ID="139" Type="RGBMatrix" Name="Backlights rainbow left" Path="Effects">
+  <Function ID="139" Type="RGBMatrix" Name="Backlights rainbow left" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="500"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1524,7 +1525,7 @@
    <Property Name="orientation" Value="Horizontal"/>
    <Property Name="presetIndex" Value="Rainbow"/>
   </Function>
-  <Function ID="140" Type="RGBMatrix" Name="Backlights rainbow right" Path="Effects">
+  <Function ID="140" Type="RGBMatrix" Name="Backlights rainbow right" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="100"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1535,7 +1536,7 @@
    <Property Name="orientation" Value="Horizontal"/>
    <Property Name="presetIndex" Value="Rainbow"/>
   </Function>
-  <Function ID="141" Type="RGBMatrix" Name="Backlights rainbow ping-pong fast" Path="Effects">
+  <Function ID="141" Type="RGBMatrix" Name="Backlights rainbow ping-pong fast" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="100"/>
    <Direction>Backward</Direction>
    <RunOrder>PingPong</RunOrder>
@@ -1547,7 +1548,7 @@
    <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="5"/>
   </Function>
-  <Function ID="142" Type="RGBMatrix" Name="LED bars fixed color" Path="Effects">
+  <Function ID="142" Type="RGBMatrix" Name="LED bars fixed color" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="100"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1557,7 +1558,7 @@
    <FixtureGroup>14</FixtureGroup>
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
-  <Function ID="143" Type="RGBMatrix" Name="LED bars rainbow radial" Path="Effects">
+  <Function ID="143" Type="RGBMatrix" Name="LED bars rainbow radial" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="100"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1569,7 +1570,7 @@
    <Property Name="presetIndex" Value="Rainbow"/>
    <Property Name="presetSize" Value="5"/>
   </Function>
-  <Function ID="144" Type="RGBMatrix" Name="LED bars fill radial" Path="Effects">
+  <Function ID="144" Type="RGBMatrix" Name="LED bars fill radial" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1580,7 +1581,7 @@
    <FixtureGroup>14</FixtureGroup>
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
-  <Function ID="145" Type="RGBMatrix" Name="LED bars noise" Path="Effects">
+  <Function ID="145" Type="RGBMatrix" Name="LED bars noise" Path="RGB Animations">
    <Speed FadeIn="50" FadeOut="50" Duration="100"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
@@ -1590,6 +1591,28 @@
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>14</FixtureGroup>
    <Property Name="noisePercentage" Value="High"/>
+  </Function>
+  <Function ID="146" Type="Scene" Name="Merch lights on" Path="Effects">
+   <Speed FadeIn="1000" FadeOut="1000" Duration="0"/>
+   <FixtureVal ID="19"/>
+   <FixtureVal ID="13">0,255</FixtureVal>
+   <Palette ID="18"/>
+  </Function>
+  <Function ID="147" Type="Scene" Name="Disco ball spot on" Path="Effects">
+   <Speed FadeIn="500" FadeOut="500" Duration="0"/>
+   <FixtureVal ID="23">0,255</FixtureVal>
+  </Function>
+  <Function ID="148" Type="Scene" Name="Flower on (default)" Path="Effects">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="22">0,205,1,127</FixtureVal>
+  </Function>
+  <Function ID="149" Type="Scene" Name="Strobe on" Path="Effects">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="41">1,255</FixtureVal>
+  </Function>
+  <Function ID="150" Type="Scene" Name="Crowd blinder on" Path="Effects">
+   <Speed FadeIn="0" FadeOut="500" Duration="0"/>
+   <FixtureVal ID="43">0,255,1,255</FixtureVal>
   </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
@@ -1857,7 +1880,7 @@
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>True</Collapsed>
+    <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Frame Caption="Right crown center" ID="394">
      <Appearance>
@@ -5107,15 +5130,15 @@
      <Appearance>
       <BackgroundColor>4294940928</BackgroundColor>
      </Appearance>
-     <Function ID="4294967295"/>
-     <Action>Toggle</Action>
+     <Function ID="150"/>
+     <Action Override="0" ForceLTP="0">Flash</Action>
     </Button>
     <Button Caption="Merch lights" ID="262">
      <WindowState Visible="True" X="518" Y="150" Width="94" Height="94"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="146"/>
      <Action>Toggle</Action>
     </Button>
     <Button Caption="Flower on" ID="266">
@@ -5124,7 +5147,7 @@
       <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4278255360</BackgroundColor>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="148"/>
      <Action>Toggle</Action>
     </Button>
     <Button Caption="Effect 9" ID="264">
@@ -5141,7 +5164,7 @@
       <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>4294967295</BackgroundColor>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="149"/>
      <Action>Toggle</Action>
     </Button>
     <Button Caption="Stage white flash" ID="259">
@@ -5183,7 +5206,7 @@
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="147"/>
      <Action>Toggle</Action>
     </Button>
     <Button Caption="Fader page left" ID="256">
