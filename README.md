@@ -22,11 +22,15 @@ Makes use of QLC+ loopback logic, more information [here](https://www.qlcplus.or
   - ~~Program color scenes~~
   - ~~Program chasers~~
   - ~~Couple chasers to Override buttons~~
-  - Program extra VC page with Cue/Flash functionality
-  - Program LED bar presets
-  - Create backlight RGB animation presets
+  - ~~Program LED bar presets~~
   - Bind VC to physical Ayra buttons
+  - Finish effect scenes and buttons
+
+* Improve QLC+5 version
+  - Set effect dimmer/color settings to palettes?
+  - Program extra VC page with Cue/Flash functionality
   - Integrate BPM detection
+  - Create backlight RGB animation presets
 
 ### Hardware
 
