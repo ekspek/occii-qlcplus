@@ -19,11 +19,14 @@ Makes use of QLC+ loopback logic, more information [here](https://www.qlcplus.or
 ### QLC+
 
 * Upgrade to QLC+5
-  - Program color scenes
-  - Program chasers
-  - Couple chasers to Override buttons
+  - ~~Program color scenes~~
+  - ~~Program chasers~~
+  - ~~Couple chasers to Override buttons~~
   - Program extra VC page with Cue/Flash functionality
   - Program LED bar presets
+  - Create backlight RGB animation presets
+  - Bind VC to physical Ayra buttons
+  - Integrate BPM detection
 
 ### Hardware
 
