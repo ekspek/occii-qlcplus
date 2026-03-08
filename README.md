@@ -35,11 +35,11 @@ Makes use of QLC+ loopback logic, more information [here](https://www.qlcplus.or
 ### Hardware
 
 * Better quality backlight pars
-* Fix smoke machine or get hazer
+* ~~Fix smoke machine or get hazer~~ (thanks De Versterking!)
   - Stress-test the OCCII fire alarm system
 * Moving heads
 * Get stage-level power socket
-* Get new DMX cables
+* ~~Get new DMX cables~~
 
 ### Documentation
 
