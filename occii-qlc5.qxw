@@ -1398,7 +1398,7 @@
    <FixtureVal ID="28">3,255</FixtureVal>
   </Function>
   <Function ID="119" Type="Chaser" Name="Backlights left to right" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1409,18 +1409,18 @@
    <Step Number="4" FadeIn="0" Hold="250" FadeOut="0">118</Step>
   </Function>
   <Function ID="120" Type="Chaser" Name="Backlights right to left" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="500" FadeOut="0">56</Step>
-   <Step Number="1" FadeIn="0" Hold="500" FadeOut="0">57</Step>
-   <Step Number="2" FadeIn="0" Hold="500" FadeOut="0">58</Step>
-   <Step Number="3" FadeIn="0" Hold="500" FadeOut="0">59</Step>
-   <Step Number="4" FadeIn="0" Hold="500" FadeOut="0">118</Step>
+   <Step Number="0" FadeIn="0" Hold="192" FadeOut="0">56</Step>
+   <Step Number="1" FadeIn="0" Hold="192" FadeOut="0">57</Step>
+   <Step Number="2" FadeIn="0" Hold="192" FadeOut="0">58</Step>
+   <Step Number="3" FadeIn="0" Hold="192" FadeOut="0">59</Step>
+   <Step Number="4" FadeIn="0" Hold="192" FadeOut="0">118</Step>
   </Function>
   <Function ID="121" Type="Chaser" Name="Backlights ping-pong" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Backward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1431,7 +1431,7 @@
    <Step Number="4" FadeIn="0" Hold="500" FadeOut="0">118</Step>
   </Function>
   <Function ID="122" Type="Chaser" Name="Backlights random" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Backward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1468,7 +1468,7 @@
   </Function>
   <Function ID="128" Type="Scene" Name="Only side right" Path="Chaser scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">4,0</FixtureVal>
+   <FixtureVal ID="2">4,255</FixtureVal>
   </Function>
   <Function ID="129" Type="Scene" Name="Only front side right ring" Path="Chaser scenes">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1495,34 +1495,34 @@
    <FixtureVal ID="7">5,255</FixtureVal>
   </Function>
   <Function ID="135" Type="Chaser" Name="Stage all random" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="1000" FadeOut="0">131</Step>
-   <Step Number="1" FadeIn="0" Hold="1000" FadeOut="0">133</Step>
-   <Step Number="2" FadeIn="0" Hold="1000" FadeOut="0">134</Step>
-   <Step Number="3" FadeIn="0" Hold="1000" FadeOut="0">130</Step>
-   <Step Number="4" FadeIn="0" Hold="1000" FadeOut="0">132</Step>
-   <Step Number="5" FadeIn="0" Hold="1000" FadeOut="0">129</Step>
-   <Step Number="6" FadeIn="0" Hold="1000" FadeOut="0">127</Step>
-   <Step Number="7" FadeIn="0" Hold="1000" FadeOut="0">128</Step>
-   <Step Number="8" FadeIn="0" Hold="1000" FadeOut="0">56</Step>
-   <Step Number="9" FadeIn="0" Hold="1000" FadeOut="0">57</Step>
-   <Step Number="10" FadeIn="0" Hold="1000" FadeOut="0">58</Step>
-   <Step Number="11" FadeIn="0" Hold="1000" FadeOut="0">59</Step>
-   <Step Number="12" FadeIn="0" Hold="1000" FadeOut="0">118</Step>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="192" FadeOut="0">131</Step>
+   <Step Number="1" FadeIn="0" Hold="192" FadeOut="0">133</Step>
+   <Step Number="2" FadeIn="0" Hold="192" FadeOut="0">134</Step>
+   <Step Number="3" FadeIn="0" Hold="192" FadeOut="0">130</Step>
+   <Step Number="4" FadeIn="0" Hold="192" FadeOut="0">132</Step>
+   <Step Number="5" FadeIn="0" Hold="192" FadeOut="0">129</Step>
+   <Step Number="6" FadeIn="0" Hold="192" FadeOut="0">127</Step>
+   <Step Number="7" FadeIn="0" Hold="192" FadeOut="0">128</Step>
+   <Step Number="8" FadeIn="0" Hold="192" FadeOut="0">56</Step>
+   <Step Number="9" FadeIn="0" Hold="192" FadeOut="0">57</Step>
+   <Step Number="10" FadeIn="0" Hold="192" FadeOut="0">58</Step>
+   <Step Number="11" FadeIn="0" Hold="192" FadeOut="0">59</Step>
+   <Step Number="12" FadeIn="0" Hold="192" FadeOut="0">118</Step>
   </Function>
   <Function ID="136" Type="Chaser" Name="Sides alternate" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="1000" FadeOut="0">127</Step>
-   <Step Number="1" FadeIn="0" Hold="1000" FadeOut="0">128</Step>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="192" FadeOut="0">127</Step>
+   <Step Number="1" FadeIn="0" Hold="192" FadeOut="0">128</Step>
   </Function>
   <Function ID="137" Type="Chaser" Name="Backlights left/right" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1530,7 +1530,7 @@
    <Step Number="1" FadeIn="0" Hold="1000" FadeOut="0">126</Step>
   </Function>
   <Function ID="138" Type="Chaser" Name="Backlights alternate" Path="Chasers">
-   <Speed FadeIn="1" FadeOut="500" Duration="731"/>
+   <Speed FadeIn="1" FadeOut="200" Duration="96"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1753,7 +1753,7 @@
      <BackgroundColor>4278190190</BackgroundColor>
     </Appearance>
     <Visibility>98</Visibility>
-    <Time>500</Time>
+    <Time>200</Time>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Function FadeIn="0" FadeOut="6" Duration="0">119</Function>
     <Function FadeIn="0" FadeOut="6" Duration="0">120</Function>
@@ -1786,7 +1786,7 @@
      <BackgroundColor>4285399040</BackgroundColor>
     </Appearance>
     <Visibility>740</Visibility>
-    <Time>731</Time>
+    <Time>385</Time>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Function FadeIn="0" FadeOut="0" Duration="6">119</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">120</Function>
@@ -1862,7 +1862,7 @@
      <BackgroundColor>4278218240</BackgroundColor>
     </Appearance>
     <Visibility>98</Visibility>
-    <Time>0</Time>
+    <Time>1</Time>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
     <Function FadeIn="6" FadeOut="0" Duration="0">119</Function>
     <Function FadeIn="6" FadeOut="0" Duration="0">120</Function>
@@ -2345,7 +2345,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="65697"/>
      </Enable>
@@ -2491,7 +2491,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="65706"/>
      </Enable>
@@ -2637,7 +2637,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196769"/>
      </Enable>
@@ -2648,7 +2648,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="8">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="42">0</Channel>
       </Level>
      </Slider>
@@ -2659,7 +2659,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="131233"/>
      </Enable>
@@ -2682,7 +2682,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196772"/>
      </Enable>
@@ -2704,7 +2704,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="176"/>
      </Enable>
@@ -2858,7 +2858,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="131248"/>
      </Enable>
@@ -2882,7 +2882,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="65709"/>
      </Enable>
@@ -3028,7 +3028,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="158"/>
      </Enable>
@@ -3215,7 +3215,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="131236"/>
      </Enable>
@@ -3237,7 +3237,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196776"/>
      </Enable>
@@ -3248,7 +3248,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Colors">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="8">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="15">0</Channel>
        <Channel Fixture="15">1</Channel>
        <Channel Fixture="15">2</Channel>
@@ -3264,7 +3264,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196767"/>
      </Enable>
@@ -3286,7 +3286,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196779"/>
      </Enable>
@@ -3310,7 +3310,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="131245"/>
      </Enable>
@@ -3332,7 +3332,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="131242"/>
      </Enable>
@@ -3355,7 +3355,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="161"/>
      </Enable>
@@ -3532,7 +3532,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196773"/>
      </Enable>
@@ -3710,7 +3710,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="131230"/>
      </Enable>
@@ -3879,7 +3879,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196770"/>
      </Enable>
@@ -3901,7 +3901,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="65712"/>
      </Enable>
@@ -4190,7 +4190,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="173"/>
      </Enable>
@@ -4344,7 +4344,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="170"/>
      </Enable>
@@ -4498,7 +4498,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="164"/>
      </Enable>
@@ -4652,7 +4652,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196778"/>
      </Enable>
@@ -4663,7 +4663,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="8">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="23">1</Channel>
       </Level>
      </Slider>
@@ -4674,7 +4674,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="196766"/>
      </Enable>
@@ -4696,7 +4696,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input ID="2" Universe="0" Channel="65700"/>
      </Enable>
@@ -5033,7 +5033,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="28"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">0</Channel>
       </Level>
      </Slider>
@@ -5044,7 +5044,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="30"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="3">2</Channel>
       </Level>
      </Slider>
@@ -5179,7 +5179,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="11">2</Channel>
       </Level>
      </Slider>
@@ -5190,7 +5190,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="12"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="11">0</Channel>
       </Level>
      </Slider>
@@ -5223,7 +5223,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="36"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">0</Channel>
       </Level>
      </Slider>
@@ -5234,7 +5234,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="38"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="4">2</Channel>
       </Level>
      </Slider>
@@ -5276,7 +5276,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="16"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="12">0</Channel>
       </Level>
      </Slider>
@@ -5287,7 +5287,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="12">2</Channel>
       </Level>
      </Slider>
@@ -5307,7 +5307,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="12">1</Channel>
       </Level>
      </Slider>
@@ -5444,7 +5444,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="6"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="9">2</Channel>
       </Level>
      </Slider>
@@ -5455,7 +5455,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="4"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="9">0</Channel>
       </Level>
      </Slider>
@@ -5539,7 +5539,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="49"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="8">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">8</Channel>
        <Channel Fixture="4">8</Channel>
       </Level>
@@ -5562,7 +5562,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="8">1</Channel>
       </Level>
      </Slider>
@@ -5573,7 +5573,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="0"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="8">0</Channel>
       </Level>
      </Slider>
@@ -5584,7 +5584,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="8">2</Channel>
       </Level>
      </Slider>
@@ -5635,7 +5635,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="10">0</Channel>
       </Level>
      </Slider>
@@ -5646,7 +5646,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="10"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="255">
        <Channel Fixture="10">2</Channel>
       </Level>
      </Slider>
@@ -6059,7 +6059,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="4"/>
       <SliderMode ValueDisplayStyle="Percentage">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="1">4</Channel>
        <Channel Fixture="2">4</Channel>
       </Level>
