@@ -1054,7 +1054,7 @@
    <FixtureVal ID="32">5,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="254"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1163,7 +1163,7 @@
    <FixtureVal ID="25">0,0</FixtureVal>
   </Function>
   <Function ID="64" Type="Chaser" Name="Front random" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1201,7 +1201,7 @@
    <FixtureVal ID="9">4,170</FixtureVal>
   </Function>
   <Function ID="68" Type="Chaser" Name="Backlights blinking" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="102"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="127"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1235,7 +1235,7 @@
    <FixtureVal ID="18">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1565,7 +1565,7 @@
    <FixtureVal ID="38">1,255</FixtureVal>
   </Function>
   <Function ID="139" Type="Chaser" Name="Back blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1573,7 +1573,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
   </Function>
   <Function ID="140" Type="Chaser" Name="Blinders back/front" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1581,7 +1581,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">210</Step>
   </Function>
   <Function ID="141" Type="Chaser" Name="Blinders back to front" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1637,7 +1637,7 @@
    <FixtureVal ID="27">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1649,7 +1649,7 @@
    <FixtureVal ID="35">3,255</FixtureVal>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1665,7 +1665,7 @@
    <FixtureVal ID="27">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="254"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1676,7 +1676,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="254"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1687,7 +1687,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="254"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1698,7 +1698,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">39</Step>
   </Function>
   <Function ID="158" Type="Chaser" Name="Fronts ping-pong" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1714,7 +1714,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="160" Type="Chaser" Name="UV alternate">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1888,7 +1888,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="194" Type="Chaser" Name="Crowns ring/center" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1971,7 +1971,7 @@
    <Step Number="7">214</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2036,7 +2036,7 @@
    <FixtureVal ID="6">3,255</FixtureVal>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2044,7 +2044,7 @@
    <Step Number="1" FadeIn="78" Hold="784" FadeOut="39">44</Step>
   </Function>
   <Function ID="218" Type="Chaser" Name="Backlights random" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="509"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2252,7 +2252,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="82"/>
+     <Function ID="81"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <Input Universe="0" Channel="138"/>
@@ -2454,7 +2454,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>411</Time>
+     <Time>509</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">160</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">217</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
@@ -4245,7 +4245,7 @@
       </Appearance>
       <Input Universe="2" Channel="43"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="10">
+      <Level LowLimit="0" HighLimit="255" Value="18">
        <Channel Fixture="19">2</Channel>
       </Level>
       <Playback>
@@ -4793,7 +4793,7 @@
      </Appearance>
      <Input Universe="2" Channel="30"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="21">
+     <Level LowLimit="0" HighLimit="255" Value="26">
       <Channel Fixture="21">4</Channel>
      </Level>
      <Playback>
@@ -5207,7 +5207,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="161"/>
      </Enable>
@@ -5339,7 +5339,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="170"/>
      </Enable>
@@ -5735,7 +5735,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="158"/>
      </Enable>
@@ -5956,7 +5956,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="196766"/>
      </Enable>
@@ -6003,7 +6003,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="196769"/>
      </Enable>
@@ -6397,7 +6397,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="131245"/>
      </Enable>
@@ -6968,7 +6968,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="10">
+      <Level LowLimit="0" HighLimit="255" Value="18">
        <Channel Fixture="19">0</Channel>
       </Level>
       <Playback>
@@ -6987,7 +6987,7 @@
      </Appearance>
      <Input Universe="0" Channel="65540"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="135">
+     <Level LowLimit="0" HighLimit="255" Value="203">
       <Channel Fixture="11">0</Channel>
      </Level>
      <Playback>
@@ -8193,7 +8193,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="65709"/>
      </Enable>
@@ -8469,7 +8469,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="196775"/>
      </Enable>
@@ -8812,7 +8812,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="262317"/>
      </Enable>
@@ -9047,7 +9047,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="262320"/>
      </Enable>
@@ -9188,7 +9188,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="262311"/>
      </Enable>
@@ -9403,6 +9403,149 @@
       <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
+    <Label Caption="6: Disco ball white" ID="331" Page="3">
+     <WindowState Visible="True" X="585" Y="45" Width="115" Height="45"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
+     </Appearance>
+    </Label>
+    <Frame Caption="Disco ball white" ID="333" Page="3">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="585" Y="90" Width="115" Height="205"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>True</Disabled>
+     <Enable>
+      <Input Universe="0" Channel="196781"/>
+     </Enable>
+     <Slider Caption="Disco ball white" ID="332" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="8"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="41">5</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
+    <Label Caption="7: Disco ball color" ID="334" Page="3">
+     <WindowState Visible="True" X="700" Y="45" Width="115" Height="45"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
+     </Appearance>
+    </Label>
+    <Frame Caption="Disco ball white" ID="382" Page="3">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="700" Y="90" Width="115" Height="205"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>True</Disabled>
+     <Enable>
+      <Input Universe="0" Channel="196784"/>
+     </Enable>
+     <Slider Caption="Disco ball color" ID="381" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="8"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="RGB" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="128">
+       <Channel Fixture="41">2</Channel>
+       <Channel Fixture="41">3</Channel>
+       <Channel Fixture="41">4</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
+    <Label Caption="8: Disco ball strobe" ID="387" Page="3">
+     <WindowState Visible="True" X="815" Y="45" Width="115" Height="45"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
+     </Appearance>
+    </Label>
+    <Frame Caption="Disco ball white" ID="422" Page="3">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="815" Y="90" Width="115" Height="205"/>
+     <AllowChildren>False</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>True</Disabled>
+     <Enable>
+      <Input Universe="0" Channel="196787"/>
+     </Enable>
+     <Slider Caption="Disco ball strobe" ID="388" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <Appearance>
+       <FrameStyle>Raised</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4279374354</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Input Universe="0" Channel="8"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0">
+       <Channel Fixture="41">1</Channel>
+      </Level>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+    </Frame>
    </Frame>
    <Button Caption="Black Out" ID="2" Icon="">
     <WindowState Visible="True" X="1820" Y="10" Width="85" Height="235"/>
