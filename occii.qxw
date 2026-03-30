@@ -1053,7 +1053,7 @@
    <FixtureVal ID="32">5,255</FixtureVal>
   </Function>
   <Function ID="47" Type="Chaser" Name="Random lights stage" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="156"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1162,7 +1162,7 @@
    <FixtureVal ID="25">0,0</FixtureVal>
   </Function>
   <Function ID="64" Type="Chaser" Name="Front random" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1200,7 +1200,7 @@
    <FixtureVal ID="9">4,170</FixtureVal>
   </Function>
   <Function ID="68" Type="Chaser" Name="Backlights blinking" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="78"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="102"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1234,7 +1234,7 @@
    <FixtureVal ID="18">3,255</FixtureVal>
   </Function>
   <Function ID="74" Type="Chaser" Name="Back to front" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1564,7 +1564,7 @@
    <FixtureVal ID="38">1,255</FixtureVal>
   </Function>
   <Function ID="139" Type="Chaser" Name="Back blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1572,7 +1572,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">138</Step>
   </Function>
   <Function ID="140" Type="Chaser" Name="Blinders back/front" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1580,7 +1580,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">210</Step>
   </Function>
   <Function ID="141" Type="Chaser" Name="Blinders back to front" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1636,7 +1636,7 @@
    <FixtureVal ID="27">3,255</FixtureVal>
   </Function>
   <Function ID="151" Type="Chaser" Name="Backlights left/right" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1648,7 +1648,7 @@
    <FixtureVal ID="35">3,255</FixtureVal>
   </Function>
   <Function ID="153" Type="Chaser" Name="Backlights odd/even" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1664,7 +1664,7 @@
    <FixtureVal ID="27">3,0</FixtureVal>
   </Function>
   <Function ID="155" Type="Chaser" Name="Backlights ping-pong" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="156"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1675,7 +1675,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="156" Type="Chaser" Name="Backlights swipe right" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="156"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1686,7 +1686,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">40</Step>
   </Function>
   <Function ID="157" Type="Chaser" Name="Backlights swipe left" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="156"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="205"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1697,7 +1697,7 @@
    <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">39</Step>
   </Function>
   <Function ID="158" Type="Chaser" Name="Fronts ping-pong" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>PingPong</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1713,7 +1713,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="160" Type="Chaser" Name="UV alternate">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1887,7 +1887,7 @@
    <FixtureVal ID="36">3,255</FixtureVal>
   </Function>
   <Function ID="194" Type="Chaser" Name="Crowns ring/center" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1962,7 +1962,7 @@
    <Step Number="7">214</Step>
   </Function>
   <Function ID="207" Type="Chaser" Name="Blinders left/right" Path="Blinder chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2027,7 +2027,7 @@
    <FixtureVal ID="6">3,255</FixtureVal>
   </Function>
   <Function ID="217" Type="Chaser" Name="Sides alternate" Path="Dim chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2035,7 +2035,7 @@
    <Step Number="1" FadeIn="78" Hold="784" FadeOut="39">44</Step>
   </Function>
   <Function ID="218" Type="Chaser" Name="Backlights random" Path="Backlight chasers">
-   <Speed FadeIn="39" FadeOut="431" Duration="313"/>
+   <Speed FadeIn="39" FadeOut="431" Duration="411"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2445,7 +2445,7 @@
      <Tap>
       <Input Universe="0" Channel="215"/>
      </Tap>
-     <Time>313</Time>
+     <Time>411</Time>
      <Function FadeIn="0" FadeOut="0" Duration="6">160</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">217</Function>
      <Function FadeIn="0" FadeOut="0" Duration="5">47</Function>
@@ -2611,7 +2611,7 @@
      </Appearance>
      <Input Universe="0" Channel="4"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="8">
       <Channel Fixture="8">4</Channel>
       <Channel Fixture="9">4</Channel>
      </Level>
@@ -2630,7 +2630,7 @@
      </Appearance>
      <Input Universe="0" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="52">
       <Channel Fixture="2">0</Channel>
       <Channel Fixture="31">5</Channel>
       <Channel Fixture="32">5</Channel>
@@ -2652,7 +2652,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="158">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
      </Level>
@@ -2689,7 +2689,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="114">
       <Channel Fixture="26">3</Channel>
       <Channel Fixture="27">3</Channel>
      </Level>
@@ -2708,7 +2708,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="130">
       <Channel Fixture="22">3</Channel>
      </Level>
      <Playback>
@@ -3528,7 +3528,7 @@
       </Appearance>
       <Input Universe="2" Channel="3"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="158"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3614,7 +3614,7 @@
       </Appearance>
       <Input Universe="2" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="158"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3700,7 +3700,7 @@
       </Appearance>
       <Input Universe="2" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="114"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3786,7 +3786,7 @@
       </Appearance>
       <Input Universe="2" Channel="11"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="130"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3872,7 +3872,7 @@
       </Appearance>
       <Input Universe="2" Channel="15"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="114"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4138,7 +4138,7 @@
       </Appearance>
       <Input Universe="2" Channel="41"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="122"/>
+      <Level LowLimit="0" HighLimit="255" Value="92"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4170,7 +4170,7 @@
       </Appearance>
       <Input Universe="2" Channel="42"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="122"/>
+      <Level LowLimit="0" HighLimit="255" Value="92"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4343,7 +4343,7 @@
       </Appearance>
       <Input Universe="2" Channel="49"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="52"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4515,7 +4515,7 @@
       </Appearance>
       <Input Universe="2" Channel="57"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Level LowLimit="0" HighLimit="255" Value="52"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4634,7 +4634,7 @@
       <Input Universe="2" Channel="65"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="42">2</Channel>
+       <Channel Fixture="42">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -4651,7 +4651,7 @@
       </Appearance>
       <Input Universe="2" Channel="67"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="148"/>
+      <Level LowLimit="0" HighLimit="255" Value="92"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4684,7 +4684,7 @@
       <Input Universe="2" Channel="66"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="42">3</Channel>
+       <Channel Fixture="42">2</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -4701,7 +4701,7 @@
       </Appearance>
       <Input Universe="2" Channel="68"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="148"/>
+      <Level LowLimit="0" HighLimit="255" Value="92"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4734,7 +4734,7 @@
       <Input Universe="2" Channel="69"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="42">3</Channel>
+       <Channel Fixture="42">1</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
@@ -4751,7 +4751,7 @@
       </Appearance>
       <Input Universe="2" Channel="70"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="148"/>
+      <Level LowLimit="0" HighLimit="255" Value="92"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4784,7 +4784,7 @@
      </Appearance>
      <Input Universe="2" Channel="30"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="16">
+     <Level LowLimit="0" HighLimit="255" Value="21">
       <Channel Fixture="21">4</Channel>
      </Level>
      <Playback>
@@ -4922,7 +4922,7 @@
      </Appearance>
      <Input Universe="2" Channel="33"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="28">
+     <Level LowLimit="0" HighLimit="255" Value="25">
       <Channel Fixture="21">7</Channel>
      </Level>
      <Playback>
@@ -5198,7 +5198,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="161"/>
      </Enable>
@@ -5726,7 +5726,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="158"/>
      </Enable>
@@ -5947,7 +5947,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="196766"/>
      </Enable>
@@ -5994,7 +5994,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="196769"/>
      </Enable>
@@ -6199,7 +6199,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="131230"/>
      </Enable>
@@ -6237,7 +6237,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="131233"/>
      </Enable>
@@ -6312,7 +6312,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="131242"/>
      </Enable>
@@ -6350,7 +6350,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="131239"/>
      </Enable>
@@ -6388,7 +6388,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="131245"/>
      </Enable>
@@ -6978,7 +6978,7 @@
      </Appearance>
      <Input Universe="0" Channel="65540"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="205">
+     <Level LowLimit="0" HighLimit="255" Value="135">
       <Channel Fixture="11">0</Channel>
      </Level>
      <Playback>
@@ -7023,7 +7023,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="65694"/>
      </Enable>
@@ -7252,7 +7252,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="65697"/>
      </Enable>
@@ -7718,7 +7718,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="65706"/>
      </Enable>
@@ -7951,7 +7951,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="65703"/>
      </Enable>
@@ -8184,7 +8184,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="65709"/>
      </Enable>
@@ -8460,7 +8460,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="196775"/>
      </Enable>
@@ -8771,7 +8771,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="53">
        <Channel Fixture="18">3</Channel>
       </Level>
       <Playback>
@@ -8779,8 +8779,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="1: Front blinders left" ID="427" Page="4">
-     <WindowState Visible="True" X="10" Y="45" Width="115" Height="45"/>
+    <Label Caption="6: Front blinders left" ID="427" Page="4">
+     <WindowState Visible="True" X="585" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8797,7 +8797,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="10" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="585" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8805,7 +8805,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262302"/>
+      <Input Universe="0" Channel="262317"/>
      </Enable>
      <Slider Caption="Front left blinder" ID="428" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -8826,8 +8826,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="6: Front blinders right" ID="430" Page="4">
-     <WindowState Visible="True" X="125" Y="295" Width="115" Height="45"/>
+    <Label Caption="7: Front blinders right" ID="430" Page="4">
+     <WindowState Visible="True" X="700" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8844,7 +8844,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="125" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="700" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8852,7 +8852,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262306"/>
+      <Input Universe="0" Channel="262321"/>
      </Enable>
      <Slider Caption="Front right blinder max intensity" ID="431" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -8865,7 +8865,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="92">
        <Channel Fixture="30">3</Channel>
       </Level>
       <Playback>
@@ -8873,7 +8873,7 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="7: Back blinders left" ID="433" Page="4">
+    <Label Caption="3: Back blinders left" ID="433" Page="4">
      <WindowState Visible="True" X="240" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
@@ -8912,7 +8912,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="148">
+      <Level LowLimit="0" HighLimit="255" Value="92">
        <Channel Fixture="38">2</Channel>
       </Level>
       <Playback>
@@ -8920,8 +8920,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="8: Back blinders right" ID="436" Page="4">
-     <WindowState Visible="True" X="355" Y="295" Width="115" Height="45"/>
+    <Label Caption="5: Back blinders right" ID="436" Page="4">
+     <WindowState Visible="True" X="470" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8938,7 +8938,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="355" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="470" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8946,7 +8946,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262312"/>
+      <Input Universe="0" Channel="262315"/>
      </Enable>
      <Slider Caption="Back right blinder max intensity" ID="437" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -8959,7 +8959,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="148">
+      <Level LowLimit="0" HighLimit="255" Value="92">
        <Channel Fixture="38">3</Channel>
       </Level>
       <Playback>
@@ -8967,8 +8967,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="5: Front blinders left" ID="439" Page="4">
-     <WindowState Visible="True" X="10" Y="295" Width="115" Height="45"/>
+    <Label Caption="6: Front blinders left" ID="439" Page="4">
+     <WindowState Visible="True" X="585" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8985,7 +8985,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="10" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="585" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8993,7 +8993,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262303"/>
+      <Input Universe="0" Channel="262318"/>
      </Enable>
      <Slider Caption="Front left blinder max intensity" ID="440" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -9006,7 +9006,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0">
+      <Level LowLimit="0" HighLimit="255" Value="92">
        <Channel Fixture="30">2</Channel>
       </Level>
       <Playback>
@@ -9014,8 +9014,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="2: Front blinders right" ID="442" Page="4">
-     <WindowState Visible="True" X="125" Y="45" Width="115" Height="45"/>
+    <Label Caption="7: Front blinders right" ID="442" Page="4">
+     <WindowState Visible="True" X="700" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9032,7 +9032,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="125" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="700" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -9040,7 +9040,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262305"/>
+      <Input Universe="0" Channel="262320"/>
      </Enable>
      <Slider Caption="Front right blinder" ID="443" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -9085,7 +9085,7 @@
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="262308"/>
      </Enable>
@@ -9101,15 +9101,15 @@
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="42">2</Channel>
+       <Channel Fixture="42">0</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="4: Back blinders right" ID="448" Page="4">
-     <WindowState Visible="True" X="355" Y="45" Width="115" Height="45"/>
+    <Label Caption="5: Back blinders right" ID="448" Page="4">
+     <WindowState Visible="True" X="470" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9126,15 +9126,15 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="355" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="470" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262311"/>
+      <Input Universe="0" Channel="262314"/>
      </Enable>
      <Slider Caption="Back right blinder" ID="449" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -9148,15 +9148,15 @@
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0">
-       <Channel Fixture="42">3</Channel>
+       <Channel Fixture="42">2</Channel>
       </Level>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="5: Back blinder center" ID="451" Page="4">
-     <WindowState Visible="True" X="470" Y="45" Width="115" Height="45"/>
+    <Label Caption="4: Back blinder center" ID="451" Page="4">
+     <WindowState Visible="True" X="355" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9173,15 +9173,15 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="470" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="355" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262314"/>
+      <Input Universe="0" Channel="262311"/>
      </Enable>
      <Slider Caption="Back center blinder" ID="452" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -9202,8 +9202,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="5: Back blinder center" ID="454" Page="4">
-     <WindowState Visible="True" X="470" Y="295" Width="115" Height="45"/>
+    <Label Caption="4: Back blinder center" ID="454" Page="4">
+     <WindowState Visible="True" X="355" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9220,7 +9220,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="470" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="355" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -9228,7 +9228,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>True</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262315"/>
+      <Input Universe="0" Channel="262312"/>
      </Enable>
      <Slider Caption="Back center blinder max intensity" ID="455" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -9241,7 +9241,7 @@
       </Appearance>
       <Input Universe="0" Channel="8"/>
       <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="148">
+      <Level LowLimit="0" HighLimit="255" Value="92">
        <Channel Fixture="43">1</Channel>
       </Level>
       <Playback>
@@ -9249,8 +9249,8 @@
       </Playback>
      </Slider>
     </Frame>
-    <Label Caption="6: Stage fresnel dimmer right" ID="457" Page="4">
-     <WindowState Visible="True" X="585" Y="45" Width="115" Height="45"/>
+    <Label Caption="2: Stage fresnel dimmer right" ID="457" Page="4">
+     <WindowState Visible="True" X="125" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9259,8 +9259,8 @@
       <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
      </Appearance>
     </Label>
-    <Label Caption="7: Stage fresnel dimmer left" ID="458" Page="4">
-     <WindowState Visible="True" X="700" Y="45" Width="115" Height="45"/>
+    <Label Caption="1: Stage fresnel dimmer left" ID="458" Page="4">
+     <WindowState Visible="True" X="10" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9277,15 +9277,15 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="585" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="10" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262317"/>
+      <Input Universe="0" Channel="262302"/>
      </Enable>
      <Slider Caption="Stage fresnel left" ID="459" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
@@ -9314,15 +9314,15 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="700" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="125" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
-      <Input Universe="0" Channel="262320"/>
+      <Input Universe="0" Channel="262305"/>
      </Enable>
      <Slider Caption="Stage fresnel right" ID="461" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
       <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
