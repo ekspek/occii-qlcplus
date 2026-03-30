@@ -660,6 +660,7 @@
    <Step Number="5">12</Step>
    <Step Number="6">180</Step>
    <Step Number="7">198</Step>
+   <Step Number="8">199</Step>
   </Function>
   <Function ID="3" Type="Scene" Name="All red" Path="Still colors/Full stage presets">
    <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
@@ -1912,6 +1913,14 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="47">1,0</FixtureVal>
   </Function>
+  <Function ID="199" Type="Scene" Name="Smoke power off" Path="Effects and others">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="47">0,0</FixtureVal>
+  </Function>
+  <Function ID="200" Type="Scene" Name="Smoke power on" Path="Effects and others">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="47">0,255</FixtureVal>
+  </Function>
   <Function ID="201" Type="Scene" Name="Front sides green" Path="Still colors/Stage fronts">
    <Speed FadeIn="3000" FadeOut="3000" Duration="0"/>
    <FixtureVal ID="36">0,0,1,255,2,0</FixtureVal>
@@ -2611,7 +2620,7 @@
      </Appearance>
      <Input Universe="0" Channel="4"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="8">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="8">4</Channel>
       <Channel Fixture="9">4</Channel>
      </Level>
@@ -2630,7 +2639,7 @@
      </Appearance>
      <Input Universe="0" Channel="5"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="52">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="2">0</Channel>
       <Channel Fixture="31">5</Channel>
       <Channel Fixture="32">5</Channel>
@@ -2652,7 +2661,7 @@
      </Appearance>
      <Input Universe="0" Channel="1"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="158">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="23">3</Channel>
       <Channel Fixture="24">3</Channel>
      </Level>
@@ -2689,7 +2698,7 @@
      </Appearance>
      <Input Universe="0" Channel="2"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="114">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="26">3</Channel>
       <Channel Fixture="27">3</Channel>
      </Level>
@@ -2708,7 +2717,7 @@
      </Appearance>
      <Input Universe="0" Channel="3"/>
      <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="130">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="22">3</Channel>
      </Level>
      <Playback>
@@ -3528,7 +3537,7 @@
       </Appearance>
       <Input Universe="2" Channel="3"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="158"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3614,7 +3623,7 @@
       </Appearance>
       <Input Universe="2" Channel="19"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="158"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3700,7 +3709,7 @@
       </Appearance>
       <Input Universe="2" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="114"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3786,7 +3795,7 @@
       </Appearance>
       <Input Universe="2" Channel="11"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="130"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -3872,7 +3881,7 @@
       </Appearance>
       <Input Universe="2" Channel="15"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="114"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4343,7 +4352,7 @@
       </Appearance>
       <Input Universe="2" Channel="49"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="52"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -4515,7 +4524,7 @@
       </Appearance>
       <Input Universe="2" Channel="57"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="52"/>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
        <Function>4294967295</Function>
       </Playback>
@@ -5025,7 +5034,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="8" CurrentPage="4"/>
+    <Multipage PagesNum="8" CurrentPage="3"/>
     <Shortcut Page="0" Name="1: Stage main colors">
      <Input Universe="0" Channel="157"/>
     </Shortcut>
@@ -5914,7 +5923,7 @@
      </Appearance>
     </Label>
     <Label Caption="1: Strobe intensity" ID="140" Page="3">
-     <WindowState Visible="False" X="10" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="True" X="10" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5924,7 +5933,7 @@
      </Appearance>
     </Label>
     <Label Caption="2: Strobe speed" ID="157" Page="3">
-     <WindowState Visible="False" X="125" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="True" X="125" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5941,7 +5950,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="10" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="10" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -5952,7 +5961,7 @@
       <Input Universe="0" Channel="196766"/>
      </Enable>
      <Slider Caption="Strobe intensity" ID="294" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -5971,7 +5980,7 @@
      </Slider>
     </Frame>
     <Label Caption="3: Sides strobe ring speed" ID="330" Page="3">
-     <WindowState Visible="False" X="240" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="True" X="240" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -5988,7 +5997,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="125" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="125" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -5999,7 +6008,7 @@
       <Input Universe="0" Channel="196769"/>
      </Enable>
      <Slider Caption="Strobe speed" ID="344" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -6025,7 +6034,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="815" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="815" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -6036,7 +6045,7 @@
       <Input Universe="0" Channel="196788"/>
      </Enable>
      <Slider Caption="Flower effect speed" ID="346" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -6063,7 +6072,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="125" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="125" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -6074,7 +6083,7 @@
       <Input Universe="0" Channel="196770"/>
      </Enable>
      <Slider Caption="Room dimmer" ID="351" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -6938,7 +6947,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="240" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="240" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -6949,7 +6958,7 @@
       <Input Universe="0" Channel="196772"/>
      </Enable>
      <Slider Caption="Crown ring strobe speed" ID="4" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -6968,7 +6977,7 @@
      </Slider>
     </Frame>
     <Slider Caption="Flower effect" ID="325" Page="3" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="700" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="700" Y="340" Width="115" Height="205"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8427,7 +8436,7 @@
      <Input Universe="0" Channel="65715"/>
     </Button>
     <Label Caption="4: Sides UV" ID="578" Page="3">
-     <WindowState Visible="False" X="355" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="True" X="355" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8437,7 +8446,7 @@
      </Appearance>
     </Label>
     <Label Caption="2: Room dimmer" ID="581" Page="3">
-     <WindowState Visible="False" X="125" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="True" X="125" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8454,7 +8463,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="355" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="True" X="355" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8465,7 +8474,7 @@
       <Input Universe="0" Channel="196775"/>
      </Enable>
      <Slider Caption="Crowns UV dimmer" ID="584" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8485,7 +8494,7 @@
      </Slider>
     </Frame>
     <Label Caption="7: Flower effect" ID="589" Page="3">
-     <WindowState Visible="False" X="700" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="True" X="700" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8495,7 +8504,7 @@
      </Appearance>
     </Label>
     <Label Caption="8: Flower effect speed" ID="590" Page="3">
-     <WindowState Visible="False" X="815" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="True" X="815" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8505,7 +8514,7 @@
      </Appearance>
     </Label>
     <Label Caption="1: Stage backs dimmer" ID="350" Page="3">
-     <WindowState Visible="False" X="10" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="True" X="10" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8522,7 +8531,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="10" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="10" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8533,7 +8542,7 @@
       <Input Universe="0" Channel="196767"/>
      </Enable>
      <Slider Caption="Stage backs dimmer" ID="354" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8686,7 +8695,7 @@
      </Button>
     </SoloFrame>
     <Label Caption="3: DJ light dimmer" ID="335" Page="3">
-     <WindowState Visible="False" X="240" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="True" X="240" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8696,7 +8705,7 @@
      </Appearance>
     </Label>
     <Label Caption="4: Merch light table dimmer" ID="338" Page="3">
-     <WindowState Visible="False" X="355" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="True" X="355" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8713,7 +8722,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="240" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="240" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8724,7 +8733,7 @@
       <Input Universe="0" Channel="196773"/>
      </Enable>
      <Slider Caption="DJ light dimmer" ID="418" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8750,7 +8759,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="355" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="True" X="355" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8761,7 +8770,7 @@
       <Input Universe="0" Channel="196776"/>
      </Enable>
      <Slider Caption="Merch light table dimmer" ID="420" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8780,7 +8789,7 @@
      </Slider>
     </Frame>
     <Label Caption="6: Front blinders left" ID="427" Page="4">
-     <WindowState Visible="True" X="585" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="585" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8797,7 +8806,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="585" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="585" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8808,7 +8817,7 @@
       <Input Universe="0" Channel="262317"/>
      </Enable>
      <Slider Caption="Front left blinder" ID="428" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8827,7 +8836,7 @@
      </Slider>
     </Frame>
     <Label Caption="7: Front blinders right" ID="430" Page="4">
-     <WindowState Visible="True" X="700" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="False" X="700" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8844,7 +8853,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="700" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="False" X="700" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8855,7 +8864,7 @@
       <Input Universe="0" Channel="262321"/>
      </Enable>
      <Slider Caption="Front right blinder max intensity" ID="431" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8874,7 +8883,7 @@
      </Slider>
     </Frame>
     <Label Caption="3: Back blinders left" ID="433" Page="4">
-     <WindowState Visible="True" X="240" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="False" X="240" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8891,7 +8900,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="240" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="False" X="240" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8902,7 +8911,7 @@
       <Input Universe="0" Channel="262309"/>
      </Enable>
      <Slider Caption="Back left blinder max intensity" ID="434" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8921,7 +8930,7 @@
      </Slider>
     </Frame>
     <Label Caption="5: Back blinders right" ID="436" Page="4">
-     <WindowState Visible="True" X="470" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="False" X="470" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8938,7 +8947,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="470" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="False" X="470" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8949,7 +8958,7 @@
       <Input Universe="0" Channel="262315"/>
      </Enable>
      <Slider Caption="Back right blinder max intensity" ID="437" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -8968,7 +8977,7 @@
      </Slider>
     </Frame>
     <Label Caption="6: Front blinders left" ID="439" Page="4">
-     <WindowState Visible="True" X="585" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="False" X="585" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -8985,7 +8994,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="585" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="False" X="585" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -8996,7 +9005,7 @@
       <Input Universe="0" Channel="262318"/>
      </Enable>
      <Slider Caption="Front left blinder max intensity" ID="440" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9015,7 +9024,7 @@
      </Slider>
     </Frame>
     <Label Caption="7: Front blinders right" ID="442" Page="4">
-     <WindowState Visible="True" X="700" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="700" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9032,7 +9041,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="700" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="700" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -9043,7 +9052,7 @@
       <Input Universe="0" Channel="262320"/>
      </Enable>
      <Slider Caption="Front right blinder" ID="443" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9062,7 +9071,7 @@
      </Slider>
     </Frame>
     <Label Caption="3: Back blinders left" ID="445" Page="4">
-     <WindowState Visible="True" X="240" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="240" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9079,18 +9088,18 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="240" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="240" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="262308"/>
      </Enable>
      <Slider Caption="Back left blinder" ID="446" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9109,7 +9118,7 @@
      </Slider>
     </Frame>
     <Label Caption="5: Back blinders right" ID="448" Page="4">
-     <WindowState Visible="True" X="470" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="470" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9126,18 +9135,18 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="470" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="470" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
+     <Disabled>False</Disabled>
      <Enable>
       <Input Universe="0" Channel="262314"/>
      </Enable>
      <Slider Caption="Back right blinder" ID="449" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9156,7 +9165,7 @@
      </Slider>
     </Frame>
     <Label Caption="4: Back blinder center" ID="451" Page="4">
-     <WindowState Visible="True" X="355" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="355" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9173,7 +9182,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="355" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="355" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -9184,7 +9193,7 @@
       <Input Universe="0" Channel="262311"/>
      </Enable>
      <Slider Caption="Back center blinder" ID="452" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9203,7 +9212,7 @@
      </Slider>
     </Frame>
     <Label Caption="4: Back blinder center" ID="454" Page="4">
-     <WindowState Visible="True" X="355" Y="295" Width="115" Height="45"/>
+     <WindowState Visible="False" X="355" Y="295" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9220,7 +9229,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="355" Y="340" Width="115" Height="205"/>
+     <WindowState Visible="False" X="355" Y="340" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -9231,7 +9240,7 @@
       <Input Universe="0" Channel="262312"/>
      </Enable>
      <Slider Caption="Back center blinder max intensity" ID="455" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9250,7 +9259,7 @@
      </Slider>
     </Frame>
     <Label Caption="2: Stage fresnel dimmer right" ID="457" Page="4">
-     <WindowState Visible="True" X="125" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="125" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9260,7 +9269,7 @@
      </Appearance>
     </Label>
     <Label Caption="1: Stage fresnel dimmer left" ID="458" Page="4">
-     <WindowState Visible="True" X="10" Y="45" Width="115" Height="45"/>
+     <WindowState Visible="False" X="10" Y="45" Width="115" Height="45"/>
      <Appearance>
       <FrameStyle>Raised</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -9277,18 +9286,18 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="10" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="10" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="262302"/>
      </Enable>
      <Slider Caption="Stage fresnel left" ID="459" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9314,18 +9323,18 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="125" Y="90" Width="115" Height="205"/>
+     <WindowState Visible="False" X="125" Y="90" Width="115" Height="205"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>False</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Enable>
       <Input Universe="0" Channel="262305"/>
      </Enable>
      <Slider Caption="Stage fresnel right" ID="461" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <WindowState Visible="False" X="5" Y="40" Width="105" Height="160"/>
       <Appearance>
        <FrameStyle>Raised</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
@@ -9354,6 +9363,46 @@
      </Appearance>
      <Function ID="166" InstantApply="true"/>
     </Matrix>
+    <Frame Caption="Smoke power" ID="160" Page="3">
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281084972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="470" Y="90" Width="115" Height="205"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>False</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Smoke power" ID="94" Icon="">
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="160"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="200"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="170"/>
+     </Button>
+    </Frame>
+    <Label Caption="5: Smoke power" ID="161" Page="3">
+     <WindowState Visible="True" X="470" Y="45" Width="115" Height="45"/>
+     <Appearance>
+      <FrameStyle>Raised</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4279374354</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Roboto,9,-1,5,700,0,0,0,0,0,0,0,0,0,0,1</Font>
+     </Appearance>
+    </Label>
    </Frame>
    <Button Caption="Black Out" ID="2" Icon="">
     <WindowState Visible="True" X="1820" Y="10" Width="85" Height="235"/>
