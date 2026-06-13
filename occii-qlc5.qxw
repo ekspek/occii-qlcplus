@@ -633,39 +633,39 @@
   </FixtureGroup>
   <FixtureGroup ID="14">
    <Name>LED bars</Name>
-   <Size X="48" Y="1"/>
-   <Head X="0" Y="0" Fixture="44">7</Head>
-   <Head X="2" Y="0" Fixture="44">6</Head>
-   <Head X="4" Y="0" Fixture="44">5</Head>
-   <Head X="6" Y="0" Fixture="44">4</Head>
-   <Head X="8" Y="0" Fixture="44">3</Head>
-   <Head X="10" Y="0" Fixture="44">2</Head>
-   <Head X="12" Y="0" Fixture="44">1</Head>
-   <Head X="14" Y="0" Fixture="44">0</Head>
-   <Head X="16" Y="0" Fixture="46">15</Head>
-   <Head X="17" Y="0" Fixture="46">14</Head>
-   <Head X="18" Y="0" Fixture="46">13</Head>
-   <Head X="19" Y="0" Fixture="46">12</Head>
-   <Head X="20" Y="0" Fixture="46">11</Head>
-   <Head X="21" Y="0" Fixture="46">10</Head>
-   <Head X="22" Y="0" Fixture="46">9</Head>
-   <Head X="23" Y="0" Fixture="46">8</Head>
-   <Head X="24" Y="0" Fixture="46">7</Head>
-   <Head X="25" Y="0" Fixture="46">6</Head>
-   <Head X="26" Y="0" Fixture="46">5</Head>
-   <Head X="27" Y="0" Fixture="46">4</Head>
-   <Head X="28" Y="0" Fixture="46">3</Head>
-   <Head X="29" Y="0" Fixture="46">2</Head>
-   <Head X="30" Y="0" Fixture="46">1</Head>
-   <Head X="31" Y="0" Fixture="46">0</Head>
-   <Head X="33" Y="0" Fixture="45">7</Head>
-   <Head X="35" Y="0" Fixture="45">6</Head>
-   <Head X="37" Y="0" Fixture="45">5</Head>
-   <Head X="39" Y="0" Fixture="45">4</Head>
-   <Head X="41" Y="0" Fixture="45">3</Head>
-   <Head X="43" Y="0" Fixture="45">2</Head>
-   <Head X="45" Y="0" Fixture="45">1</Head>
-   <Head X="47" Y="0" Fixture="45">0</Head>
+   <Size X="3" Y="16"/>
+   <Head X="1" Y="0" Fixture="46">15</Head>
+   <Head X="0" Y="1" Fixture="44">7</Head>
+   <Head X="1" Y="1" Fixture="46">14</Head>
+   <Head X="2" Y="1" Fixture="45">7</Head>
+   <Head X="1" Y="2" Fixture="46">13</Head>
+   <Head X="0" Y="3" Fixture="44">6</Head>
+   <Head X="1" Y="3" Fixture="46">12</Head>
+   <Head X="2" Y="3" Fixture="45">6</Head>
+   <Head X="1" Y="4" Fixture="46">11</Head>
+   <Head X="0" Y="5" Fixture="44">5</Head>
+   <Head X="1" Y="5" Fixture="46">10</Head>
+   <Head X="2" Y="5" Fixture="45">5</Head>
+   <Head X="1" Y="6" Fixture="46">9</Head>
+   <Head X="0" Y="7" Fixture="44">4</Head>
+   <Head X="1" Y="7" Fixture="46">8</Head>
+   <Head X="2" Y="7" Fixture="45">4</Head>
+   <Head X="1" Y="8" Fixture="46">7</Head>
+   <Head X="0" Y="9" Fixture="44">3</Head>
+   <Head X="1" Y="9" Fixture="46">6</Head>
+   <Head X="2" Y="9" Fixture="45">3</Head>
+   <Head X="1" Y="10" Fixture="46">5</Head>
+   <Head X="0" Y="11" Fixture="44">2</Head>
+   <Head X="1" Y="11" Fixture="46">4</Head>
+   <Head X="2" Y="11" Fixture="45">2</Head>
+   <Head X="1" Y="12" Fixture="46">3</Head>
+   <Head X="0" Y="13" Fixture="44">1</Head>
+   <Head X="1" Y="13" Fixture="46">2</Head>
+   <Head X="2" Y="13" Fixture="45">1</Head>
+   <Head X="1" Y="14" Fixture="46">1</Head>
+   <Head X="0" Y="15" Fixture="44">0</Head>
+   <Head X="1" Y="15" Fixture="46">0</Head>
+   <Head X="2" Y="15" Fixture="45">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="15">
    <Name>LP backlight outs</Name>
@@ -855,14 +855,14 @@
    <Palette ID="7"/>
   </Function>
   <Function ID="23" Type="RGBMatrix" Name="LED bars" Path="RGB animations">
-   <Speed FadeIn="4" FadeOut="2003" Duration="1001"/>
+   <Speed FadeIn="50" FadeOut="50" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Plain"/>
-   <Color Index="0">4278190335</Color>
+   <Algorithm Type="Script">Fill Unfill</Algorithm>
+   <Color Index="0">4294901760</Color>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>14</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="24" Type="Scene" Name="Sides yellow" Path="Still colors/Sides">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -1569,7 +1569,7 @@
    <Property Name="presetSize" Value="5"/>
   </Function>
   <Function ID="142" Type="RGBMatrix" Name="LED bars fixed color" Path="RGB animations">
-   <Speed FadeIn="4" FadeOut="2003" Duration="1001"/>
+   <Speed FadeIn="50" FadeOut="50" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Plain"/>
@@ -1579,7 +1579,7 @@
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
   <Function ID="143" Type="RGBMatrix" Name="LED bars rainbow radial" Path="RGB animations">
-   <Speed FadeIn="4" FadeOut="2003" Duration="1001"/>
+   <Speed FadeIn="50" FadeOut="50" Duration="50"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Gradient</Algorithm>
@@ -1591,7 +1591,7 @@
    <Property Name="presetSize" Value="5"/>
   </Function>
   <Function ID="144" Type="RGBMatrix" Name="LED bars fill radial" Path="RGB animations">
-   <Speed FadeIn="4" FadeOut="2003" Duration="1001"/>
+   <Speed FadeIn="50" FadeOut="50" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
@@ -1599,10 +1599,10 @@
    <Color Index="1">4278190335</Color>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>14</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="145" Type="RGBMatrix" Name="LED bars noise" Path="RGB animations">
-   <Speed FadeIn="4" FadeOut="2003" Duration="1001"/>
+   <Speed FadeIn="50" FadeOut="50" Duration="50"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Noise</Algorithm>
@@ -1713,7 +1713,7 @@
    <FxItem ID="41" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="42" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="43" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="44" XPos="1100" YPos="2900" ZPos="2600" XRot="-135" YRot="-90"/>
+   <FxItem ID="44" XPos="1100" YPos="2900" ZPos="2600" XRot="135" YRot="90"/>
    <FxItem ID="45" XPos="5000" YPos="2900" ZPos="2600" XRot="-135" YRot="90"/>
    <FxItem ID="46" XPos="3070" YPos="3610" ZPos="2600" XRot="180" YRot="90"/>
    <FxItem ID="47" XPos="5400" YPos="700" ZPos="500"/>
@@ -2067,7 +2067,7 @@
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
      <Visibility>96</Visibility>
-     <Time>1001</Time>
+     <Time>50</Time>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
      <Function FadeIn="0" FadeOut="0" Duration="6">23</Function>
      <Function FadeIn="0" FadeOut="0" Duration="6">142</Function>
@@ -2105,7 +2105,7 @@
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
      <Visibility>96</Visibility>
-     <Time>2003</Time>
+     <Time>50</Time>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
      <Function FadeIn="0" FadeOut="6" Duration="0">23</Function>
      <Function FadeIn="0" FadeOut="6" Duration="0">142</Function>
@@ -2135,7 +2135,7 @@
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
      <Visibility>96</Visibility>
-     <Time>4</Time>
+     <Time>50</Time>
      <AbsoluteValue Minimum="0" Maximum="10000"/>
      <Function FadeIn="6" FadeOut="0" Duration="0">23</Function>
      <Function FadeIn="6" FadeOut="0" Duration="0">142</Function>
