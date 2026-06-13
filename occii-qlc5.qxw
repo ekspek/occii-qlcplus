@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VC">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>5.2.2</Version>
@@ -174,16 +174,6 @@
    <Channels>2</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic RGB</Model>
-   <Mode>RGB Dimmer</Mode>
-   <ID>15</ID>
-   <Name>LP Merch light wall</Name>
-   <Universe>2</Universe>
-   <Address>20</Address>
-   <Channels>4</Channels>
-  </Fixture>
-  <Fixture>
    <Manufacturer>Eurolite</Manufacturer>
    <Model>LED PAR 56 RGB DMX</Model>
    <Mode>5 Channels</Mode>
@@ -206,12 +196,12 @@
   <Fixture>
    <Manufacturer>Eurolite</Manufacturer>
    <Model>LED PAR 56 RGB DMX</Model>
-   <Mode>5 Channels</Mode>
+   <Mode>3 Channels</Mode>
    <ID>18</ID>
    <Name>DJ light</Name>
    <Universe>0</Universe>
    <Address>95</Address>
-   <Channels>5</Channels>
+   <Channels>3</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Eurolite</Manufacturer>
@@ -266,12 +256,12 @@
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
    <Model>Generic RGB</Model>
-   <Mode>RGB Dimmer</Mode>
+   <Mode>BGR</Mode>
    <ID>24</ID>
    <Name>LP Backlight 1 (left)</Name>
    <Universe>2</Universe>
    <Address>0</Address>
-   <Channels>4</Channels>
+   <Channels>3</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Generic</Manufacturer>
@@ -868,7 +858,7 @@
    <Speed FadeIn="4" FadeOut="2003" Duration="1001"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Fill Unfill From Center</Algorithm>
+   <Algorithm Type="Plain"/>
    <Color Index="0">4278190335</Color>
    <ControlMode>RGB</ControlMode>
    <FixtureGroup>14</FixtureGroup>
@@ -1695,7 +1685,6 @@
    <FxItem ID="12" XPos="5500" YPos="3100" ZPos="300" XRot="47" YRot="14"/>
    <FxItem ID="13" XPos="3500" YPos="3300" ZPos="13200" XRot="-68" YRot="98"/>
    <FxItem ID="14" XPos="3460" YPos="3450" ZPos="4020" XRot="180"/>
-   <FxItem ID="15" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="16" XPos="1910" YPos="3000" ZPos="9860" XRot="-44"/>
    <FxItem ID="17" XPos="5230" YPos="3000" ZPos="9860" XRot="-44" YRot="-14"/>
    <FxItem ID="18" XPos="2580" YPos="3300" ZPos="12500" XRot="16" YRot="69"/>
@@ -1704,29 +1693,29 @@
    <FxItem ID="21" XPos="4500" YPos="3300" ZPos="12500" XRot="-57" YRot="-5"/>
    <FxItem ID="22" XPos="3500" YPos="3100" ZPos="8450"/>
    <FxItem ID="23" XPos="3700" YPos="2980" ZPos="10170" XRot="-93" YRot="15"/>
-   <FxItem ID="24" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="25" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="26" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="27" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="28" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="24" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="25" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="26" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="27" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="28" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="29" XPos="2550" YPos="3100" ZPos="4600" XRot="59" YRot="3"/>
    <FxItem ID="30" XPos="4150" YPos="3100" ZPos="4600" XRot="59"/>
    <FxItem ID="31" XPos="2070" YPos="3100" ZPos="5870" XRot="-51" YRot="9"/>
    <FxItem ID="32" XPos="4500" YPos="3100" ZPos="5870" XRot="-51" YRot="-9"/>
-   <FxItem ID="33" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="33" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="34" XPos="2200" YPos="3370" ZPos="310" XRot="30" YRot="-8"/>
    <FxItem ID="35" XPos="4830" YPos="3370" ZPos="310" XRot="30" YRot="8"/>
    <FxItem ID="36" XPos="3500" YPos="3370" ZPos="270" XRot="58"/>
-   <FxItem ID="37" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="38" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="39" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="40" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="37" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="38" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="39" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
+   <FxItem ID="40" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="41" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="42" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
    <FxItem ID="43" Hidden="True" XPos="0" YPos="0" ZPos="0"/>
-   <FxItem ID="44" XPos="1764" YPos="770" ZPos="350" XRot="-45"/>
-   <FxItem ID="45" XPos="4400" YPos="770" ZPos="350" XRot="-45"/>
-   <FxItem ID="46" XPos="3070" YPos="770" ZPos="350" XRot="-45"/>
+   <FxItem ID="44" XPos="1100" YPos="2900" ZPos="2600" XRot="-135" YRot="-90"/>
+   <FxItem ID="45" XPos="5000" YPos="2900" ZPos="2600" XRot="-135" YRot="90"/>
+   <FxItem ID="46" XPos="3070" YPos="3610" ZPos="2600" XRot="180" YRot="90"/>
    <FxItem ID="47" XPos="5400" YPos="700" ZPos="500"/>
    <FxItem ID="48" XPos="0" YPos="0" ZPos="0"/>
    <MeshItem ID="0" XPos="400" YPos="700" ZPos="3650" XScale="0.3" ZScale="0.3" Res="C:/QLC+5/Meshes/generic/cube.obj"/>
@@ -2047,7 +2036,7 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="8" CurrentPage="2"/>
+    <Multipage PagesNum="8" CurrentPage="5"/>
     <Shortcut Page="0" Name="Main colors">
      <Input ID="20" Universe="0" Channel="157"/>
     </Shortcut>
@@ -2073,7 +2062,7 @@
      <Input ID="27" Universe="0" Channel="178"/>
     </Shortcut>
     <SpeedDial Caption="LED bar speed" ID="443" Page="5">
-     <WindowState Visible="False" X="16" Y="234" Width="468" Height="150" Z="1"/>
+     <WindowState Visible="True" X="16" Y="234" Width="468" Height="150" Z="1"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2111,7 +2100,7 @@
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="LED bar animation fade out" ID="442" Page="5">
-     <WindowState Visible="False" X="501" Y="234" Width="284" Height="150"/>
+     <WindowState Visible="True" X="501" Y="234" Width="284" Height="150"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2141,7 +2130,7 @@
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="LED bar animation fade in" ID="441" Page="5">
-     <WindowState Visible="False" X="501" Y="50" Width="284" Height="167"/>
+     <WindowState Visible="True" X="501" Y="50" Width="284" Height="167"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2171,7 +2160,7 @@
      </Preset>
     </SpeedDial>
     <Matrix Caption="LED bars" ID="425" Page="5">
-     <WindowState Visible="False" X="16" Y="50" Width="468" Height="167" Z="1"/>
+     <WindowState Visible="True" X="16" Y="50" Width="468" Height="167" Z="1"/>
      <Function ID="23" InstantApply="true"/>
      <Input ID="0" Universe="0" Channel="262152"/>
     </Matrix>
@@ -2344,7 +2333,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Stage tops" ID="78" Page="2">
-     <WindowState Visible="True" X="602" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="602" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3099,7 +3088,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Back outs" ID="413" Page="2">
-     <WindowState Visible="True" X="0" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="0" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3172,7 +3161,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Front sides" ID="421" Page="2">
-     <WindowState Visible="True" X="401" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="401" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3227,7 +3216,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Back center" ID="423" Page="2">
-     <WindowState Visible="True" X="501" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="501" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3290,7 +3279,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Back mids" ID="415" Page="2">
-     <WindowState Visible="True" X="100" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="100" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4123,7 +4112,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Sides" ID="419" Page="2">
-     <WindowState Visible="True" X="301" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="301" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4501,7 +4490,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Back center" ID="417" Page="2">
-     <WindowState Visible="True" X="200" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="200" Y="33" Width="100" Height="568"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4880,7 +4869,7 @@
      </Button>
     </SoloFrame>
     <Button Caption="Preset 8" ID="440" Page="5">
-     <WindowState Visible="False" X="652" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="652" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4889,7 +4878,7 @@
      <Input ID="0" Universe="0" Channel="262324"/>
     </Button>
     <Button Caption="Preset 2" ID="434" Page="5">
-     <WindowState Visible="False" X="150" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="150" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4898,7 +4887,7 @@
      <Input ID="0" Universe="0" Channel="262306"/>
     </Button>
     <Button Caption="Rainbow radial" ID="426" Page="5">
-     <WindowState Visible="False" X="150" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="150" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -4907,7 +4896,7 @@
      <Input ID="0" Universe="0" Channel="262305"/>
     </Button>
     <Button Caption="Preset 7" ID="431" Page="5">
-     <WindowState Visible="False" X="568" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="568" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4916,7 +4905,7 @@
      <Input ID="0" Universe="0" Channel="262320"/>
     </Button>
     <Button Caption="Preset 8" ID="432" Page="5">
-     <WindowState Visible="False" X="652" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="652" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4934,7 +4923,7 @@
      <Input ID="0" Universe="0" Channel="196781"/>
     </Button>
     <Button Caption="Preset 4" ID="437" Page="5">
-     <WindowState Visible="False" X="317" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="317" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4943,7 +4932,7 @@
      <Input ID="0" Universe="0" Channel="262312"/>
     </Button>
     <Button Caption="Preset 5" ID="428" Page="5">
-     <WindowState Visible="False" X="401" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="401" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4952,7 +4941,7 @@
      <Input ID="0" Universe="0" Channel="262314"/>
     </Button>
     <Button Caption="Preset 6" ID="430" Page="5">
-     <WindowState Visible="False" X="484" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="484" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4961,7 +4950,7 @@
      <Input ID="0" Universe="0" Channel="262317"/>
     </Button>
     <Button Caption="Fill/unfill radial" ID="427" Page="5">
-     <WindowState Visible="False" X="234" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="234" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -4970,7 +4959,7 @@
      <Input ID="0" Universe="0" Channel="262308"/>
     </Button>
     <Button Caption="Preset 5" ID="436" Page="5">
-     <WindowState Visible="False" X="401" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="401" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4979,7 +4968,7 @@
      <Input ID="0" Universe="0" Channel="262315"/>
     </Button>
     <Button Caption="Preset 3" ID="435" Page="5">
-     <WindowState Visible="False" X="234" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="234" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4988,7 +4977,7 @@
      <Input ID="0" Universe="0" Channel="262309"/>
     </Button>
     <Button Caption="Preset 6" ID="438" Page="5">
-     <WindowState Visible="False" X="484" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="484" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4997,7 +4986,7 @@
      <Input ID="0" Universe="0" Channel="262318"/>
     </Button>
     <Button Caption="Preset 1" ID="433" Page="5">
-     <WindowState Visible="False" X="66" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="66" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -5006,7 +4995,7 @@
      <Input ID="0" Universe="0" Channel="262303"/>
     </Button>
     <Button Caption="Flat color" ID="424" Page="5">
-     <WindowState Visible="False" X="66" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="66" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -5015,7 +5004,7 @@
      <Input ID="0" Universe="0" Channel="262302"/>
     </Button>
     <Button Caption="Noise" ID="429" Page="5">
-     <WindowState Visible="False" X="317" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="True" X="317" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282992969</BackgroundColor>
      </Appearance>
@@ -5024,7 +5013,7 @@
      <Input ID="0" Universe="0" Channel="262311"/>
     </Button>
     <Button Caption="Preset 7" ID="439" Page="5">
-     <WindowState Visible="False" X="568" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="True" X="568" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -5354,7 +5343,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="1"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="51">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">1</Channel>
       </Level>
      </Slider>
@@ -5365,7 +5354,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="0"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">0</Channel>
       </Level>
      </Slider>
@@ -5376,7 +5365,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="2"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="8">2</Channel>
       </Level>
      </Slider>
@@ -5407,7 +5396,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="28"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="3">0</Channel>
       </Level>
      </Slider>
@@ -5460,7 +5449,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="11"/>
       <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="153"/>
+      <Level LowLimit="0" HighLimit="255" Value="146"/>
      </Slider>
      <Slider Caption="Green" ID="93" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="66" Y="33" Width="66" Height="133"/>
@@ -5491,7 +5480,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="8"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="10">0</Channel>
       </Level>
      </Slider>
@@ -5566,7 +5555,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="4"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="9">0</Channel>
       </Level>
      </Slider>
@@ -5577,7 +5566,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="7"/>
       <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="154"/>
+      <Level LowLimit="0" HighLimit="255" Value="146"/>
      </Slider>
      <Slider Caption="Blue" ID="74" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="133" Y="33" Width="66" Height="133"/>
@@ -5586,7 +5575,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="6"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="9">2</Channel>
       </Level>
      </Slider>
@@ -5597,7 +5586,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="5"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="51">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="9">1</Channel>
       </Level>
      </Slider>
@@ -5641,7 +5630,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="36"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="4">0</Channel>
       </Level>
      </Slider>
@@ -5777,7 +5766,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="17"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="51">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="12">1</Channel>
       </Level>
      </Slider>
@@ -5788,7 +5777,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="18"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="12">2</Channel>
       </Level>
      </Slider>
@@ -5799,7 +5788,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="16"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="12">0</Channel>
       </Level>
      </Slider>
@@ -5830,7 +5819,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="13"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="51">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="11">1</Channel>
       </Level>
      </Slider>
@@ -5841,7 +5830,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="12"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="11">0</Channel>
       </Level>
      </Slider>
@@ -5852,7 +5841,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="255">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="11">2</Channel>
       </Level>
      </Slider>
@@ -5863,7 +5852,7 @@
       </Appearance>
       <Input ID="0" Universe="2" Channel="15"/>
       <SliderMode ValueDisplayStyle="Percentage">Submaster</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="154"/>
+      <Level LowLimit="0" HighLimit="255" Value="146"/>
      </Slider>
     </Frame>
    </Frame>
@@ -6078,7 +6067,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="1"/>
       <SliderMode ValueDisplayStyle="Percentage">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="146">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="24">3</Channel>
        <Channel Fixture="28">3</Channel>
       </Level>
@@ -6090,7 +6079,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="2"/>
       <SliderMode ValueDisplayStyle="Percentage">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="154">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="25">3</Channel>
        <Channel Fixture="27">3</Channel>
       </Level>
@@ -6157,7 +6146,7 @@
       </Appearance>
       <Input ID="0" Universe="0" Channel="3"/>
       <SliderMode ValueDisplayStyle="Percentage">Level</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="153">
+      <Level LowLimit="0" HighLimit="255" Value="0">
        <Channel Fixture="26">3</Channel>
       </Level>
      </Slider>
