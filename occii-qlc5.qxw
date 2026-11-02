@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VC">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>5.3.0</Version>
@@ -2419,7 +2419,7 @@
     </Frame>
    </Frame>
    <SpeedDial Caption="Animation speed" ID="40">
-    <WindowState Visible="True" X="802" Y="501" Width="518" Height="133" Z="1"/>
+    <WindowState Visible="True" X="824" Y="500" Width="515" Height="132" Z="1"/>
     <Appearance>
      <BackgroundColor>4280558628</BackgroundColor>
     </Appearance>
@@ -2456,7 +2456,7 @@
     </Preset>
    </SpeedDial>
    <SpeedDial Caption="Animation fade in" ID="38">
-    <WindowState Visible="True" X="1321" Y="501" Width="284" Height="133"/>
+    <WindowState Visible="True" X="1340" Y="500" Width="279" Height="132"/>
     <Appearance>
      <BackgroundColor>4280558628</BackgroundColor>
     </Appearance>
@@ -2485,7 +2485,7 @@
     </Preset>
    </SpeedDial>
    <SpeedDial Caption="Chaser speed" ID="251">
-    <WindowState Visible="True" X="802" Y="267" Width="518" Height="234" Z="1"/>
+    <WindowState Visible="True" X="824" Y="265" Width="515" Height="235" Z="1"/>
     <Appearance>
      <BackgroundColor>4285399040</BackgroundColor>
     </Appearance>
@@ -2503,7 +2503,7 @@
     <Input ID="1" Universe="0" Channel="215"/>
    </SpeedDial>
    <SpeedDial Caption="Animation fade out" ID="39">
-    <WindowState Visible="True" X="1605" Y="501" Width="284" Height="133"/>
+    <WindowState Visible="True" X="1620" Y="500" Width="279" Height="132"/>
     <Appearance>
      <BackgroundColor>4280558628</BackgroundColor>
     </Appearance>
@@ -2532,7 +2532,7 @@
     </Preset>
    </SpeedDial>
    <SpeedDial Caption="Chaser fade in" ID="252">
-    <WindowState Visible="True" X="1321" Y="267" Width="284" Height="234"/>
+    <WindowState Visible="True" X="1340" Y="265" Width="279" Height="235"/>
     <Appearance>
      <BackgroundColor>4278218240</BackgroundColor>
     </Appearance>
@@ -2565,7 +2565,7 @@
     </Preset>
    </SpeedDial>
    <SpeedDial Caption="Chaser fade out" ID="253">
-    <WindowState Visible="True" X="1605" Y="267" Width="284" Height="234"/>
+    <WindowState Visible="True" X="1620" Y="265" Width="279" Height="235"/>
     <Appearance>
      <BackgroundColor>4278190190</BackgroundColor>
     </Appearance>
@@ -2619,13 +2619,13 @@
     <Level LowLimit="0" HighLimit="255" Value="255"/>
    </Slider>
    <Frame Caption="Main configs" ID="1">
-    <WindowState Visible="True" X="0" Y="0" Width="802" Height="602"/>
+    <WindowState Visible="True" X="0" Y="0" Width="824" Height="603"/>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="8" CurrentPage="5"/>
+    <Multipage PagesNum="8" CurrentPage="1"/>
     <Shortcut Page="0" Name="Main colors">
      <Input ID="20" Universe="0" Channel="157"/>
     </Shortcut>
@@ -2651,7 +2651,7 @@
      <Input ID="27" Universe="0" Channel="178"/>
     </Shortcut>
     <Button Caption="Preset 1" ID="433" Page="5">
-     <WindowState Visible="True" X="66" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="66" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2660,7 +2660,7 @@
      <Input ID="0" Universe="0" Channel="262303"/>
     </Button>
     <Button Caption="Rainbow radial" ID="426" Page="5">
-     <WindowState Visible="True" X="150" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="150" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -2669,7 +2669,7 @@
      <Input ID="0" Universe="0" Channel="262305"/>
     </Button>
     <Button Caption="Preset 8" ID="432" Page="5">
-     <WindowState Visible="True" X="652" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="652" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2678,7 +2678,7 @@
      <Input ID="0" Universe="0" Channel="262323"/>
     </Button>
     <Button Caption="Noise" ID="429" Page="5">
-     <WindowState Visible="True" X="317" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="317" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282992969</BackgroundColor>
      </Appearance>
@@ -2687,7 +2687,7 @@
      <Input ID="0" Universe="0" Channel="262311"/>
     </Button>
     <Button Caption="Preset 4" ID="437" Page="5">
-     <WindowState Visible="True" X="317" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="317" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2696,7 +2696,7 @@
      <Input ID="0" Universe="0" Channel="262312"/>
     </Button>
     <Button Caption="Preset 7" ID="439" Page="5">
-     <WindowState Visible="True" X="568" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="568" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2705,7 +2705,7 @@
      <Input ID="0" Universe="0" Channel="262321"/>
     </Button>
     <Button Caption="Flat color" ID="424" Page="5">
-     <WindowState Visible="True" X="66" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="66" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -2714,7 +2714,7 @@
      <Input ID="0" Universe="0" Channel="262302"/>
     </Button>
     <Button Caption="Preset 8" ID="440" Page="5">
-     <WindowState Visible="True" X="652" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="652" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2723,7 +2723,7 @@
      <Input ID="0" Universe="0" Channel="262324"/>
     </Button>
     <Button Caption="Preset 5" ID="436" Page="5">
-     <WindowState Visible="True" X="401" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="401" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2741,7 +2741,7 @@
      <Input ID="0" Universe="0" Channel="196781"/>
     </Button>
     <Button Caption="Preset 5" ID="428" Page="5">
-     <WindowState Visible="True" X="401" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="401" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2750,7 +2750,7 @@
      <Input ID="0" Universe="0" Channel="262314"/>
     </Button>
     <Button Caption="Preset 3" ID="435" Page="5">
-     <WindowState Visible="True" X="234" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="234" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2759,7 +2759,7 @@
      <Input ID="0" Universe="0" Channel="262309"/>
     </Button>
     <Button Caption="Preset 2" ID="434" Page="5">
-     <WindowState Visible="True" X="150" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="150" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2768,7 +2768,7 @@
      <Input ID="0" Universe="0" Channel="262306"/>
     </Button>
     <Button Caption="Preset 6" ID="438" Page="5">
-     <WindowState Visible="True" X="484" Y="484" Width="83" Height="83"/>
+     <WindowState Visible="False" X="484" Y="484" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2777,7 +2777,7 @@
      <Input ID="0" Universe="0" Channel="262318"/>
     </Button>
     <SpeedDial Caption="LED bar animation fade out" ID="442" Page="5">
-     <WindowState Visible="True" X="501" Y="234" Width="284" Height="150"/>
+     <WindowState Visible="False" X="501" Y="234" Width="284" Height="150"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2807,7 +2807,7 @@
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="LED bar speed" ID="443" Page="5">
-     <WindowState Visible="True" X="16" Y="234" Width="468" Height="150" Z="1"/>
+     <WindowState Visible="False" X="16" Y="234" Width="468" Height="150" Z="1"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2845,7 +2845,7 @@
      </Preset>
     </SpeedDial>
     <SpeedDial Caption="LED bar animation fade in" ID="441" Page="5">
-     <WindowState Visible="True" X="501" Y="50" Width="284" Height="167"/>
+     <WindowState Visible="False" X="501" Y="50" Width="284" Height="167"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -2875,12 +2875,12 @@
      </Preset>
     </SpeedDial>
     <Matrix Caption="LED bars" ID="425" Page="5">
-     <WindowState Visible="True" X="16" Y="50" Width="468" Height="167" Z="1"/>
+     <WindowState Visible="False" X="16" Y="50" Width="468" Height="167" Z="1"/>
      <Function ID="23" InstantApply="true"/>
      <Input ID="0" Universe="0" Channel="327688"/>
     </Matrix>
     <Frame Caption="Back right" ID="280" Page="4">
-     <WindowState Visible="False" X="401" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="412" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -2890,7 +2890,7 @@
       <Input ID="2" Universe="0" Channel="262314"/>
      </Enable>
      <Slider Caption="Back right" ID="278" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288282624</BackgroundColor>
       </Appearance>
@@ -2924,7 +2924,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Back center" ID="423" Page="2">
-     <WindowState Visible="False" X="501" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="515" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -2934,7 +2934,7 @@
       <Input ID="2" Universe="0" Channel="131245"/>
      </Enable>
      <Button Caption="Front center" ID="452">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -2942,7 +2942,7 @@
       <Action Override="0" ForceLTP="0">Flash</Action>
      </Button>
      <Slider Caption="Front center" ID="422" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -2954,7 +2954,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Front center" ID="200" Page="1">
-     <WindowState Visible="False" X="501" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="515" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -2964,7 +2964,7 @@
       <Input ID="2" Universe="0" Channel="65709"/>
      </Enable>
      <Button Caption="Custom color 7" ID="198">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -2990,7 +2990,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="193">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -2998,7 +2998,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="199">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3024,7 +3024,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="192">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3050,7 +3050,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="197">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3067,7 +3067,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 5" ID="196">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3075,7 +3075,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="195">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3083,7 +3083,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="194">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3100,7 +3100,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Back center" ID="277" Page="4">
-     <WindowState Visible="False" X="301" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="309" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3110,7 +3110,7 @@
       <Input ID="2" Universe="0" Channel="262311"/>
      </Enable>
      <Slider Caption="Back center" ID="276" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288282624</BackgroundColor>
       </Appearance>
@@ -3122,7 +3122,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Sides" ID="346">
-     <WindowState Visible="False" X="301" Y="33" Width="100" Height="568" Z="1"/>
+     <WindowState Visible="False" X="309" Y="29" Width="103" Height="574" Z="1"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3140,7 +3140,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Blue" ID="338">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -3150,7 +3150,7 @@
       <Input ID="0" Universe="0" Channel="165"/>
      </Button>
      <Button Caption="Red" ID="330">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -3168,7 +3168,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Magenta" ID="341">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -3178,7 +3178,7 @@
       <Input ID="0" Universe="0" Channel="174"/>
      </Button>
      <Button Caption="Cyan" ID="343">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -3196,7 +3196,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="White" ID="345">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -3222,7 +3222,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Green" ID="340">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -3232,7 +3232,7 @@
       <Input ID="0" Universe="0" Channel="162"/>
      </Button>
      <Button Caption="Black (off)" ID="342">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -3249,7 +3249,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Yellow" ID="344">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -3320,7 +3320,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Back center" ID="329">
-     <WindowState Visible="False" X="200" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="206" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3338,7 +3338,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Yellow" ID="327">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -3348,7 +3348,7 @@
       <Input ID="0" Universe="0" Channel="171"/>
      </Button>
      <Button Caption="Green" ID="323">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -3358,7 +3358,7 @@
       <Input ID="0" Universe="0" Channel="162"/>
      </Button>
      <Button Caption="Blue" ID="321">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -3368,7 +3368,7 @@
       <Input ID="0" Universe="0" Channel="165"/>
      </Button>
      <Button Caption="Magenta" ID="324">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -3378,7 +3378,7 @@
       <Input ID="0" Universe="0" Channel="174"/>
      </Button>
      <Button Caption="Black (off)" ID="325">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -3411,7 +3411,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Cyan" ID="326">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -3437,7 +3437,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Red" ID="313">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -3447,7 +3447,7 @@
       <Input ID="0" Universe="0" Channel="159"/>
      </Button>
      <Button Caption="White" ID="328">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -3474,7 +3474,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Left fresnel" ID="4" Page="4">
-     <WindowState Visible="False" X="0" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="0" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3484,7 +3484,7 @@
       <Input ID="2" Universe="0" Channel="262302"/>
      </Enable>
      <Slider Caption="Left fresnel" ID="0" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288306176</BackgroundColor>
       </Appearance>
@@ -3518,7 +3518,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Back left" ID="274" Page="4">
-     <WindowState Visible="False" X="200" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="206" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3528,7 +3528,7 @@
       <Input ID="2" Universe="0" Channel="262308"/>
      </Enable>
      <Slider Caption="Back left" ID="272" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288282624</BackgroundColor>
       </Appearance>
@@ -3562,7 +3562,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Front left" ID="285" Page="4">
-     <WindowState Visible="False" X="501" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="515" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3572,7 +3572,7 @@
       <Input ID="2" Universe="0" Channel="262317"/>
      </Enable>
      <Slider Caption="Front left" ID="283" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288306176</BackgroundColor>
       </Appearance>
@@ -3584,7 +3584,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Back mids" ID="132" Page="1">
-     <WindowState Visible="False" X="100" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="103" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3594,7 +3594,7 @@
       <Input ID="2" Universe="0" Channel="65697"/>
      </Enable>
      <Button Caption="Custom color 5" ID="117">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3664,7 +3664,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="124">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3672,7 +3672,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="122">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3680,7 +3680,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="123">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3688,7 +3688,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="119">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3696,7 +3696,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 7" ID="126">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3704,7 +3704,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="120">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3721,7 +3721,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="121">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3730,7 +3730,7 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Back outs" ID="115" Page="1">
-     <WindowState Visible="False" X="0" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="0" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3767,7 +3767,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 5" ID="85">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3775,7 +3775,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="87">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3783,7 +3783,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="90">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3791,7 +3791,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="88">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3826,7 +3826,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 7" ID="109">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3834,7 +3834,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="107">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3850,7 +3850,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="91">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -3867,7 +3867,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="89">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -3876,7 +3876,7 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Back outs" ID="295">
-     <WindowState Visible="False" X="0" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="0" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -3894,7 +3894,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Yellow" ID="294">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -3904,7 +3904,7 @@
       <Input ID="0" Universe="0" Channel="171"/>
      </Button>
      <Button Caption="Black (off)" ID="292">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -3921,7 +3921,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Cyan" ID="293">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -3939,7 +3939,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Green" ID="289">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -3949,7 +3949,7 @@
       <Input ID="0" Universe="0" Channel="162"/>
      </Button>
      <Button Caption="Blue" ID="286">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -3991,7 +3991,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Red" ID="268">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -4009,7 +4009,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Magenta" ID="290">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -4019,7 +4019,7 @@
       <Input ID="0" Universe="0" Channel="174"/>
      </Button>
      <Button Caption="White" ID="271">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -4030,7 +4030,7 @@
      </Button>
     </SoloFrame>
     <SoloFrame Caption="Stage backs" ID="217" Page="1">
-     <WindowState Visible="False" X="602" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="618" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4058,7 +4058,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 7" ID="215">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4066,7 +4066,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="216">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4083,7 +4083,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="210">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4100,7 +4100,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 5" ID="213">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4108,7 +4108,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="209">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4133,7 +4133,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="212">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4150,7 +4150,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="211">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4167,7 +4167,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="214">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4209,7 +4209,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Front sides" ID="183" Page="1">
-     <WindowState Visible="False" X="401" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="412" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4237,7 +4237,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 5" ID="168">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4262,7 +4262,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="171">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4270,7 +4270,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="174">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4296,7 +4296,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="170">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4304,7 +4304,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="172">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4321,7 +4321,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="175">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4338,7 +4338,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 7" ID="177">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4346,7 +4346,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="173">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4355,7 +4355,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Sides" ID="419" Page="2">
-     <WindowState Visible="False" X="301" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="309" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4365,7 +4365,7 @@
       <Input ID="2" Universe="0" Channel="131239"/>
      </Enable>
      <Button Caption="Sides" ID="450">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4373,7 +4373,7 @@
       <Action Override="0" ForceLTP="0">Flash</Action>
      </Button>
      <Slider Caption="Sides" ID="418" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4386,7 +4386,7 @@
      </Slider>
     </Frame>
     <Button Caption="Preset 6" ID="430" Page="5">
-     <WindowState Visible="True" X="484" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="484" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4395,7 +4395,7 @@
      <Input ID="0" Universe="0" Channel="262317"/>
     </Button>
     <Button Caption="Fill/unfill radial" ID="427" Page="5">
-     <WindowState Visible="True" X="234" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="234" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -4404,7 +4404,7 @@
      <Input ID="0" Universe="0" Channel="262308"/>
     </Button>
     <Button Caption="Preset 7" ID="431" Page="5">
-     <WindowState Visible="True" X="568" Y="401" Width="83" Height="83"/>
+     <WindowState Visible="False" X="568" Y="401" Width="83" Height="83"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -4413,7 +4413,7 @@
      <Input ID="0" Universe="0" Channel="262320"/>
     </Button>
     <SoloFrame Caption="Stage tops" ID="32">
-     <WindowState Visible="False" X="602" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="618" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4423,7 +4423,7 @@
       <Input ID="2" Universe="0" Channel="176"/>
      </Enable>
      <Button Caption="Yellow" ID="27">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -4449,7 +4449,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Green" ID="21">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -4459,7 +4459,7 @@
       <Input ID="0" Universe="0" Channel="162"/>
      </Button>
      <Button Caption="Magenta" ID="19">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -4469,7 +4469,7 @@
       <Input ID="0" Universe="0" Channel="174"/>
      </Button>
      <Button Caption="White" ID="29">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -4495,7 +4495,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Blue" ID="18">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -4505,7 +4505,7 @@
       <Input ID="0" Universe="0" Channel="165"/>
      </Button>
      <Button Caption="Red" ID="16">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -4515,7 +4515,7 @@
       <Input ID="0" Universe="0" Channel="159"/>
      </Button>
      <Button Caption="Black (off)" ID="20">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4548,7 +4548,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Cyan" ID="22">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -4567,7 +4567,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Front sides" ID="421" Page="2">
-     <WindowState Visible="False" X="401" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="412" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4577,7 +4577,7 @@
       <Input ID="2" Universe="0" Channel="131242"/>
      </Enable>
      <Slider Caption="Front sides" ID="420" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4589,7 +4589,7 @@
       </Level>
      </Slider>
      <Button Caption="Front sides" ID="451">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4598,7 +4598,7 @@
      </Button>
     </Frame>
     <Frame Caption="Back mids" ID="415" Page="2">
-     <WindowState Visible="False" X="100" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="103" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4608,7 +4608,7 @@
       <Input ID="2" Universe="0" Channel="131233"/>
      </Enable>
      <Slider Caption="Back mids" ID="414" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4620,7 +4620,7 @@
       </Level>
      </Slider>
      <Button Caption="Back mids" ID="448">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4629,7 +4629,7 @@
      </Button>
     </Frame>
     <SoloFrame Caption="Sides" ID="166" Page="1">
-     <WindowState Visible="False" X="301" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="309" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4639,7 +4639,7 @@
       <Input ID="2" Universe="0" Channel="65703"/>
      </Enable>
      <Button Caption="Custom color 3" ID="157">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4665,7 +4665,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="155">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4673,7 +4673,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="153">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4690,7 +4690,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 7" ID="160">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4724,7 +4724,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="154">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4732,7 +4732,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="156">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4749,7 +4749,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 5" ID="151">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -4766,7 +4766,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="158">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -4797,7 +4797,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Back mids" ID="312">
-     <WindowState Visible="False" X="100" Y="33" Width="100" Height="568" Z="1"/>
+     <WindowState Visible="False" X="103" Y="29" Width="103" Height="574" Z="1"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4807,7 +4807,7 @@
       <Input ID="2" Universe="0" Channel="161"/>
      </Enable>
      <Button Caption="Black (off)" ID="308">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -4816,7 +4816,7 @@
       <Input ID="0" Universe="0" Channel="180"/>
      </Button>
      <Button Caption="Red" ID="296">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -4842,7 +4842,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Magenta" ID="307">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -4884,7 +4884,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Blue" ID="304">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -4894,7 +4894,7 @@
       <Input ID="0" Universe="0" Channel="165"/>
      </Button>
      <Button Caption="Green" ID="306">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -4912,7 +4912,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Yellow" ID="310">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -4922,7 +4922,7 @@
       <Input ID="0" Universe="0" Channel="171"/>
      </Button>
      <Button Caption="White" ID="311">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -4940,7 +4940,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Cyan" ID="309">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -4951,7 +4951,7 @@
      </Button>
     </SoloFrame>
     <Frame Caption="Right fresnel" ID="270" Page="4">
-     <WindowState Visible="False" X="100" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="103" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4961,7 +4961,7 @@
       <Input ID="2" Universe="0" Channel="262305"/>
      </Enable>
      <Slider Caption="Right fresnel" ID="219" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288306176</BackgroundColor>
       </Appearance>
@@ -4973,7 +4973,7 @@
      </Slider>
     </Frame>
     <SoloFrame Caption="Front sides" ID="363">
-     <WindowState Visible="False" X="401" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="412" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -4983,7 +4983,7 @@
       <Input ID="2" Universe="0" Channel="170"/>
      </Enable>
      <Button Caption="Blue" ID="355">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -4993,7 +4993,7 @@
       <Input ID="0" Universe="0" Channel="165"/>
      </Button>
      <Button Caption="Cyan" ID="360">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -5003,7 +5003,7 @@
       <Input ID="0" Universe="0" Channel="168"/>
      </Button>
      <Button Caption="White" ID="362">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -5029,7 +5029,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Green" ID="357">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -5071,7 +5071,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Red" ID="347">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -5089,7 +5089,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Yellow" ID="361">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -5099,7 +5099,7 @@
       <Input ID="0" Universe="0" Channel="171"/>
      </Button>
      <Button Caption="Black (off)" ID="359">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5108,7 +5108,7 @@
       <Input ID="0" Universe="0" Channel="180"/>
      </Button>
      <Button Caption="Magenta" ID="358">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -5150,7 +5150,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Back outs" ID="413" Page="2">
-     <WindowState Visible="False" X="0" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="0" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -5160,7 +5160,7 @@
       <Input ID="2" Universe="0" Channel="131230"/>
      </Enable>
      <Slider Caption="Back outs" ID="412" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5172,7 +5172,7 @@
       </Level>
      </Slider>
      <Button Caption="Back outs" ID="447">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5181,7 +5181,7 @@
      </Button>
     </Frame>
     <Frame Caption="Front right" ID="291" Page="4">
-     <WindowState Visible="False" X="602" Y="33" Width="100" Height="284"/>
+     <WindowState Visible="False" X="618" Y="29" Width="103" Height="279"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -5191,7 +5191,7 @@
       <Input ID="2" Universe="0" Channel="262320"/>
      </Enable>
      <Slider Caption="Front right" ID="287" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="250"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="250"/>
       <Appearance>
        <BackgroundColor>4288306176</BackgroundColor>
       </Appearance>
@@ -5203,7 +5203,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Back center" ID="417" Page="2">
-     <WindowState Visible="False" X="200" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="206" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -5213,7 +5213,7 @@
       <Input ID="2" Universe="0" Channel="131236"/>
      </Enable>
      <Slider Caption="Back center" ID="416" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5224,7 +5224,7 @@
       </Level>
      </Slider>
      <Button Caption="Back center" ID="449">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5233,7 +5233,7 @@
      </Button>
     </Frame>
     <SoloFrame Caption="Back center" ID="149" Page="1">
-     <WindowState Visible="False" X="200" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="True" X="206" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -5252,7 +5252,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 2" ID="136">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -5287,7 +5287,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 7" ID="143">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -5303,7 +5303,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 3" ID="140">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -5329,7 +5329,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 6" ID="137">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -5337,7 +5337,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 5" ID="134">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -5354,7 +5354,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 1" ID="139">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282992969</BackgroundColor>
       </Appearance>
@@ -5362,7 +5362,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 8" ID="141">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -5370,7 +5370,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Custom color 4" ID="138">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4280558628</BackgroundColor>
       </Appearance>
@@ -5454,7 +5454,7 @@
      </Slider>
     </Frame>
     <Frame Caption="Stage tops" ID="78" Page="2">
-     <WindowState Visible="False" X="602" Y="33" Width="100" Height="568"/>
+     <WindowState Visible="False" X="618" Y="29" Width="103" Height="574"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -5464,7 +5464,7 @@
       <Input ID="2" Universe="0" Channel="131248"/>
      </Enable>
      <Slider Caption="Stage tops" ID="41" WidgetStyle="Slider" InvertedAppearance="false" CatchValues="true">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="434"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="441"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5477,7 +5477,7 @@
       </Level>
      </Slider>
      <Button Caption="Stage tops" ID="453">
-      <WindowState Visible="True" X="0" Y="468" Width="100" Height="100"/>
+      <WindowState Visible="True" X="0" Y="471" Width="103" Height="103"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5486,7 +5486,7 @@
      </Button>
     </Frame>
     <SoloFrame Caption="Front center" ID="380">
-     <WindowState Visible="False" X="501" Y="33" Width="100" Height="568" Z="1"/>
+     <WindowState Visible="False" X="515" Y="29" Width="103" Height="574" Z="1"/>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
      <ShowEnableButton>True</ShowEnableButton>
@@ -5496,7 +5496,7 @@
       <Input ID="2" Universe="0" Channel="173"/>
      </Enable>
      <Button Caption="White" ID="379">
-      <WindowState Visible="True" X="0" Y="434" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="382" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967295</BackgroundColor>
@@ -5538,7 +5538,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Red" ID="364">
-      <WindowState Visible="True" X="0" Y="33" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="29" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294901760</BackgroundColor>
@@ -5548,7 +5548,7 @@
       <Input ID="0" Universe="0" Channel="159"/>
      </Button>
      <Button Caption="Yellow" ID="378">
-      <WindowState Visible="True" X="0" Y="301" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="265" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294967040</BackgroundColor>
@@ -5558,7 +5558,7 @@
       <Input ID="0" Universe="0" Channel="171"/>
      </Button>
      <Button Caption="Magenta" ID="375">
-      <WindowState Visible="True" X="0" Y="367" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="324" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4294902015</BackgroundColor>
@@ -5576,7 +5576,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Black (off)" ID="376">
-      <WindowState Visible="True" X="0" Y="501" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="441" Width="103" Height="58"/>
       <Appearance>
        <BackgroundColor>4282664004</BackgroundColor>
       </Appearance>
@@ -5585,7 +5585,7 @@
       <Input ID="0" Universe="0" Channel="180"/>
      </Button>
      <Button Caption="Blue" ID="372">
-      <WindowState Visible="True" X="0" Y="167" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="147" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278190335</BackgroundColor>
@@ -5603,7 +5603,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Cyan" ID="377">
-      <WindowState Visible="True" X="0" Y="234" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="206" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255615</BackgroundColor>
@@ -5629,7 +5629,7 @@
       <Action>Toggle</Action>
      </Button>
      <Button Caption="Green" ID="374">
-      <WindowState Visible="True" X="0" Y="100" Width="100" Height="66"/>
+      <WindowState Visible="True" X="0" Y="88" Width="103" Height="58"/>
       <Appearance>
        <ForegroundColor>4278190080</ForegroundColor>
        <BackgroundColor>4278255360</BackgroundColor>
@@ -5641,7 +5641,7 @@
     </SoloFrame>
    </Frame>
    <Frame Caption="Faders" ID="267">
-    <WindowState Visible="True" X="0" Y="602" Width="802" Height="301" Z="1"/>
+    <WindowState Visible="True" X="0" Y="603" Width="802" Height="301" Z="1"/>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
@@ -5966,14 +5966,84 @@
     </Slider>
    </Frame>
    <Frame Caption="Override/Trigger" ID="218">
-    <WindowState Visible="True" X="802" Y="0" Width="953" Height="267"/>
+    <WindowState Visible="True" X="824" Y="0" Width="1016" Height="265"/>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
+    <Label Caption="3" ID="489">
+     <WindowState Visible="True" X="191" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="4" ID="532">
+     <WindowState Visible="True" X="279" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="5" ID="533">
+     <WindowState Visible="True" X="368" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="1" ID="487">
+     <WindowState Visible="True" X="14" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="9" ID="537">
+     <WindowState Visible="True" X="721" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="6" ID="534">
+     <WindowState Visible="True" X="456" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="7" ID="535">
+     <WindowState Visible="True" X="544" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="8" ID="536">
+     <WindowState Visible="True" X="633" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="0" ID="538">
+     <WindowState Visible="True" X="810" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
+    <Label Caption="2" ID="488">
+     <WindowState Visible="True" X="103" Y="29" Width="88" Height="44"/>
+     <Appearance>
+      <BackgroundColor>4278190080</BackgroundColor>
+      <Font>Arial,14,-1,5,900,0,0,0,0,0,0,0,0,0,0,1,Black</Font>
+     </Appearance>
+    </Label>
     <Slider Caption="Chasers" ID="221" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="869" Y="50" Width="66" Height="200"/>
+     <WindowState Visible="True" X="927" Y="44" Width="73" Height="206"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -5982,7 +6052,7 @@
      <Level LowLimit="0" HighLimit="255" Value="0"/>
     </Slider>
     <Button Caption="Override 4" ID="243">
-     <WindowState Visible="True" X="267" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="279" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -5991,7 +6061,7 @@
      <Input ID="0" Universe="0" Channel="204"/>
     </Button>
     <Button Caption="Override 8" ID="238">
-     <WindowState Visible="True" X="602" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="633" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6000,7 +6070,7 @@
      <Input ID="0" Universe="0" Channel="198"/>
     </Button>
     <Button Caption="Override 8" ID="248">
-     <WindowState Visible="True" X="602" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="633" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6009,7 +6079,7 @@
      <Input ID="0" Universe="0" Channel="208"/>
     </Button>
     <Button Caption="Override 10" ID="250">
-     <WindowState Visible="True" X="769" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="810" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6018,7 +6088,7 @@
      <Input ID="0" Universe="0" Channel="210"/>
     </Button>
     <Button Caption="Stage all random" ID="228">
-     <WindowState Visible="True" X="602" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="633" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282992969</BackgroundColor>
      </Appearance>
@@ -6027,7 +6097,7 @@
      <Input ID="0" Universe="0" Channel="188"/>
     </Button>
     <Button Caption="Backlights ping-pong" ID="222">
-     <WindowState Visible="True" X="183" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="191" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -6036,7 +6106,7 @@
      <Input ID="0" Universe="0" Channel="183"/>
     </Button>
     <Button Caption="Override 7" ID="237">
-     <WindowState Visible="True" X="518" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="544" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6045,7 +6115,7 @@
      <Input ID="0" Universe="0" Channel="197"/>
     </Button>
     <Button Caption="Backlights rainbow left" ID="229">
-     <WindowState Visible="True" X="685" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="721" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282992969</BackgroundColor>
      </Appearance>
@@ -6054,7 +6124,7 @@
      <Input ID="0" Universe="0" Channel="189"/>
     </Button>
     <Button Caption="Override 3" ID="232">
-     <WindowState Visible="True" X="183" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="191" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6063,7 +6133,7 @@
      <Input ID="0" Universe="0" Channel="193"/>
     </Button>
     <Button Caption="Override 1" ID="245">
-     <WindowState Visible="True" X="16" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="14" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6072,7 +6142,7 @@
      <Input ID="0" Universe="0" Channel="201"/>
     </Button>
     <Button Caption="Backlights L/R" ID="226">
-     <WindowState Visible="True" X="434" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="456" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -6081,7 +6151,7 @@
      <Input ID="0" Universe="0" Channel="186"/>
     </Button>
     <Button Caption="Override 5" ID="234">
-     <WindowState Visible="True" X="351" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="368" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6090,7 +6160,7 @@
      <Input ID="0" Universe="0" Channel="195"/>
     </Button>
     <Button Caption="Backlights rainbow right" ID="230">
-     <WindowState Visible="True" X="769" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="810" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282992969</BackgroundColor>
      </Appearance>
@@ -6099,7 +6169,7 @@
      <Input ID="0" Universe="0" Channel="190"/>
     </Button>
     <Button Caption="Backlights random" ID="223">
-     <WindowState Visible="True" X="267" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="279" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -6108,7 +6178,7 @@
      <Input ID="0" Universe="0" Channel="184"/>
     </Button>
     <Button Caption="Override 9" ID="249">
-     <WindowState Visible="True" X="685" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="721" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6117,7 +6187,7 @@
      <Input ID="0" Universe="0" Channel="209"/>
     </Button>
     <Button Caption="Override 3" ID="242">
-     <WindowState Visible="True" X="183" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="191" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6126,7 +6196,7 @@
      <Input ID="0" Universe="0" Channel="203"/>
     </Button>
     <Button Caption="Sides alternate" ID="227">
-     <WindowState Visible="True" X="518" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="544" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282992969</BackgroundColor>
      </Appearance>
@@ -6135,7 +6205,7 @@
      <Input ID="0" Universe="0" Channel="187"/>
     </Button>
     <Button Caption="Override 7" ID="247">
-     <WindowState Visible="True" X="518" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="544" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6144,7 +6214,7 @@
      <Input ID="0" Universe="0" Channel="207"/>
     </Button>
     <Button Caption="Override 4" ID="233">
-     <WindowState Visible="True" X="267" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="279" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6153,7 +6223,7 @@
      <Input ID="0" Universe="0" Channel="194"/>
     </Button>
     <Button Caption="Override 6" ID="236">
-     <WindowState Visible="True" X="434" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="456" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6162,7 +6232,7 @@
      <Input ID="0" Universe="0" Channel="196"/>
     </Button>
     <Button Caption="Override 9" ID="239">
-     <WindowState Visible="True" X="685" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="721" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6171,7 +6241,7 @@
      <Input ID="0" Universe="0" Channel="199"/>
     </Button>
     <Button Caption="Override 2" ID="231">
-     <WindowState Visible="True" X="100" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="103" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6180,7 +6250,7 @@
      <Input ID="0" Universe="0" Channel="192"/>
     </Button>
     <Button Caption="Backlights ----&gt;" ID="225">
-     <WindowState Visible="True" X="16" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="14" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -6189,7 +6259,7 @@
      <Input ID="0" Universe="0" Channel="181"/>
     </Button>
     <Button Caption="Override 1" ID="235">
-     <WindowState Visible="True" X="16" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="14" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6198,7 +6268,7 @@
      <Input ID="0" Universe="0" Channel="191"/>
     </Button>
     <Button Caption="Override 2" ID="241">
-     <WindowState Visible="True" X="100" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="103" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6207,7 +6277,7 @@
      <Input ID="0" Universe="0" Channel="202"/>
     </Button>
     <Button Caption="Override 10" ID="240">
-     <WindowState Visible="True" X="769" Y="117" Width="83" Height="66"/>
+     <WindowState Visible="True" X="810" Y="132" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6216,7 +6286,7 @@
      <Input ID="0" Universe="0" Channel="200"/>
     </Button>
     <Button Caption="Override 6" ID="246">
-     <WindowState Visible="True" X="434" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="456" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
@@ -6225,7 +6295,7 @@
      <Input ID="0" Universe="0" Channel="206"/>
     </Button>
     <Button Caption="Backlights &lt;----" ID="220">
-     <WindowState Visible="True" X="100" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="103" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -6234,7 +6304,7 @@
      <Input ID="0" Universe="0" Channel="182"/>
     </Button>
     <Button Caption="Backlights odd/even" ID="224">
-     <WindowState Visible="True" X="351" Y="50" Width="83" Height="66"/>
+     <WindowState Visible="True" X="368" Y="73" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4282664004</BackgroundColor>
      </Appearance>
@@ -6243,7 +6313,7 @@
      <Input ID="0" Universe="0" Channel="185"/>
     </Button>
     <Button Caption="Override 5" ID="244">
-     <WindowState Visible="True" X="351" Y="183" Width="83" Height="66"/>
+     <WindowState Visible="True" X="368" Y="191" Width="88" Height="58"/>
      <Appearance>
       <BackgroundColor>4280558628</BackgroundColor>
      </Appearance>
